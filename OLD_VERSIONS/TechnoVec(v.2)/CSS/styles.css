@@ -1,0 +1,6978 @@
+body
+{
+  padding: 0; /*Убираем отступы*/
+  margin: 0; /*убираем отступы*/
+  width: 99.9%; /*что бы убрать горизонтальный бегунок передвижения формы*/  
+}
+
+html 
+{ 
+  overflow-x: hidden; /*Скрываем горизонтальные линии прокрутки на ВСЕМ сайте*/
+}
+
+@font-face { font-family: Florin_Sans_Light; src: url(../fonts/Florin_Sans_Light.ttf); } /*including font*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+#header
+{
+  /*border:1px solid black;*/
+
+  width: 100%;
+  height: 168px;
+}
+
+/*------------------------------------------*/
+
+#header_Block-1
+{
+  /*border:1px solid black;*/
+
+  width: 100%;
+  height: 58px;
+
+  background:#606060; /*цвет видимого голубого меню*/
+}
+
+#header_Block-1-pos
+{
+	/*border: 1px solid black;*/
+
+	width: 920px;
+	height: 56px;
+
+	margin-left: 10%;
+}
+
+.hb_Btn_1
+{
+	/*border: 1px solid black;*/
+
+	width: 120px;
+	height: 56px;
+	float:left;	
+}
+
+.hb_Btn_1 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.hb_Btn_1:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.hb_Btn_1:hover a {color: black; transition: background 1s, color 1s; }
+
+.hb_Btn_2
+{
+	/*border: 1px solid black;*/
+
+	width: 140px;
+	height: 56px;
+	float:left;	
+}
+
+.hb_Btn_2 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.hb_Btn_2:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.hb_Btn_2:hover a {color: black; transition: background 1s, color 1s; }
+
+.hb_Btn_3
+{
+	/*border: 1px solid black;*/
+
+	width: 240px;
+	height: 56px;
+	float:left;	
+}
+
+.hb_Btn_3 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.hb_Btn_3:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.hb_Btn_3:hover a {color: black; transition: background 1s, color 1s; }
+
+.hb_Btn_4
+{
+	/*border: 1px solid black;*/
+
+	width: 120px;
+	height: 56px;
+	float:left;	
+}
+
+.hb_Btn_4 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.hb_Btn_4:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.hb_Btn_4:hover a {color: black; transition: background 1s, color 1s; }
+
+.hb_Btn_5
+{
+	/*border: 1px solid black;*/
+
+	width: 140px;
+	height: 56px;
+	float:left;	
+}
+
+.hb_Btn_5 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.hb_Btn_5:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.hb_Btn_5:hover a {color: black; transition: background 1s, color 1s; }
+
+.hb_Btn_6
+{
+	/*border: 1px solid black;*/
+
+	width: 140px;
+	height: 56px;
+	float:left;	
+}
+
+.hb_Btn_6 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.hb_Btn_6:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.hb_Btn_6:hover a {color: black; transition: background 1s, color 1s; }
+
+/*------------------------------------------*/
+
+#header_Block-2
+{
+	/*border:1px solid black;*/
+
+  width: 136px;
+  height: 58px;
+
+  float: right;
+  margin-right: 40px;
+  margin-top: -60px;
+}
+
+#hb_Entering
+{
+	/*border: 1px solid black;*/
+
+	width: 65px;
+	height: 56px;
+
+	float: left;
+}
+
+#hb_Entering img
+{
+	margin-top: 6px;
+	margin-left: 10px;
+}
+
+#hb_Language
+{
+	/*border: 1px solid black;*/
+
+	width: 65px;
+	height: 56px;
+
+	float: right;
+}
+
+#hb_Language p
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  margin: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;	
+
+  font: 19px tahoma; 
+}
+
+/*------------------------------------------*/
+
+#header_Block-3
+{
+  /*border:1px solid black;*/
+
+  width: 100%;
+  height: 108px;
+}
+
+#hb3_Block-1
+{
+  /*border:1px solid black;*/
+
+  width: 480px;
+  height: 108px;
+
+  margin-left: 10%;  
+}
+
+#hb3-logo
+{
+  /*border:1px solid black;*/
+
+  width: 108px;
+  height: 108px;
+}
+
+#hb3-logo img
+{
+	padding: 8px 0 0 2px;	
+}
+
+#hb3-text
+{
+	/*border:1px solid black;*/
+
+  width: 370px;
+  height: 108px;	
+
+  margin-top: -110px;
+  margin-left: 108px;
+}
+
+#hb3-text p, #hb3-text h1
+{
+	font: 34px tahoma;
+  color: #404040;  
+
+	margin-top: 30px;
+  margin-left: 4px;  
+
+  font-weight: 700;
+}
+
+#hb3_Block-2
+{
+  /*border:1px solid black;*/
+
+  width: 480px;
+  height: 108px;
+
+	margin-top: -110px;
+  margin-right: 40px;
+
+  float: right;  
+}
+
+#hb3-phone_1
+{
+  /*border:1px solid black;*/
+
+  width: 234px;
+  height: 106px;	
+}
+
+#hb3-phone_1 p
+{
+	font: 20px tahoma;
+  color: #404040;
+
+	margin-top: 38px;
+	margin-left: 48px;  
+}
+
+#hb3-splitter
+{
+	border: 2px solid #C4C4C4;
+
+	height: 20px;
+	width: 0.1px;
+
+	margin-top: -102px;
+	margin-left: 238px;
+}
+
+#hb3-phone_2
+{
+  /*border:1px solid black;*/
+
+  width: 234px;
+  height: 106px;	
+
+  margin-top: -66px;
+  float: right;
+}
+
+#hb3-phone_2 p
+{
+	font: 20px tahoma;
+  color: #404040;
+
+	margin-top: 38px;
+	margin-left: 16px;  
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Main_Slider
+{
+	/*border:1px solid black;*/
+	background: #7C7C7D;
+
+  width: 100%;
+  vertical-align: middle;
+}
+
+#Main_Slider img
+{
+	display: block;
+  max-width: 100%;
+  /*margin: 0 auto;*/
+  margin: -15px 0 0 -30px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#About
+{
+	/*border:1px solid black;*/
+
+  width: 100%;
+  height: 350px;
+}
+
+#About_Title
+{
+	/*border: 1px solid black;*/
+
+	width: 300px;
+	height: 80px;	
+
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+#About_Title p
+{	   
+  color: #313131;
+  text-align: left;	
+
+  font: 34px tahoma; 
+  font-weight: 700;
+
+  margin-top: 18px;
+}
+
+#About_Description
+{
+	/*border: 1px solid black;*/
+
+	width: auto;
+	height: 205px;
+
+	margin-top: -10px;
+	margin-left: 10%;	
+	margin-right: 10%;
+}
+
+#About_Description p
+{
+	font: tahoma;
+	color: #313131;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#About_Products
+{
+	/*border:1px solid black;*/
+
+  width: 100%;
+  height: 600px;
+}
+
+#About_Products_Title
+{
+	/*border: 1px solid black;*/
+
+	width: 300px;
+	height: 80px;	
+
+	margin-left: 10%;
+	margin-top: -70px;	
+}
+
+#About_Products_Title p
+{	   
+  color: #313131;
+  text-align: left;	
+
+  font: 34px tahoma; 
+  font-weight: 700;
+
+  margin-top: 18px;
+}
+
+#About_Products_Description_1
+{
+	/*border: 1px solid black;*/
+
+	width: auto;
+	height: 100px;
+
+	margin-top: -10px;
+	margin-left: 10%;	
+	margin-right: 10%;
+}
+
+#About_Products_Description_1 p
+{
+	font: tahoma;
+	color: #313131;
+
+	float: left;
+}
+
+#About_Products_Description_pic
+{
+	/*border: 1px solid black;*/
+
+	height: 185px;
+	width: auto;
+
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#About_Products_Description_pic img
+{
+	width: 100%;
+	height: 185px;
+}
+
+#About_Products_Description_2
+{
+	/*border: 1px solid black;*/
+
+	width: auto;
+	height: 145px;
+
+	margin-top: 20px;
+	margin-left: 10%;	
+	margin-right: 10%;
+}
+
+#About_Products_Description_2 p
+{
+	font: tahoma;
+	color: #313131;
+
+	float: left;
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- GENERAL HEADER && FOOTER.CSS -------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#General_header
+{
+  /*border:1px solid black;*/
+
+  width: 100%;
+  height: 168px;
+}
+
+#General_header_Block-1
+{
+  /*border:1px solid black;*/
+
+  width: 100%;
+  height: 108px;
+}
+
+#Gen_hb1_Block-1
+{
+  /*border:1px solid black;*/
+
+  width: 480px;
+  height: 108px;
+
+  margin-left: 10%;  
+}
+
+#Gen_hb1-logo
+{
+  /*border:1px solid black;*/
+
+  width: 108px;
+  height: 108px;
+}
+
+#Gen_hb1-logo img
+{
+	padding: 8px 0 0 2px;	
+}
+
+#Gen_hb1-text
+{
+	/*border:1px solid black;*/
+
+  width: 370px;
+  height: 108px;	
+
+  margin-top: -110px;
+  margin-left: 108px;
+}
+
+#Gen_hb1-text p
+{
+	font: 34px tahoma;
+  color: #404040;  
+
+	margin-top: 30px;
+  margin-left: 4px;  
+
+  font-weight: 700;
+}
+
+#Gen_hb1_Block-2
+{
+  /*border:1px solid black;*/
+
+  width: 480px;
+  height: 108px;
+
+	margin-top: -110px;
+  margin-right: 40px;
+
+  float: right;  
+}
+
+#Gen_hb1-phone_1
+{
+  /*border:1px solid black;*/
+
+  width: 234px;
+  height: 106px;	
+}
+
+#Gen_hb1-phone_1 p
+{
+	font: 20px tahoma;
+  color: #404040;
+
+	margin-top: 38px;
+	margin-left: 48px;  
+}
+
+#Gen_hb1-phone_1-text
+{
+	/*border: 1px solid black;*/
+	
+	width: 180px;
+	height: 16px;
+
+	margin-top: -18px;
+	margin-left: 38px;
+}
+
+#Gen_hb1-phone_1-text p
+{
+	font: 12px tahoma;
+  color: #404040;
+
+  margin-top: 0px;
+  margin-left: 0px;
+
+  text-align: center;
+}
+
+#Gen_hb1-splitter
+{
+	border: 2px solid #C4C4C4;
+
+	height: 20px;
+	width: 0.1px;
+
+	margin-top: -102px;
+	margin-left: 238px;
+}
+
+#Gen_hb1-phone_2
+{
+  /*border:1px solid black;*/
+
+  width: 234px;
+  height: 106px;	
+
+  margin-top: -66px;
+  float: right;
+}
+
+#Gen_hb1-phone_2 p
+{
+	font: 20px tahoma;
+  color: #404040;
+
+	margin-top: 38px;
+	margin-left: 16px;  
+}
+
+/*------------------------------------------*/
+
+#General_header_Block-2
+{
+  /*border:1px solid black;*/
+
+  width: 100%;
+  height: 58px;
+
+  background:#606060; /*color showing a blue menu*/
+}
+
+#General_header_Block-2-pos
+{
+	/*border: 1px solid black;*/
+
+	width: 920px;
+	height: 56px;
+
+	margin: auto;
+}
+
+.Gen_hb_Btn_1
+{
+	/*border: 1px solid black;*/
+
+	width: 120px;
+	height: 56px;
+	float:left;	
+}
+
+.Gen_hb_Btn_1 a
+{
+  display: block; /* specify that all the space of the item will be space for a click, i.e. as a large button */
+  padding: 16px 20px 0; /*border for the block*/
+  text-decoration: none; /*decoration*/
+  font-size: 18px; /*font size*/
+  color: #FFF;	/* color menu */
+  height: 42px; /*the event area*/
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.Gen_hb_Btn_1:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.Gen_hb_Btn_1:hover a {color: black; transition: background 1s, color 1s; }
+
+.Gen_hb_Btn_2
+{
+	/*border: 1px solid black;*/
+
+	width: 140px;
+	height: 56px;
+	float:left;	
+}
+
+.Gen_hb_Btn_2 a
+{
+  display: block; 
+  padding: 16px 20px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.Gen_hb_Btn_2:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.Gen_hb_Btn_2:hover a {color: black; transition: background 1s, color 1s; }
+
+.Gen_hb_Btn_3
+{
+	/*border: 1px solid black;*/
+
+	width: 240px;
+	height: 56px;
+	float:left;	
+}
+
+.Gen_hb_Btn_3 a
+{
+  display: block; 
+  padding: 16px 20px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.Gen_hb_Btn_3:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.Gen_hb_Btn_3:hover a {color: black; transition: background 1s, color 1s; }
+
+.Gen_hb_Btn_4
+{
+	/*border: 1px solid black;*/
+
+	width: 120px;
+	height: 56px;
+	float:left;	
+}
+
+.Gen_hb_Btn_4 a
+{
+  display: block; 
+  padding: 16px 20px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.Gen_hb_Btn_4:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.Gen_hb_Btn_4:hover a {color: black; transition: background 1s, color 1s; }
+
+.Gen_hb_Btn_5
+{
+	/*border: 1px solid black;*/
+
+	width: 140px;
+	height: 56px;
+	float:left;	
+}
+
+.Gen_hb_Btn_5 a
+{
+  display: block; 
+  padding: 16px 20px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.Gen_hb_Btn_5:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.Gen_hb_Btn_5:hover a {color: black; transition: background 1s, color 1s; }
+
+.Gen_hb_Btn_6
+{
+	/*border: 1px solid black;*/
+
+	width: 140px;
+	height: 56px;
+	float:left;	
+}
+
+.Gen_hb_Btn_6 a
+{
+  display: block; 
+  padding: 16px 20px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;	
+
+  font: 19px tahoma;   
+}
+
+.Gen_hb_Btn_6:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.Gen_hb_Btn_6:hover a {color: black; transition: background 1s, color 1s; }
+
+/*------------------------------------------*/
+
+#footer
+{
+	/*border:1px solid black;*/
+
+  width: 100%;
+  height: 60px;
+
+  background: #7C7C7C;
+}
+
+#footer_Block-1
+{
+	/*border: 1px solid black;*/
+
+	height: 26px;
+	width: 200px;
+
+	float: left;
+
+	margin-top: 20px;
+	margin-left: 5%;
+}
+
+#footer_Block-1 a
+{
+  text-decoration: none;
+
+  font: 14px tahoma;
+  color: #F9BC01;
+  
+  margin-left: 25px;  
+
+  font-weight: 700;  
+}
+
+#footer_Block-1 a:hover
+{
+  color: white; transition: background 1s, color 1s;
+}
+
+#footer_Block-2
+{
+	/*border: 1px solid black;*/
+
+	width: 920px;
+	height: 56px;
+
+	margin: auto;
+}
+
+#footer_Block-3
+{
+	visibility: hidden;
+
+	border: 1px solid black;
+
+	height: 56px;
+	width: 200px;
+
+	float: right;
+
+	margin-top: -56px;
+	margin-right: 5%	
+}
+
+.fb_Btn_1
+{
+  /*border: 1px solid black;*/
+
+  width: 120px;
+  height: 56px;
+  float:left; 
+}
+
+.fb_Btn_1 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;  /* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center; 
+
+  font: 19px tahoma;   
+}
+
+.fb_Btn_1:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.fb_Btn_1:hover a {color: black; transition: background 1s, color 1s; }
+
+.fb_Btn_2
+{
+  /*border: 1px solid black;*/
+
+  width: 140px;
+  height: 56px;
+  float:left; 
+}
+
+.fb_Btn_2 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;  /* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center; 
+
+  font: 19px tahoma;   
+}
+
+.fb_Btn_2:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.fb_Btn_2:hover a {color: black; transition: background 1s, color 1s; }
+
+.fb_Btn_3
+{
+  /*border: 1px solid black;*/
+
+  width: 240px;
+  height: 56px;
+  float:left; 
+}
+
+.fb_Btn_3 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;  /* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center; 
+
+  font: 19px tahoma;   
+}
+
+.fb_Btn_3:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.fb_Btn_3:hover a {color: black; transition: background 1s, color 1s; }
+
+.fb_Btn_4
+{
+  /*border: 1px solid black;*/
+
+  width: 120px;
+  height: 56px;
+  float:left; 
+}
+
+.fb_Btn_4 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;  /* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center; 
+
+  font: 19px tahoma;   
+}
+
+.fb_Btn_4:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.fb_Btn_4:hover a {color: black; transition: background 1s, color 1s; }
+
+.fb_Btn_5
+{
+  /*border: 1px solid black;*/
+
+  width: 140px;
+  height: 56px;
+  float:left; 
+}
+
+.fb_Btn_5 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;  /* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center; 
+
+  font: 19px tahoma;   
+}
+
+.fb_Btn_5:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.hb_Btn_5:hover a {color: black; transition: background 1s, color 1s; }
+
+.fb_Btn_6
+{
+  /*border: 1px solid black;*/
+
+  width: 140px;
+  height: 56px;
+  float:left; 
+}
+
+.fb_Btn_6 a
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 20px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;  /* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center; 
+
+  font: 19px tahoma;   
+}
+
+.fb_Btn_6:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.fb_Btn_6:hover a {color: black; transition: background 1s, color 1s; }
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- CATALOG.CSS ------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Catalog
+{
+	/*border: 1px solid black;*/
+
+	width: 1080px;
+	height: 800px;
+
+	margin: auto;
+}
+
+#Catalog_Title
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 30px;    
+  margin-left: -6px;  
+  /*
+  left: 50%;
+  margin-left: 4px; 	 
+*/
+  height: 80px; 
+  width: 920px;     
+}
+
+#Catalog_Title p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_1
+{
+	border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+  
+  margin-top: -4px;
+  margin-left: 10px;    
+  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_1_pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Catalog_Block_1_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_1_pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+#Catalog_Block_1_text
+{
+  /*border: 1px dotted black; */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto; 
+}
+
+#Catalog_Block_1_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;
+
+  padding-left: 2px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_1:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_2
+{
+	border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+
+  margin-top: -302px;
+  left: 50%;
+  margin-left: 280px;   
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_2_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;  
+}
+
+#Catalog_Block_2_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_2_pic img
+{  
+  padding-top: 12px;
+  padding-left: 45px;
+}
+
+#Catalog_Block_2_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 6px;
+  height: 36px;
+  width: auto;   
+}
+
+#Catalog_Block_2_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;
+
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_2:hover
+{  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+
+  margin-top: -302px;
+  left: 50%;
+  margin-left: 550px;   
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_3_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;  
+}
+
+#Catalog_Block_3_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_3_pic img
+{  
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#Catalog_Block_3_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto;   
+}
+
+#Catalog_Block_3_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;
+
+  padding-left: 2px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_3:hover
+{  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_4
+{
+	border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+
+  margin-top: -302px;
+  left: 50%;
+  margin-left: 820px;   
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_4_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_4_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_4_pic img
+{  
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#Catalog_Block_4_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto; 
+}
+
+#Catalog_Block_4_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;
+
+  padding-left: 4px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_4:hover
+{
+  transition: background 1s, color 2s;
+	box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+
+  margin-top: 18px;    
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_5_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_5_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_5_pic img
+{  
+  padding-top: 12px;
+  padding-left: 30px;
+}
+
+#Catalog_Block_5_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_5_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black; 
+  text-align: center;
+
+  padding-left: 4px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_6
+{
+  border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+
+  margin-top: -302px;
+  left: 50%;
+  margin-left: 280px;   
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_6_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_6_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_6_pic img
+{  
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+#Catalog_Block_6_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 38px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_6_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black; 
+  text-align: center;
+
+  padding-left: 4px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_6:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_7
+{
+  border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+
+  margin-top: -302px;
+  left: 50%;
+  margin-left: 550px; 
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_7_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_7_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_7_pic img
+{  
+  padding-top: 30px;
+  padding-left: 23px;
+}
+
+#Catalog_Block_7_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 34px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_7_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black; 
+  text-align: center;
+
+  padding-left: 4px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_7:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Catalog_Block_8
+{
+  border: 1px solid #D5D5D5;
+
+  height: 300px;
+  width: 250px;
+
+  margin-top: -302px;
+  left: 50%;
+  margin-left: 820px;   
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_8_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_8_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_8_pic img
+{  
+  padding-top: 27px;
+  padding-left: 25px;
+}
+
+#Catalog_Block_8_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 8px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_8_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black; 
+  text-align: center;
+
+  margin-left: 22px;
+  padding-right: 0px;
+}
+
+#Catalog_Block_8:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- STOCK.CSS -------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Stock
+{
+  /*border: 1px solid black;*/
+
+  height: 700px;
+  width: 1200px;
+
+  margin: auto;
+}
+
+#Stock_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: auto;
+
+  margin-top: 44px;
+}
+
+#Stock_Title p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: -4px;  
+  margin-left: -16px;
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- SERVICE.CSS ------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Service
+{
+  /*border: 1px solid black;*/
+
+  height: 570px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Service_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 270px;
+
+  margin-top: 30px;    
+  margin-left: -6px;  
+}
+
+#Service_Title p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+}
+
+#Service_pic
+{
+  border: 2px solid #606060;
+
+  height: 280px;
+  width: 215px;
+
+  margin-top: 38px;
+  margin-left: 10px;
+}
+
+#Service_description
+{
+  /*border: 1px solid black;*/
+
+  width: 800px;
+  height: 250px;
+
+  margin-top: -284px;
+  margin-left: 250px;
+}
+
+#Service_description p
+{
+  font: 14px tahoma;  
+  text-align: left; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 0px;  
+  margin-left: 4px;
+}
+
+#Service_text
+{
+  /*border: 1px solid black;*/
+
+  height: 60px;
+  width: 900px;
+
+  margin-top: 150px;
+}
+
+#Service_text p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 6px;
+  margin-left: -8px;
+}
+
+#Service_map
+{
+  border-top: 3px solid #404040;
+  border-bottom: 3px solid #404040;
+
+  margin-bottom: 60px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- USEFUL.CSS -------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article
+{
+  /*border: 1px solid black;*/
+
+  height: 2000px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article-1_Title, #Article-2_Title, #Article-3_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 160px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article-1_Title p, #Article-2_Title p, #Article-3_Title p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+}
+
+#Article-2_Title, #Article-3_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 160px;
+
+  margin-top: 70px;    
+  margin-left: -8px;  
+}
+
+#Article a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Photo-galleries_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_1-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_1-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_1-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_1-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_1-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_1-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_1-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_1:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Photo-galleries_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: -376px;
+  left: 50%;
+  margin-left: 280px;    
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_2-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_2-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_2-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_2-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_2-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_2-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_2-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_2:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Photo-galleries_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: -376px;
+  left: 50%;
+  margin-left: 550px;    
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_3-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_3-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_3-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_3-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_3-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_3-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_3-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_3:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Photo-galleries_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: -376px;
+  left: 50%;
+  margin-left: 820px;    
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_4-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_4-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_4-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_4-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_4-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_4-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_4-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_4:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Photo-galleries_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: 20px;
+  margin-left: 10px;   
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_5-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_5-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_5-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_5-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_5-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Photo-galleries_Block_6
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: -376px;
+  left: 50%;
+  margin-left: 280px;     
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_6-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_6-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_6-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_6-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_6-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_6-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_6-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_6:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Photo-galleries_Block_7
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: -376px;
+  left: 50%;
+  margin-left: 550px;     
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_7-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_7-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_7-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_7-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_7-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_7-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_7-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_7:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Photo-galleries_Block_8
+{
+  border: 1px solid #D5D5D5;
+
+  height: 374px;
+  width: 250px;
+  
+  margin-top: -376px;
+  left: 50%;
+  margin-left: 820px;     
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Photo-galleries_Block_8-date
+{
+  /*border: 1px dotted black; */
+  
+  margin: auto;
+  margin-top: 2px;  
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_8-date p
+{
+  margin-top: 8px;
+
+  font-size: 18px;
+  font-family: Florin_Sans_Light; 
+  color: #BABABA;  
+  text-align: center;
+  
+  padding-right: 10px;
+}
+
+#Photo-galleries_Block_8-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Photo-galleries_Block_8-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Photo-galleries_Block_8-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Photo-galleries_Block_8-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Photo-galleries_Block_8-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Photo-galleries_Block_8:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Poster-galleries_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster-galleries_Block_1-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster-galleries_Block_1-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster-galleries_Block_1-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Poster-galleries_Block_1-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Poster-galleries_Block_1-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Poster-galleries_Block_1:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Poster-galleries_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: -352px;
+  left: 50%;
+  margin-left: 280px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster-galleries_Block_2-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster-galleries_Block_2-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster-galleries_Block_2-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Poster-galleries_Block_2-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Poster-galleries_Block_2-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Poster-galleries_Block_2:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Poster-galleries_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: -352px;
+  left: 50%;
+  margin-left: 550px; 
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster-galleries_Block_3-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster-galleries_Block_3-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster-galleries_Block_3-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Poster-galleries_Block_3-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Poster-galleries_Block_3-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Poster-galleries_Block_3:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Poster-galleries_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: -352px;
+  left: 50%;
+  margin-left: 820px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster-galleries_Block_4-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster-galleries_Block_4-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster-galleries_Block_4-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Poster-galleries_Block_4-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Poster-galleries_Block_4-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Poster-galleries_Block_4:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Booklets-galleries_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Booklets-galleries_Block_1-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Booklets-galleries_Block_1-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Booklets-galleries_Block_1-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Booklets-galleries_Block_1-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Booklets-galleries_Block_1-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Booklets-galleries_Block_1:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Booklets-galleries_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: -352px;
+  left: 50%;
+  margin-left: 280px; 
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Booklets-galleries_Block_2-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Booklets-galleries_Block_2-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Booklets-galleries_Block_2-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Booklets-galleries_Block_2-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Booklets-galleries_Block_2-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Booklets-galleries_Block_2:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Booklets-galleries_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: -352px;
+  left: 50%;
+  margin-left: 550px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Booklets-galleries_Block_3-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Booklets-galleries_Block_3-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Booklets-galleries_Block_3-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Booklets-galleries_Block_3-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Booklets-galleries_Block_3-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Booklets-galleries_Block_3:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Booklets-galleries_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 350px;
+  width: 250px;
+  
+  margin-top: -352px;
+  left: 50%;
+  margin-left: 820px;   
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Booklets-galleries_Block_4-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Booklets-galleries_Block_4-pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Booklets-galleries_Block_4-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+#Booklets-galleries_Block_4-description
+{
+  /*border: 1px dotted black; */
+
+  margin: auto;
+  margin-top: -42px;
+ 
+  height: 36px;
+  width: auto; 
+}
+
+#Booklets-galleries_Block_4-description p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  font-family: Florin_Sans_Light; 
+  color: black;  
+  text-align: center;  
+
+  margin-left: 5px;
+  margin-right: 5px;  
+}
+
+#Booklets-galleries_Block_4:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_1.CSS -----------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_1
+{
+  /*border: 1px solid black;*/
+
+  height: 600px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_1
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 360px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article_Title_page_galleries_1 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -22px;
+}
+
+#Article_page_galleries_1 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_1_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_1_galleries_1_Block_1-pic, #Page_1_galleries_1_Block_2-pic, #Page_1_galleries_1_Block_3-pic, #Page_1_galleries_1_Block_4-pic, #Page_1_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_1_galleries_1_Block_1-pic:hover, #Page_1_galleries_1_Block_2-pic:hover, #Page_1_galleries_1_Block_3-pic:hover, #Page_1_galleries_1_Block_4-pic:hover, #Page_1_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_1_galleries_1_Block_1-pic img, #Page_1_galleries_1_Block_2-pic img, #Page_1_galleries_1_Block_3-pic img, #Page_1_galleries_1_Block_4-pic img, #Page_1_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_1_galleries_1_Block_1:hover, #Page_1_galleries_1_Block_2:hover, #Page_1_galleries_1_Block_3:hover, #Page_1_galleries_1_Block_4:hover, #Page_1_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_1_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_1_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_1_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_1_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_2.CSS ---------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_2
+{
+  /*border: 1px solid black;*/
+
+  height: 1000px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_2
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 550px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article_Title_page_galleries_2 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -22px;
+}
+
+#Article_page_galleries_2 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_2_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_2_galleries_1_Block_1-pic, #Page_2_galleries_1_Block_2-pic, #Page_2_galleries_1_Block_3-pic, #Page_2_galleries_1_Block_4-pic, #Page_2_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_2_galleries_1_Block_1-pic:hover, #Page_2_galleries_1_Block_2-pic:hover, #Page_2_galleries_1_Block_3-pic:hover, #Page_2_galleries_1_Block_4-pic:hover, #Page_2_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_2_galleries_1_Block_1-pic img, #Page_2_galleries_1_Block_2-pic img, #Page_2_galleries_1_Block_3-pic img, #Page_2_galleries_1_Block_4-pic img, #Page_2_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_2_galleries_1_Block_1:hover, #Page_2_galleries_1_Block_2:hover, #Page_2_galleries_1_Block_3:hover, #Page_2_galleries_1_Block_4:hover, #Page_2_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_6
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 20px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_2_galleries_1_Block_6-pic, #Page_2_galleries_1_Block_7-pic, #Page_2_galleries_1_Block_8-pic, #Page_2_galleries_1_Block_9-pic, #Page_2_galleries_1_Block_10-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_2_galleries_1_Block_6-pic:hover, #Page_2_galleries_1_Block_7-pic:hover, #Page_2_galleries_1_Block_8-pic:hover, #Page_2_galleries_1_Block_9-pic:hover, #Page_2_galleries_1_Block_10-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_2_galleries_1_Block_6-pic img, #Page_2_galleries_1_Block_7-pic img, #Page_2_galleries_1_Block_8-pic img, #Page_2_galleries_1_Block_9-pic img, #Page_2_galleries_1_Block_10-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_2_galleries_1_Block_6:hover, #Page_2_galleries_1_Block_7:hover, #Page_2_galleries_1_Block_8:hover, #Page_2_galleries_1_Block_9:hover, #Page_2_galleries_1_Block_10:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_7
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_8
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_9
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_10
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_2_galleries_1_Block_10-pic, #Page_2_galleries_1_Block_11-pic, #Page_2_galleries_1_Block_12-pic, #Page_2_galleries_1_Block_13-pic, #Page_2_galleries_1_Block_14-pic, #Page_2_galleries_1_Block_15-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_2_galleries_1_Block_10-pic:hover, #Page_2_galleries_1_Block_11-pic:hover, #Page_2_galleries_1_Block_12-pic:hover, #Page_2_galleries_1_Block_13-pic:hover, #Page_2_galleries_1_Block_14-pic:hover, #Page_2_galleries_1_Block_15-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_2_galleries_1_Block_10-pic img, #Page_2_galleries_1_Block_11-pic img, #Page_2_galleries_1_Block_12-pic img, #Page_2_galleries_1_Block_13-pic img, #Page_2_galleries_1_Block_14-pic img, #Page_2_galleries_1_Block_15-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_2_galleries_1_Block_10:hover, #Page_2_galleries_1_Block_11:hover, #Page_2_galleries_1_Block_12:hover, #Page_2_galleries_1_Block_13:hover, #Page_2_galleries_1_Block_14:hover, #Page_2_galleries_1_Block_15:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_11
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 20px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_12
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_13
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_14
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_2_galleries_1_Block_15
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_3.CSS ---------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_3
+{
+  /*border: 1px solid black;*/
+
+  height: 700px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_3
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 780px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article_Title_page_galleries_3 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -14px;
+}
+
+#Article_page_galleries_3 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_3_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_3_galleries_1_Block_1-pic, #Page_3_galleries_1_Block_2-pic, #Page_3_galleries_1_Block_3-pic, #Page_3_galleries_1_Block_4-pic, #Page_3_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_3_galleries_1_Block_1-pic:hover, #Page_3_galleries_1_Block_2-pic:hover, #Page_3_galleries_1_Block_3-pic:hover, #Page_3_galleries_1_Block_4-pic:hover, #Page_3_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_3_galleries_1_Block_1-pic img, #Page_3_galleries_1_Block_2-pic img, #Page_3_galleries_1_Block_3-pic img, #Page_3_galleries_1_Block_4-pic img, #Page_3_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_3_galleries_1_Block_1:hover, #Page_3_galleries_1_Block_2:hover, #Page_3_galleries_1_Block_3:hover, #Page_3_galleries_1_Block_4:hover, #Page_3_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_6
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 20px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_3_galleries_1_Block_6-pic, #Page_3_galleries_1_Block_7-pic, #Page_3_galleries_1_Block_8-pic, #Page_3_galleries_1_Block_9-pic, #Page_3_galleries_1_Block_10-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_3_galleries_1_Block_6-pic:hover, #Page_3_galleries_1_Block_7-pic:hover, #Page_3_galleries_1_Block_8-pic:hover, #Page_3_galleries_1_Block_9-pic:hover, #Page_3_galleries_1_Block_10-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_3_galleries_1_Block_6-pic img, #Page_3_galleries_1_Block_7-pic img, #Page_3_galleries_1_Block_8-pic img, #Page_3_galleries_1_Block_9-pic img, #Page_3_galleries_1_Block_10-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_3_galleries_1_Block_6:hover, #Page_3_galleries_1_Block_7:hover, #Page_3_galleries_1_Block_8:hover, #Page_3_galleries_1_Block_9:hover, #Page_3_galleries_1_Block_10:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_7
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_8
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_9
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_3_galleries_1_Block_10
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_4.CSS ---------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_4
+{
+  /*border: 1px solid black;*/
+
+  height: 700px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_4
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 430px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article_Title_page_galleries_4 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+#Article_page_galleries_4 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_4_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_4_galleries_1_Block_1-pic, #Page_4_galleries_1_Block_2-pic, #Page_4_galleries_1_Block_3-pic, #Page_4_galleries_1_Block_4-pic, #Page_4_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_4_galleries_1_Block_1-pic:hover, #Page_4_galleries_1_Block_2-pic:hover, #Page_4_galleries_1_Block_3-pic:hover, #Page_4_galleries_1_Block_4-pic:hover, #Page_4_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_4_galleries_1_Block_1-pic img, #Page_4_galleries_1_Block_2-pic img, #Page_4_galleries_1_Block_3-pic img, #Page_4_galleries_1_Block_4-pic img, #Page_4_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_4_galleries_1_Block_1:hover, #Page_4_galleries_1_Block_2:hover, #Page_4_galleries_1_Block_3:hover, #Page_4_galleries_1_Block_4:hover, #Page_4_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_6
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 20px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_4_galleries_1_Block_6-pic, #Page_4_galleries_1_Block_7-pic, #Page_4_galleries_1_Block_8-pic, #Page_4_galleries_1_Block_9-pic, #Page_4_galleries_1_Block_10-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_4_galleries_1_Block_6-pic:hover, #Page_4_galleries_1_Block_7-pic:hover, #Page_4_galleries_1_Block_8-pic:hover, #Page_4_galleries_1_Block_9-pic:hover, #Page_4_galleries_1_Block_10-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_4_galleries_1_Block_6-pic img, #Page_4_galleries_1_Block_7-pic img, #Page_4_galleries_1_Block_8-pic img, #Page_4_galleries_1_Block_9-pic img, #Page_4_galleries_1_Block_10-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_4_galleries_1_Block_6:hover, #Page_4_galleries_1_Block_7:hover, #Page_4_galleries_1_Block_8:hover, #Page_4_galleries_1_Block_9:hover, #Page_4_galleries_1_Block_10:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_7
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_8
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_9
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_4_galleries_1_Block_10
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_5.CSS ---------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_5
+{
+  /*border: 1px solid black;*/
+
+  height: 700px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_5
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 260px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article_Title_page_galleries_5 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+#Article_page_galleries_5 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_5_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_5_galleries_1_Block_1-pic, #Page_5_galleries_1_Block_2-pic, #Page_5_galleries_1_Block_3-pic, #Page_5_galleries_1_Block_4-pic, #Page_5_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_5_galleries_1_Block_1-pic:hover, #Page_5_galleries_1_Block_2-pic:hover, #Page_5_galleries_1_Block_3-pic:hover, #Page_5_galleries_1_Block_4-pic:hover, #Page_5_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_5_galleries_1_Block_1-pic img, #Page_5_galleries_1_Block_2-pic img, #Page_5_galleries_1_Block_3-pic img, #Page_5_galleries_1_Block_4-pic img, #Page_5_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;  
+}
+
+#Page_5_galleries_1_Block_1:hover, #Page_5_galleries_1_Block_2:hover, #Page_5_galleries_1_Block_3:hover, #Page_5_galleries_1_Block_4:hover, #Page_5_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_6
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 20px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_5_galleries_1_Block_6-pic, #Page_5_galleries_1_Block_7-pic, #Page_5_galleries_1_Block_8-pic, #Page_5_galleries_1_Block_9-pic, #Page_5_galleries_1_Block_10-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_5_galleries_1_Block_6-pic:hover, #Page_5_galleries_1_Block_7-pic:hover, #Page_5_galleries_1_Block_8-pic:hover, #Page_5_galleries_1_Block_9-pic:hover, #Page_5_galleries_1_Block_10-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_5_galleries_1_Block_6-pic img, #Page_5_galleries_1_Block_7-pic img, #Page_5_galleries_1_Block_8-pic img, #Page_5_galleries_1_Block_9-pic img, #Page_5_galleries_1_Block_10-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_5_galleries_1_Block_6:hover, #Page_5_galleries_1_Block_7:hover, #Page_5_galleries_1_Block_8:hover, #Page_5_galleries_1_Block_9:hover, #Page_5_galleries_1_Block_10:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_7
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_8
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_9
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_5_galleries_1_Block_10
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_6.CSS ---------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_6
+{
+  /*border: 1px solid black;*/
+
+  height: 700px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_6
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 220px;
+
+  margin-top: 30px;    
+  margin-left: 12px;  
+}
+
+#Article_Title_page_galleries_6 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+#Article_page_galleries_6 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_6_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_6_galleries_1_Block_1-pic, #Page_6_galleries_1_Block_2-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_6_galleries_1_Block_1-pic:hover, #Page_6_galleries_1_Block_2-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_6_galleries_1_Block_1-pic img, #Page_6_galleries_1_Block_2-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;  
+}
+
+#Page_6_galleries_1_Block_1:hover, #Page_6_galleries_1_Block_2:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_6_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_7.CSS ---------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_7
+{
+  /*border: 1px solid black;*/
+
+  height: 600px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_7
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 260px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article_Title_page_galleries_7 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+#Article_page_galleries_7 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_7_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_7_galleries_1_Block_1-pic, #Page_7_galleries_1_Block_2-pic, #Page_7_galleries_1_Block_3-pic, #Page_7_galleries_1_Block_4-pic, #Page_7_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_7_galleries_1_Block_1-pic:hover, #Page_7_galleries_1_Block_2-pic:hover, #Page_7_galleries_1_Block_3-pic:hover, #Page_7_galleries_1_Block_4-pic:hover, #Page_7_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_7_galleries_1_Block_1-pic img, #Page_7_galleries_1_Block_2-pic img, #Page_7_galleries_1_Block_3-pic img, #Page_7_galleries_1_Block_4-pic img, #Page_7_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;  
+}
+
+#Page_7_galleries_1_Block_1:hover, #Page_7_galleries_1_Block_2:hover, #Page_7_galleries_1_Block_3:hover, #Page_7_galleries_1_Block_4:hover, #Page_7_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_7_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+/*------------------------------------------*/
+
+#Page_7_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_7_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_7_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_GALLERIES_8.CSS ---------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_galleries_8
+{
+  /*border: 1px solid black;*/
+
+  height: 1000px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_page_galleries_8
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 250px;
+
+  margin-top: 30px;    
+  margin-left: 8px;  
+}
+
+#Article_Title_page_galleries_8 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -16px;
+}
+
+#Article_page_galleries_8 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Page_8_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_8_galleries_1_Block_1-pic, #Page_8_galleries_1_Block_2-pic, #Page_8_galleries_1_Block_3-pic, #Page_8_galleries_1_Block_4-pic, #Page_8_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_8_galleries_1_Block_1-pic:hover, #Page_8_galleries_1_Block_2-pic:hover, #Page_8_galleries_1_Block_3-pic:hover, #Page_8_galleries_1_Block_4-pic:hover, #Page_8_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_8_galleries_1_Block_1-pic img, #Page_8_galleries_1_Block_2-pic img, #Page_8_galleries_1_Block_3-pic img, #Page_8_galleries_1_Block_4-pic img, #Page_8_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_8_galleries_1_Block_1:hover, #Page_8_galleries_1_Block_2:hover, #Page_8_galleries_1_Block_3:hover, #Page_8_galleries_1_Block_4:hover, #Page_8_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_6
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 20px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_8_galleries_1_Block_6-pic, #Page_8_galleries_1_Block_7-pic, #Page_8_galleries_1_Block_8-pic, #Page_8_galleries_1_Block_9-pic, #Page_8_galleries_1_Block_10-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_8_galleries_1_Block_6-pic:hover, #Page_8_galleries_1_Block_7-pic:hover, #Page_8_galleries_1_Block_8-pic:hover, #Page_8_galleries_1_Block_9-pic:hover, #Page_8_galleries_1_Block_10-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_8_galleries_1_Block_6-pic img, #Page_8_galleries_1_Block_7-pic img, #Page_8_galleries_1_Block_8-pic img, #Page_8_galleries_1_Block_9-pic img, #Page_8_galleries_1_Block_10-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_8_galleries_1_Block_6:hover, #Page_8_galleries_1_Block_7:hover, #Page_8_galleries_1_Block_8:hover, #Page_8_galleries_1_Block_9:hover, #Page_8_galleries_1_Block_10:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_7
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_8
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_9
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_10
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Page_8_galleries_1_Block_10-pic, #Page_8_galleries_1_Block_11-pic, #Page_8_galleries_1_Block_12-pic, #Page_8_galleries_1_Block_13-pic, #Page_8_galleries_1_Block_14-pic, #Page_8_galleries_1_Block_15-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Page_8_galleries_1_Block_10-pic:hover, #Page_8_galleries_1_Block_11-pic:hover, #Page_8_galleries_1_Block_12-pic:hover, #Page_8_galleries_1_Block_13-pic:hover, #Page_8_galleries_1_Block_14-pic:hover, #Page_8_galleries_1_Block_15-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Page_8_galleries_1_Block_10-pic img, #Page_8_galleries_1_Block_11-pic img, #Page_8_galleries_1_Block_12-pic img, #Page_8_galleries_1_Block_13-pic img, #Page_8_galleries_1_Block_14-pic img, #Page_8_galleries_1_Block_15-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Page_8_galleries_1_Block_10:hover, #Page_8_galleries_1_Block_11:hover, #Page_8_galleries_1_Block_12:hover, #Page_8_galleries_1_Block_13:hover, #Page_8_galleries_1_Block_14:hover, #Page_8_galleries_1_Block_15:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_11
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 20px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_12
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_13
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_14
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Page_8_galleries_1_Block_15
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_POSTER_1.CSS ------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_poster_1
+{
+  /*border: 1px solid black;*/
+
+  height: 600px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_poster_galleries_1
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 380px;
+
+  margin-top: 30px;    
+  margin-left: 18px;  
+}
+
+#Article_Title_poster_galleries_1 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -22px;
+}
+
+#Article_Title_poster_galleries_1 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Poster_1_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster_1_galleries_1_Block_1-pic, #Poster_1_galleries_1_Block_2-pic, #Poster_1_galleries_1_Block_3-pic, #Poster_1_galleries_1_Block_4-pic, #Poster_1_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster_1_galleries_1_Block_1-pic:hover, #Poster_1_galleries_1_Block_2-pic:hover, #Poster_1_galleries_1_Block_3-pic:hover, #Poster_1_galleries_1_Block_4-pic:hover, #Poster_1_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster_1_galleries_1_Block_1-pic img, #Poster_1_galleries_1_Block_2-pic img, #Poster_1_galleries_1_Block_3-pic img, #Poster_1_galleries_1_Block_4-pic img, #Poster_1_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Poster_1_galleries_1_Block_1:hover, #Poster_1_galleries_1_Block_2:hover, #Poster_1_galleries_1_Block_3:hover, #Poster_1_galleries_1_Block_4:hover, #Poster_1_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Poster_1_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_1_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_1_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_1_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_POSTER_2.CSS ------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_poster_2
+{
+  /*border: 1px solid black;*/
+
+  height: 600px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_poster_galleries_2
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 420px;
+
+  margin-top: 30px;    
+  margin-left: 18px;  
+}
+
+#Article_Title_poster_galleries_2 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -38px;
+}
+
+#Article_Title_poster_galleries_2 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Poster_2_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster_2_galleries_1_Block_1-pic, #Poster_2_galleries_1_Block_2-pic, #Poster_2_galleries_1_Block_3-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster_2_galleries_1_Block_1-pic:hover, #Poster_2_galleries_1_Block_2-pic:hover, #Poster_2_galleries_1_Block_3-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster_2_galleries_1_Block_1-pic img, #Poster_2_galleries_1_Block_2-pic img, #Poster_2_galleries_1_Block_3-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Poster_2_galleries_1_Block_1:hover, #Poster_2_galleries_1_Block_2:hover, #Poster_2_galleries_1_Block_3:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Poster_2_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_2_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_POSTER_3.CSS ------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_poster_3
+{
+  /*border: 1px solid black;*/
+
+  height: 600px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_poster_galleries_3
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 380px;
+
+  margin-top: 30px;    
+  margin-left: 10px;  
+}
+
+#Article_Title_poster_galleries_3 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -22px;
+}
+
+#Article_Title_poster_galleries_3 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Poster_3_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster_3_galleries_1_Block_1-pic, #Poster_3_galleries_1_Block_2-pic, #Poster_3_galleries_1_Block_3-pic, #Poster_3_galleries_1_Block_4-pic, #Poster_3_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster_3_galleries_1_Block_1-pic:hover, #Poster_3_galleries_1_Block_2-pic:hover, #Poster_3_galleries_1_Block_3-pic:hover, #Poster_3_galleries_1_Block_4-pic:hover, #Poster_3_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster_3_galleries_1_Block_1-pic img, #Poster_3_galleries_1_Block_2-pic img, #Poster_3_galleries_1_Block_3-pic img, #Poster_3_galleries_1_Block_4-pic img, #Poster_3_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Poster_3_galleries_1_Block_1:hover, #Poster_3_galleries_1_Block_2:hover, #Poster_3_galleries_1_Block_3:hover, #Poster_3_galleries_1_Block_4:hover, #Poster_3_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Poster_3_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_3_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_3_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_3_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- PAGE_POSTER_4.CSS ------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Article_page_poster_4
+{
+  /*border: 1px solid black;*/
+
+  height: 600px;
+  width: 1080px;
+
+  margin: auto;
+}
+
+#Article_Title_poster_galleries_4
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 300px;
+
+  margin-top: 30px;    
+  margin-left: 2px;  
+}
+
+#Article_Title_poster_galleries_4 p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 20px;
+  margin-left: -22px;
+}
+
+#Article_Title_poster_galleries_4 a
+{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#Poster_4_galleries_1_Block_1
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: 36px;
+  margin-left: 10px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Poster_4_galleries_1_Block_1-pic, #Poster_4_galleries_1_Block_2-pic, #Poster_4_galleries_1_Block_3-pic, #Poster_4_galleries_1_Block_4-pic, #Poster_4_galleries_1_Block_5-pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 18px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Poster_4_galleries_1_Block_1-pic:hover, #Poster_4_galleries_1_Block_2-pic:hover, #Poster_4_galleries_1_Block_3-pic:hover, #Poster_4_galleries_1_Block_4-pic:hover, #Poster_4_galleries_1_Block_5-pic:hover
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Poster_4_galleries_1_Block_1-pic img, #Poster_4_galleries_1_Block_2-pic img, #Poster_4_galleries_1_Block_3-pic img, #Poster_4_galleries_1_Block_4-pic img, #Poster_4_galleries_1_Block_5-pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 4px;
+  padding-left: 16px;
+}
+
+#Poster_4_galleries_1_Block_1:hover, #Poster_4_galleries_1_Block_2:hover, #Poster_4_galleries_1_Block_3:hover, #Poster_4_galleries_1_Block_4:hover, #Poster_4_galleries_1_Block_5:hover
+{
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 25px rgba(171, 171, 171, 1); /*shadow block*/
+}
+
+/*------------------------------------------*/
+
+#Poster_4_galleries_1_Block_2
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 236px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_4_galleries_1_Block_3
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 462px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_4_galleries_1_Block_4
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 688px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+/*------------------------------------------*/
+
+#Poster_4_galleries_1_Block_5
+{
+  border: 1px solid #D5D5D5;
+
+  height: 278px;
+  width: 206px;
+  
+  margin-top: -280px;
+  left: 50%;
+  margin-left: 914px;  
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- CONTSCTs.CSS -----------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#Contscts
+{
+	/*border: 1px solid black;*/
+
+	height: 710px;
+	width: 1080px;
+
+	margin: auto;
+}
+
+#Contacts_Title
+{
+	/*border: 1px solid black;*/
+
+	height: 40px;
+	width: 160px;
+
+	margin-top: 44px;
+}
+
+#Contacts_Title p
+{
+  font: 32px tahoma;  
+  text-align: center; 
+
+  font-family: Florin_Sans_Light; 
+  color: black;
+
+  margin-top: 0px;  
+  margin-left: -16px;
+}
+
+#Contscts_Addr
+{
+	/*border: 1px solid black;*/
+
+	height: 150px;
+	width: 320px;
+
+	margin-top: 44px;	
+}
+
+#Contscts_Addr p
+{
+	font-size: 14px;
+	font-family: Florin_Sans_Light; 	
+}
+
+#Contscts_Addr-additional
+{
+	/*border: 1px solid black;*/
+
+	height: 150px;
+	width: 200px;
+
+	margin-left: 120px;
+	margin-top: -134px;
+}
+
+/*------------------------------------------*/
+
+#Contacts_Block-1
+{
+	border: 1px solid black;
+
+	height: 380px;
+	width: 325px;
+
+	margin-top: 44px;
+}
+
+#Contacts_Block-1_title
+{
+	/*border: 1px solid black;*/
+
+	height: 40px;
+	width: 300px;
+
+	margin: auto;
+	margin-top: 25px;
+}
+
+#Contacts_Block-1_title p
+{
+	font-size: 24px;
+	font-family: Florin_Sans_Light; 
+
+	margin-top: 2px;
+	text-transform: uppercase;
+
+	text-align: center;
+}
+
+#Contacts_Block-1_left
+{
+	/*border: 1px solid black;*/
+
+	height: 100px;
+	width: 110px;	
+
+	margin-top: 30px;
+	margin-left: 11px;
+}
+
+#Contacts_Block-1_left p
+{
+	font-size: 14px;
+	font-family: Florin_Sans_Light; 	
+
+	line-height: 1.9em;
+}
+
+#Contacts_Block-1_right
+{
+	/*border: 1px solid black;*/
+
+	height: 100px;
+	width: 186px;	
+
+	margin-top: -114px;
+	margin-left: 125px;
+}
+
+#Contacts_Block-1_right p
+{
+	font-size: 14px;
+	font-family: Florin_Sans_Light; 	
+
+	line-height: 1.9em;
+}
+
+#Contacts_Block-1_right a
+{
+	color: #547AC4;
+}
+
+#Contacts_Block-1_work
+{
+	/*border: 1px solid black;*/
+
+	height: 100px;
+	width: 300px;	
+
+	margin-top: 1px;
+	margin-left: 11px;
+}
+
+#Contacts_Block-1_work p
+{
+	font-size: 14px;
+	font-family: Florin_Sans_Light; 	
+
+	margin-top: 0px;
+}
+
+/*------------------------------------------*/
+
+#Contacts_Block-2
+{
+	border: 1px solid black;
+
+	height: 380px;
+	width: 325px;
+	
+	margin: auto;
+	margin-top: -382px;	
+}
+
+#Contacts_Block-2_title
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 300px;
+
+  margin: auto;
+  margin-top: 25px;
+}
+
+#Contacts_Block-2_title p
+{
+  font-size: 24px;
+  font-family: Florin_Sans_Light; 
+
+  margin-top: 2px;
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+#Contacts_Block-2_left
+{
+  /*border: 1px solid black;*/
+
+  height: 210px;
+  width: 100px; 
+
+  margin-top: 30px;
+  margin-left: 11px;
+}
+
+#Contacts_Block-2_left p
+{
+  font-size: 14px;
+  font-family: Florin_Sans_Light;   
+
+  line-height: 1.9em;
+}
+
+#Contacts_Block-2_right
+{
+  /*border: 1px solid black;*/
+
+  height: 210px;
+  width: 196px; 
+
+  margin-top: -224px;
+  margin-left: 115px;
+}
+
+#Contacts_Block-2_right p
+{
+  font-size: 14px;
+  font-family: Florin_Sans_Light;   
+
+  line-height: 1.9em;
+}
+
+#Contacts_Block-2_right a
+{
+  color: #547AC4;
+}
+
+#Contacts_Block-2_work
+{
+  /*border: 1px solid black;*/
+
+  height: 60px;
+  width: 300px; 
+
+  margin-top: 1px;
+  margin-left: 11px;
+}
+
+#Contacts_Block-2_work p
+{
+  font-size: 14px;
+  font-family: Florin_Sans_Light;   
+
+  margin-top: 0px;
+}
+
+/*------------------------------------------*/
+
+#Contacts_Block-3
+{
+	border: 1px solid black;
+
+	height: 380px;
+	width: 325px;
+
+	margin-top: -380px;
+
+	float: right;
+}
+
+#Contacts_Block-3_title
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: 300px;
+
+  margin: auto;
+  margin-top: 25px;
+}
+
+#Contacts_Block-3_title p
+{
+  font-size: 24px;
+  font-family: Florin_Sans_Light; 
+
+  margin-top: 2px;
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+#Contacts_Block-3_left
+{
+  /*border: 1px solid black;*/
+
+  height: 210px;
+  width: 100px; 
+
+  margin-top: 30px;
+  margin-left: 11px;
+}
+
+#Contacts_Block-3_left p
+{
+  font-size: 14px;
+  font-family: Florin_Sans_Light;   
+
+  line-height: 1.9em;
+}
+
+#Contacts_Block-3_right
+{
+  /*border: 1px solid black;*/
+
+  height: 210px;
+  width: 196px; 
+
+  margin-top: -224px;
+  margin-left: 115px;
+}
+
+#Contacts_Block-3_right p
+{
+  font-size: 14px;
+  font-family: Florin_Sans_Light;   
+
+  line-height: 1.9em;
+}
+
+#Contacts_Block-3_right a
+{
+  color: #547AC4;
+}
+
+#Contacts_Block-3_work
+{
+  /*border: 1px solid black;*/
+
+  height: 60px;
+  width: 300px; 
+
+  margin-top: 1px;
+  margin-left: 11px;
+}
+
+#Contacts_Block-3_work p
+{
+  font-size: 14px;
+  font-family: Florin_Sans_Light;   
+
+  margin-top: 0px;
+}
+
+/*------------------------------------------*/
+
+#Contacts-map
+{
+	border-top: 3px solid #404040;
+	border-bottom: 3px solid #404040;
+
+	height: 540px;
+	width: auto;
+
+	margin-top: 5px;	
+}
+
+#Contacts-map-padding
+{
+	margin-top: 44px;
+}
+
+
+
+
+/************************************************************************************************************************************************************************************/
+/*------------------------------------------------------------------------------ ADAPTABILITY TO THE SIZE --------------------------------------------------------------------------*/
+/************************************************************************************************************************************************************************************/
+
+/*
+1680x1050 - ok
+1600x1200 - ok
+1440x900  - ok
+1400x1050 - ok
+1280x1024 - ok
+1280x800  - ok
+1152x864  
+1024x768
+800x600
+768×1024
+640×960
+*/
+
+@media screen and (max-width: 1426px)
+{
+  #footer { height: 57px; } /*114*/
+  #footer_Block-1 { float: right; margin-left: 2%; }
+  #footer_Block-1 a { font: 14px tahoma; margin-left: 15px; font-weight: 700; }
+  
+  #footer_Block-2 { width: 920px; height: 56px; margin-top: -26px; margin-left: 10%; }
+}
+
+@media screen and (max-width: 1280px)
+{
+  #header_Block-1-pos { margin-left: 2%; }
+  #footer_Block-2 { margin-left: 2%; }
+
+  #footer_Block-1 { float: right; }
+}
+
+@media screen and (max-width: 1152px)
+{
+  #header_Block-3 { height: 200px; }
+  #Main_Slider { margin-top: 146px; }
+  #hb3_Block-1 { margin: auto; margin-top: 10px; }
+  #hb3_Block-2 { margin: auto; float: none; margin-top: -26px; }
+  #header_Block-1 { height: 116px; }
+  #header_Block-1-pos { width: 520px; height: 112px; margin: auto; }
+  .hb_Btn_1, .hb_Btn_4, .hb_Btn_6 { margin-left: 2%; }
+  #header_Block-2 { width: 68px; height: 116px; margin-top: -120px; }
+  #hb_Entering { float: left; }
+  #hb_Language { margin-top: 58px; margin-left: -67px; float: left; }
+  #About_Products { margin-top: 30px; }
+
+  #footer { height: 114px; }
+  #footer_Block-1 { margin-top: 46px; }
+  #footer_Block-2 { width: 520px; height: 112px; margin: auto; }
+}
+
+@media screen and (max-width: 1024px)
+{  
+  #About_Products { margin-top: 60px; height: 630px; }
+  #About_Products_Description_2 {  margin-top: 40px; height: 175px; /*145*/ }
+  #footer { margin-top: 30px; }  
+}
+
+@media screen and (max-width: 950px)
+{  
+  #footer_Block-1 { visibility: hidden; }  
+  #footer_Block-2 { width: 620px; height: 112px; margin-top: -26px;  }  
+}
+
+@media screen and (max-width: 926px)
+{
+  #footer_Block-1 { visibility: hidden; }
+  #footer_Block-2 { width: 620px; height: 112px; margin-top: -26px;  }
+}
+
+@media screen and (max-width: 840px)
+{
+  #footer { width: 99.9%; }
+}
+
+@media screen and (max-width: 814px)
+{
+  .fb_Btn_3 { margin-left: -6px; }
+}
+
+@media screen and (max-width: 801px)
+{
+  #About_Products { margin-top: 80px; }
+  #About_Products_Description_2 { margin-top: 40px; height: 235px; /*145*/ }
+  #footer { margin-top: 90px; }
+  #footer_Block-2 { width: 520px; }  
+    
+  .fb_Btn_3 { margin-top: -70px; margin-left: 264px;}
+  .fb_Btn_4 { margin-top: -12px;}
+  .fb_Btn_5 { margin-top: -12px;}
+  .fb_Btn_6 { margin-top: -12px;}
+}
+
+@media screen and (max-width: 768px)
+{
+  #header_Block-1-pos { margin-left: 2%; }
+  #header_Block-2 { margin-right: 2px; }
+  #About_Products { margin-top: 100px; }
+  #About_Products_Description_2 { margin-top: 80px; }
+  #footer { margin-top: 120px; }
+}
+
+@media screen and (max-width: 750px)
+{
+  #footer { height: 114px; }    
+}
+
+@media screen and (max-width: 600px)
+{
+  #header_Block-1 { height: 290px; }
+  #header_Block-1-pos { margin: auto; left: 4px; right: 4px; width: 300px; height: 226px; }  
+  #header_Block-2 { width: 136px; height: 58px; margin: -60px auto; float: none;}
+  #hb_Entering { width: 65px; height: 56px; float: left; }
+  #hb_Language { width: 65px; height: 56px; float: right; margin-top: 0px; }
+  #Main_Slider { visibility: hidden; }
+  #hb3_Block-1 { margin: auto; margin-top: 70px; }
+  #About { margin-top: -150px; }
+  #About_Products { height: 650px; }
+}
+
+@media screen and (max-width: 530px)
+{  
+  #About_Title { padding: 0px; margin-left: 30px; }
+  #About_Products { margin-top: 200px; }
+  
+  #footer { height: 234px; }
+  #footer_Block-2 { height: 232px; width: 300px; }
+  .fb_Btn_1 {  }
+  .fb_Btn_2 { margin-top: -71px; margin-left: 120px; }
+  .fb_Btn_3 { margin-top: -14px; margin-left: 0px;}
+  .fb_Btn_4 { margin-top: -1px;}
+  .fb_Btn_5 { margin-top: -1px;}
+  .fb_Btn_6 { margin-top: 0px;}
+}
+
+@media screen and (max-width: 497px)
+{
+  #header_Block-3 { height: 248px; width: auto; }
+  #hb3_Block-1 { width: 99%; height: 108px; margin-left: auto; }
+  #hb3-logo { visibility: hidden; }
+  #hb3-text { width: auto; height: 108px; margin-top: -110px; margin-left: 0px; }
+  #hb3-text p { text-align: center; }
+
+  #hb3_Block-2 { width: auto; height: 108px; float: none; margin: auto; margin-top: -30px; }
+  #hb3-phone_1 { width: 174px; height: 53px; margin: auto; }
+  #hb3-phone_1 p { margin: auto; margin-top: 12px; }
+  #hb3-splitter { visibility: hidden; }
+  #hb3-phone_2 { width: 182px; height: 53px; float: none; margin: auto; margin-top: 76px; }
+  #hb3-phone_2 p { margin: auto; margin-top: 16px; }
+
+  #About { margin-top: 10px; }
+  #About_Products_Description_pic { visibility: hidden; }
+  #About_Products_Description_2 { margin-top: -70px; }
+  #About_Products { height: 550px; }
+}
+
+@media screen and (max-width: 430px)
+{
+  #About { margin-top: 80px; }
+  #About_Products { margin-top: 300px; height: 650px; }
+}
+
+@media screen and (max-width: 400px)
+{
+  #hb3-text p { font: 28px tahoma; text-align: center; }
+  #About { margin-top: 100px; }    
+  #About_Products { height: 660px; }
+}
+
+@media screen and (max-width: 359px)
+{  
+  #About_Products { height: 700px; }
+  .fb_Btn_1 { margin-top: 0px; }
+}
+
+@media screen and (max-width: 354px) /*ERROR_FIX*/
+{    
+  .fb_Btn_1 { margin-top: -70px; }
+}
+
+@media screen and (max-width: 330px)
+{
+  #About { margin-top: 140px; }  
+  #About_Products { margin-top: 400px; height: 830px; }
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- GENERAL HEADER && FOOTER.CSS -------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 1152px)
+{
+  #General_header { height: 286px; }  
+  #General_header_Block-1 { height: 168px; }
+  #Gen_hb1_Block-1 { margin: auto; }
+  #Gen_hb1-splitter { width: 0.01px; }
+  #Gen_hb1_Block-2 { margin: auto; margin-top: -36px; float: none; }
+  #General_header_Block-2 { height: 112px; }
+  #General_header_Block-2-pos { width: 520px; height: 112px; margin: auto; }
+  .Gen_hb_Btn_1 { ; }
+  .Gen_hb_Btn_2 { ; }
+  .Gen_hb_Btn_3 { margin-top: -10px; }	
+  .Gen_hb_Btn_4 { ; }
+  .Gen_hb_Btn_6 { margin-left: 2%; }
+}
+
+@media screen and (max-width: 500px)
+{
+  #Gen_hb1_Block-1 { width: 99%; }
+  #Gen_hb1-logo { visibility: hidden; }  
+  #Gen_hb1-text { margin-left: auto; margin-right: auto; width: 99%; }  
+  #Gen_hb1-text p { font: 24px tahoma; color: #404040; margin-top: 36px; font-weight: 700; text-align: center; }
+    
+  #Gen_hb1_Block-2 { width: 99%; }
+  #Gen_hb1-phone_1 { border: /*1px solid black;*/ width: 234px; height: 40px; margin-left: auto; margin-right: auto; }
+  #Gen_hb1-phone_1 p { font: 18px tahoma; color: #404040; margin-top: -2px; margin-left: 48px; }
+  #Gen_hb1-phone_1-text { width: 180px; height: 16px; margin-top: -18px; margin-left: 38px; }
+  #Gen_hb1-phone_1-text p { font: 12px tahoma; color: #404040; margin-top: 0px; margin-left: 0px; text-align: center; }
+  
+  #Gen_hb1-splitter { visibility: hidden; }
+  
+  #Gen_hb1-phone_2 { /*border:1px solid black;*/ width: 234px; height: 40px; margin-top: 84px; float: none; margin-left: auto; margin-right: auto; }
+  #Gen_hb1-phone_2 p { font: 18px tahoma; color: #404040; margin-top: 8px; text-align: center; }
+  
+  #General_header_Block-2 { /*border:1px solid black;*/ width: 99%; height: 226px; background:#606060; }
+  #General_header_Block-2-pos { /*border: 1px solid black;*/ width: 270px; height: 226px; margin: auto; }
+  
+  .Gen_hb_Btn_1 { margin-top: 0px; margin-left: 0px; }
+  .Gen_hb_Btn_2 { margin-top: 0px; margin-left: 0px; }
+  .Gen_hb_Btn_3 { margin-top: 0px; margin-left: 0px;}
+  .Gen_hb_Btn_3 a { margin-left: -10px; }
+  .Gen_hb_Btn_4 { margin-top: 0px;}
+  .Gen_hb_Btn_4 a { margin-left: -18px;}
+  .Gen_hb_Btn_5 { margin-top: 0px;}
+  .Gen_hb_Btn_5 a { margin-left: -10px;}
+  .Gen_hb_Btn_6 { margin-top: 0px;}
+  .Gen_hb_Btn_6 a { margin-left: -10px;}
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- CATALOG.CSS ------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 1152px)
+{
+  #Catalog { /*border: 1px solid black;*/ width: auto; height: 800px; margin: auto; margin-left: 1%; margin-right: 1%; }
+  #Catalog_Title { height: 120px; width: 920px; margin: auto; }  
+}
+
+@media screen and (max-width: 1100px)
+{
+  #Catalog { height: 1140px; } 
+  #Catalog_Block_1 { margin-left: 80px; }
+  #Catalog_Block_2 { margin-left: 350px; }
+  #Catalog_Block_3 { margin-left: 620px; }
+  
+  #Catalog_Block_4 { margin-top: 18px; margin-left: 80px; }
+  #Catalog_Block_5 { margin-top: -302px; margin-left: 350px; }
+  #Catalog_Block_6 { margin-top: -302px; margin-left: 620px; }
+  
+  #Catalog_Block_7 { margin-top: 20px; margin-left: 80px; }
+  #Catalog_Block_8 { margin-top: -302px; margin-left: 350px; }
+}
+
+@media screen and (max-width: 1024px)
+{
+  #Catalog_Title { width: 620px; }
+}
+
+@media screen and (max-width: 950px)
+{
+  #Catalog { height: 1450px; } 
+  #Catalog_Block_1 { margin-left: 140px; }
+  #Catalog_Block_2 { margin-left: 410px; }
+  
+  #Catalog_Block_3 { margin-top: 18px; margin-left: 140px; }  
+  #Catalog_Block_4 { margin-top: -302px; margin-left: 410px; }
+  
+  #Catalog_Block_5 { margin-top: 18px; margin-left: 140px; }
+  #Catalog_Block_6 { margin-top: -302px; margin-left: 410px; }
+  
+  #Catalog_Block_7 { margin-top: 20px; margin-left: 140px; }
+  #Catalog_Block_8 { margin-top: -302px; margin-left: 410px; }
+}
+
+@media screen and (max-width: 800px)
+{
+  #Catalog { height: 2710px; } 
+  #Catalog_Title { width: 520px; }
+    
+  #Catalog_Block_1 { margin-left: auto; margin-right: auto; }
+  #Catalog_Block_2 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Catalog_Block_3 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Catalog_Block_4 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Catalog_Block_5 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Catalog_Block_6 { margin-top: 18px; margin-left: auto; margin-right: auto; }  
+  #Catalog_Block_7 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Catalog_Block_8 { margin-top: 18px; margin-left: auto; margin-right: auto; }  
+}
+
+@media screen and (max-width: 550px)
+{
+  #Catalog {margin-top: 30px; }
+  #Catalog_Title { width: 99%; }
+  #Catalog_Title p { font: 24px tahoma; font-weight: 100; margin-top: 14px; }  
+}
+
+@media screen and (max-width: 500px)
+{  
+  #Catalog {margin-top: 130px; }
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- STOCK.CSS --------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 1100px)
+{
+  #Stock  { width: auto; }  
+}
+
+@media screen and (max-width: 800px)
+{
+  #Stock  { height: 500px; }  
+  #Stock_Title { height: 90px; width: auto; margin-left: 4%; margin-right: 4%; }  
+}
+
+@media screen and (max-width: 515px)
+{
+  #Stock  { height: 300px; }  
+  #Stock_Title { height: 130px; }  
+}
+
+@media screen and (max-width: 500px)
+{
+  #Stock_Title { margin-top: 140px; }  
+}
+
+@media screen and (max-width: 350px)
+{
+  #Stock_Title { margin-left: 12%; margin-right: 12%; }
+  #Stock_Title p { font-size: 24px; }
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- SERVICE.CSS ------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width: 1100px)
+{
+  #Service_text	{ margin-left: 2%; margin-right: 2%; width: auto; }
+}
+
+@media screen and (max-width: 1070px)
+{
+  #Service { width: auto; }
+  #Service_description { width: auto; margin-right: 2%; }  
+}
+
+@media screen and (max-width: 940px)
+{
+  #Service_text	{ height: 100px; }
+  #Service_map { margin-top: 50px; }
+}
+
+@media screen and (max-width: 715px)
+{
+  #Service_description { height: 300px; }  
+  #Service_map { margin-top: 100px; } 
+}
+
+@media screen and (max-width: 575px)
+{
+  #Service_pic { visibility: hidden; }	
+  #Service_description { margin-left: 2%; }
+  #Service_description { height: 360px; }
+  
+  #Service_text { margin-top: -50px; }
+  #Service_map { margin-top: -50px; }
+}
+
+@media screen and (max-width: 540px)
+{ 
+  #Service_text { height: 150px; }
+  #Service_map { margin-top: 20px; }
+}
+
+@media screen and (max-width: 500px)
+{
+  #Service { margin-top: 110px; }
+}
+
+@media screen and (max-width: 455px)
+{ 
+  #Service_text { height: 190px; margin-top: 50px; }
+  #Service_map { margin-top: 140px; }
+}
+
+@media screen and (max-width: 370px)
+{ 
+  #Service_text { height: 120px; }
+  #Service_text p { margin-left: 2%; margin-right: 2%; font-size: 22px; }  
+  #Service_map { margin-top: 100px; }
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*---- ARTICLE.CSS ------------------------------------------------------------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width: 1100px)
+{  
+  #Article { width: auto; height: 3100px; }
+  
+  #Article-1_Title { width: 250px; margin-left: auto; margin-right: auto; }
+  #Article-1_Title p { margin-top: 0px; }
+  #Article-2_Title { width: 250px; margin-left: auto; margin-right: auto; }
+  #Article-3_Title { width: 250px; margin-left: auto; margin-right: auto; }
+
+  #Photo-galleries_Block_1 { margin-left: 80px; }
+  #Photo-galleries_Block_2 { margin-left: 350px; }
+  #Photo-galleries_Block_3 { margin-left: 620px; }
+  
+  #Photo-galleries_Block_4 { margin-top: 18px; margin-left: 80px; }
+  #Photo-galleries_Block_5 { margin-top: -376px; margin-left: 350px; }
+  #Photo-galleries_Block_6 { margin-top: -376px; margin-left: 620px; }
+  
+  #Photo-galleries_Block_7 { margin-top: 20px; margin-left: 80px; }
+  #Photo-galleries_Block_8 { margin-top: -376px; margin-left: 350px; }  
+  
+/*---*/
+
+  #Poster-galleries_Block_1 { margin-left: 80px; }
+  #Poster-galleries_Block_2 { margin-left: 350px; }
+  #Poster-galleries_Block_3 { margin-left: 620px; }  
+  #Poster-galleries_Block_4 { margin-top: 18px; margin-left: 80px; }
+  
+/*---*/
+  
+  #Booklets-galleries_Block_1 { margin-left: 80px; }
+  #Booklets-galleries_Block_2 { margin-left: 350px; }
+  #Booklets-galleries_Block_3 { margin-left: 620px; }  
+  #Booklets-galleries_Block_4 { margin-top: 18px; margin-left: 80px; }
+}
+
+@media screen and (max-width: 950px)
+{  
+  #Article { width: auto; height: 3500px; }
+
+  #Photo-galleries_Block_1 { margin-left: 140px; }
+  #Photo-galleries_Block_2 { margin-left: 410px; }
+  
+  #Photo-galleries_Block_3 { margin-top: 18px; margin-left: 140px; }  
+  #Photo-galleries_Block_4 { margin-top: -376px; margin-left: 410px; }
+  
+  #Photo-galleries_Block_5 { margin-top: 18px; margin-left: 140px; }
+  #Photo-galleries_Block_6 { margin-top: -376px; margin-left: 410px; }
+  
+  #Photo-galleries_Block_7 { margin-top: 20px; margin-left: 140px; }
+  #Photo-galleries_Block_8 { margin-top: -376px; margin-left: 410px; }
+  
+/*---*/
+
+  #Poster-galleries_Block_1 { margin-left: 140px; }
+  #Poster-galleries_Block_2 { margin-left: 410px; }
+
+  #Poster-galleries_Block_3 { margin-top: 18px; margin-left: 140px; }  
+  #Poster-galleries_Block_4 { margin-top: -352px; margin-left: 410px; }
+  
+/*---*/
+  
+  #Booklets-galleries_Block_1 { margin-left: 140px; }
+  #Booklets-galleries_Block_2 { margin-left: 410px; }
+
+  #Booklets-galleries_Block_3 { margin-top: 18px; margin-left: 140px; }  
+  #Booklets-galleries_Block_4 { margin-top: -352px; margin-left: 410px; }
+}
+
+@media screen and (max-width: 750px)
+{
+  #Article { width: auto; height: 6400px; }	
+	
+  #Photo-galleries_Block_1 { margin-left: auto; margin-right: auto; }
+  #Photo-galleries_Block_2 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Photo-galleries_Block_3 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Photo-galleries_Block_4 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Photo-galleries_Block_5 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Photo-galleries_Block_6 { margin-top: 18px; margin-left: auto; margin-right: auto; }  
+  #Photo-galleries_Block_7 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Photo-galleries_Block_8 { margin-top: 18px; margin-left: auto; margin-right: auto; }  	
+
+/*---*/
+	
+  #Poster-galleries_Block_1 { margin-left: auto; margin-right: auto; }
+  #Poster-galleries_Block_2 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Poster-galleries_Block_3 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Poster-galleries_Block_4 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  
+/*---*/
+
+  #Booklets-galleries_Block_1 { margin-left: auto; margin-right: auto; }
+  #Booklets-galleries_Block_2 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Booklets-galleries_Block_3 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+  #Booklets-galleries_Block_4 { margin-top: 18px; margin-left: auto; margin-right: auto; }
+	
+}
+
+@media screen and (max-width: 500px)
+{
+  #Article-1_Title	{ margin-top: 130px; }
+}

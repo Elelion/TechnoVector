@@ -1,0 +1,117 @@
+.body_1 /*для отсупа, т.е. для границ*/
+{
+/*	border: 1px solid #000; */
+
+    margin: 8px 0 0 0;
+	padding: 0px 10% 0 10%; /*т.е. высота 40px*/
+    width: auto;
+}
+
+.body_1 p
+{
+    font-size: 32px;
+    color:#53555A;
+}
+
+
+/* -------------------- */
+
+
+.Block_1
+{
+    width: auto; /* 350 + 350 + 300 = 1000px */
+    height: 130px;
+    border-radius:3px;
+    margin: auto 5% auto 5%;
+}
+
+.Block_1_1
+{
+    width: 350px;
+    height: 130px;
+    float: left;
+}
+
+.title_1_1 { padding: 10px 40px 0 0; text-align: left; color: #53555A; font-size: 22px; }
+.Block_1_1 p { padding: 0 40px 0 0; text-align: left; color: #53555A; margin: 4px 0 0 0; }
+.Block_1_3 H3 { font-size: 16px; color:#53555A; }
+
+.Block_1_2
+{
+    padding: 0 0 0 10%;
+    width: 350px;
+    height: 130px;
+    float: left;
+}
+
+.title_1_2 { padding: 10px 0 0 20px; text-align: left; color: #53555A; font-size: 22px; }
+.Block_1_2 p { margin: 4px 0 4px 20px; text-align: left; color: #53555A; }
+
+.Block_1_3
+{
+    width: 300px;
+    height: 130px;
+    float: right;
+}
+
+.Block_1_3 H3 { margin: 4px 0 4px 40px; text-align: left; font-size: 22px; }
+.Block_1_3 p { margin: 4px 0 4px 40px; text-align: left; color: #53555A; }
+.title_1_3 { padding: 0 14px 0 0; text-align: right; color:#FF0000; }
+
+.Block_1 a /*убираем подчеркивание текста в блоке*/
+{
+	text-decoration:none;
+}
+
+
+/* -------------------- */
+
+.body_2 /*для отсупа, т.е. для границ - ДЛЯ КАРТЫ*/
+{
+/*	border: 1px dotted #000; */
+
+    margin: 4px 0 0 0;
+	padding: 0px 0 0 0; /*т.е. высота 40px*/
+    width: auto;
+}
+
+.map { margin: auto 0.5% auto 0.5%; }
+.map p { color:#53555A; font-size: 22px; margin: 0 0 4px 0; }
+
+
+/* -------------------- */
+
+
+.Block_2
+{
+    border:1px solid #DC620D;
+    width: 220px; /* 350 + 350 + 300 = 1000px */
+    height: 40px;
+    border-radius:3px;
+    margin: 40px auto 50px auto;
+    display: block;
+}
+
+.Block_2 a /*редактируем надпись в блоке - кнопке*/
+{
+	text-decoration:none;
+    display: block;
+    padding: 10px 0 0 14px;
+    color:#53555A;
+    height: 34px; /*область события*/
+}
+
+.Block_2:hover { border-radius:3px; background: #DC620D; transition: background 1s, color 2s; }
+.Block_2 a:hover { color:#FFFFFF; }
+
+
+/* -------------------- */
+
+
+.line_2_Contacts /* создаем прерывистую линию */
+{
+	border:none;
+	border-bottom:1px dashed #ccc;
+	height:0;
+	margin: 40px 10% 50px 10%; /*отступы для линии*/
+}

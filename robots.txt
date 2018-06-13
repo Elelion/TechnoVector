@@ -1,0 +1,11 @@
+User-agent: *
+
+Allow: /
+Allow: *.css
+
+Disallow: /errordocs/404.html
+Disallow: /docs/fonts/*
+Disallow: /docs/pdf/*
+Disallow: /docs/BackUp/*
+
+Sitemap: https://xn----ctbibqksidbuboacg9bzn.xn--p1ai/sitemap.xml

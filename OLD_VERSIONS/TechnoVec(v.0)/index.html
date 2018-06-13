@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD> 
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+        <TITLE> Автомеханник </TITLE>
+
+        <!-- Подключаем стили (*.CSS) -->
+        <link rel="stylesheet" href="CSS/General/Basic.css">
+        <link rel="stylesheet" href="CSS/General/Header.css">                
+        <link rel="stylesheet" href="CSS/index/Body.css">
+        <link rel="stylesheet" href="CSS/General/Footer.css">
+
+        <!-- Подключаем скрипты и дополнительные стили -->
+          <!-- для появляющегося меню WebComplex -->
+            <script SRC="JS/WebComplex(jquery.min).js"></script>
+
+          <!-- для слайдера BxSlider -->
+            <script SRC="JS/BxSlider-1(jquery.min).js"></script>
+            <script src="JS/BxSlider-2(jquery.bxslider.min).js"></script>
+            <link href="CSS/General/BxSlider.css" rel="stylesheet" />
+
+
+        <!-- Подключаем дополнительные компоненты -->
+        <link rel = "shortcut icon" type = "image/x-icon" href = "/bitrix/templates/empty/images/Header/TitleTabx48px.png"> <!-- Подкл. иконку -->
+</HEAD>
+
+
+
+
+<BODY>
+
+<!-- HEADER -->
+	<div class="header">
+
+    <!-- TopMenu_1 _BEGIN -->
+	    <div class="TopMenu_1">
+	        <div class="Header_Logo">
+    	       	<a href ="#"> <img height="70px" width="412px" src="images/Header/Logo.png" alt="Логотип сайта" title="Логотип компании"> </a>
+            </div>
+
+            <div class="Header_Phone">
+                <pre>8 800 200 48 01</pre>
+
+              <div class="Header_Phone_comment">
+                   <pre>Звонок бесплатный</pre>
+              </div>
+            </div>
+
+            <div class="Header_Recycle">
+                <a href="#"> <img height="54px" width="54px" src="images/Header/Recycle.png" alt="Корзина" title="Моя корзина товаров"> </a>
+            </div>
+        </div>
+    <!-- TopMenu_1 _END -->
+
+<!-- +++ -->
+
+<!-- управление скрывающийся панелью ........................BEGIN -->
+	<script type="text/javascript">
+    $(document).ready(function()
+	{
+    	var $TopMenu_2_hidden = $("#TopMenu_2_hidden");
+
+        $(window).scroll(function()
+		{
+			if ( $(this).scrollTop() > 150 && $TopMenu_2_hidden.hasClass("default") ) /*>150 - если проскролил больше 200px, то... */
+			{
+            	$TopMenu_2_hidden.fadeOut(
+				'fast',function() /*отображаем меню*/
+				{
+                	$(this).removeClass("default")
+                    .addClass("fixed transbg")
+                    .fadeIn('fast');
+                });
+	        }
+			else
+				if($(this).scrollTop() <= 150 && $TopMenu_2_hidden.hasClass("fixed"))
+				{
+					$TopMenu_2_hidden.fadeOut(
+					'fast',function() /*скрываем меню*/
+					{
+						$(this).removeClass("fixed transbg")
+						.addClass("default")
+						.fadeIn('fast');
+					});
+				}
+			}
+		);//scroll
+
+        $TopMenu_2_hidden.hover
+		(
+        	function()
+			{
+            	if( $(this).hasClass('fixed') )
+				{
+                	$(this).removeClass('transbg');
+                }
+            },
+            function()
+			{
+            	if( $(this).hasClass('fixed') )
+				{
+                	$(this).addClass('transbg');
+                }
+            }
+		);//hover
+	});//jQuery
+	</script>
+<!-- управление скрывающийся панелью ........................END -->
+
+    <!-- TopMenu_2 _BEGIN -->
+        <div class="TopMenu_2">
+            <div id="TopMenu_2_hidden" class="default">
+
+                <div class="Btn_1">
+                    <a href="#"> Каталог </a>
+                </div>
+
+                <div class="Btn_2">
+                    <a href="#"> Как купить </a>
+                </div>
+
+                <div class="Btn_3">
+                    <a href="#"> Доставка </a>
+                </div>
+
+                <div class="Btn_4">
+                    <a href="#"> Гарантия</a>
+                </div>
+
+                <div class="Btn_5">
+                    <a href="Contacts.html"> Контакты </a>
+                </div>
+
+                <div class="Btn_6">
+                    <a href="#"> О нас </a>
+                </div>
+
+                <div class="Find">
+                    <!-- Поле поиска .... BEGIN -->
+                    <div class = "position_Find">
+                        <form class="form-wrapper cf">
+                            <input type="text" placeholder="Поиск товара..." required>
+                            <button type="submit">Искать</button>
+                        </form>
+                    </div>
+                    <!-- Поле поиска .... END -->
+                </div>
+            </div>
+        </div>
+    <!-- TopMenu_2 _END -->
+
+<!-- +++ -->
+
+    <!-- TopMenu_3 _BEGIN -->
+        <div class="TopMenu_3">
+            <!-- Orange splitter -->
+        </div>
+    <!-- TopMenu_2 _END -->
+
+<!-- HEADER -->
+</div>
+
+
+
+
+<!-- BODY -->
+<div class = "clear"></div> <!-- Начинаем блоки с новой "строки" -->
+
+<div class="body_1">
+
+    <div class="Block"> <!-- 1st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Action-1.png" alt = "Товары по Акции">
+                <p> Товары по Акции </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 2st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/auto chemistry.png" alt = "Авто химия">
+                <p> Автохимия </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 3st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/household chemicals.png" alt = "Бытовая химия">
+                <p> Бытовая химия </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 4st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/balancing equipment.png" alt = "Балансировочное и шиномонтажное оборудование">
+                <p> Балансировка и шиномонтаж </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 5st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/cargo.png" alt = "Груза">
+                <p> Груза </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 6st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/diagnostic equipment.png" alt = "Диагностическое оборудование">
+                <p> Диагностическое оборудование </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 7st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/tool.png" alt = "Инструмент">
+                <p> Инструмент </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 8st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Compressors.png" alt = "Компрессоры">
+                <p> Компрессоры </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 9st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Measuring equipment.png" alt = "Контрольно измерительное оборудование">
+                <p> Измерительное оборудование </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 10st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Equipment for the inspection.png" alt = "Оборудование для технического осмотра транспортных средств">
+                <p> Технический осмотр </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 11st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/tyre works.png" alt = "Материал для шиноремонта">
+                <p> Материал для шиноремонта </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 12st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Pressure washers.png" alt = "Моечно-уборочное оборудование">
+                <p> Моечно-уборочное оборудование </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 13st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Cargo service.png" alt = "Оборудование для грузового сервиса">
+                <p> Оборудование для грузового сервиса </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 14st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Systems and units.png" alt = "Оборудование для обслуживания систем и агрегатов">
+                <p> Оборудование для обслуживания систем и агрегатов </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 15st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Body repair.png" alt = "Оборудование и инструмент для кузовного ремонта">
+                <p> Кузовной ремонт </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 16st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/total garage equipment.png" alt = "Общегаражное оборудование">
+                <p> Общегаражное оборудование </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 17st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/spray drying equipment.png" alt = "Окрасочно-сушильное оборудование">
+                <p> Окраска и сушка </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 18st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/air tool.png" alt = "Пневмоинструмент">
+                <p> Пневмоинструмент </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 19st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/lifting equipment.png" alt = "Подъемное оборудование">
+                <p> Подъемное оборудование </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 20st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Industrial furniture.png" alt = "Производственная мебель">
+                <p> Производственная мебель </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 21st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/Gates.png" alt = "Секционные ворота и рольставни">
+                <p> Секционные ворота и рольставни </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 22st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/welding start charging equipment.png" alt = "Сварочное и пуско-зарядное оборудование">
+                <p> Сварочное оборудование </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 23st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/lubricant filling equipment.png" alt = "Смазочно-заправочное оборудование">
+                <p> Смазка и заправка </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 24st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/special tool.png" alt = "Специнструмент">
+                <p> Специнструмент </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 25st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/index/stands.png" alt = "Стенды развал-схождения">
+                <p> Стенды развал-схождения </p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- СПИСОК ПАРТНЕРОВ -->
+
+<div class = "clear"></div> <!-- Начинаем блоки с новой "строки" -->
+<div class="line"></div> <!-- прерывистая линия -->
+
+
+    <!-- управление слайдером ........................BEGIN -->
+    <script type="text/javascript">
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				randomStart: true,				/*картинки будут стартовать в случайной последовательности*/
+				speed: 8000,					/*скорость прокрутки, по умолчанию 500*/
+				autoControls: true,				/*Дает две кнопки для пролистывания SOPT и PAUSED*/
+				slideWidth: 800,				/*ширина для каждого слайда*/
+				minSlides: 8,					/*минимальное количество блока*/
+				maxSlides: 10,					/*максимальное количество блоков*/
+				slideMargin: 10,				/*отступы между слайдами*/
+				touchEnabled: true,				/*Если true, слайдер позволит сенсорные переходы по слайдам*/
+				pause: 7000,					/*кол-во МС между автоматическим переходом (умолчание; 4000)*/
+				auto: true, 					/*автоматическое пролистывание слайда*/
+				moveSlides: 2,					/*Кол-во перелистываемых слайдов*/
+				pager: false					/*убирает кнопки прокрутки*/
+
+			}); });
+	</script>
+    <!-- управление слайдером ..........................END -->
+
+
+  	<div class = "partners_font">
+		<P> Наши партнеры и поставщики: </P>
+    </div>
+
+    <div class="body_2">
+<!-- Горизонтальная менюшка-карусель для наших партнеров -->
+        <ul class="bxslider">
+            <li><a href ="#"> <img height="60px" width="160px" src="images/Footer/ABAC.png" alt="ABAC" title="Открыть продукцию ABAC"> 						</a></li>
+            <li><a href ="#"> <img height="60px" width="160px" src="images/Footer/AE&T.png" alt="AE&T" title="Открыть продукцию AE&T"> 						</a></li>
+            <li><a href ="#"> <img height="60px" width="130px" src="images/Footer/atas.png" alt="atas" title="Открыть продукцию ATAS"> 						</a></li>
+           	<li><a href ="#"> <img height="60px" width="155px" src="images/Footer/bosh.png" alt="BOSH" title="Открыть продукцию BOSH"> 						</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/corghi.png" alt="corghi" title="Открыть продукцию Corghi"> 				</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/grass.png" alt="grass" title="Открыть продукцию Grass"> 					</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/haweka.png" alt="Haweka" title="Открыть продукцию Haweka"> 				</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/hofmann.png" alt="Hofmann" title="Открыть продукцию Hofmann"> 			</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/nilfisk.png" alt="Nilfisk" title="Открыть продукцию Nilfisk"> 			</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/nordberg.gif" alt="Nordberg" title="Открыть продукцию nordberg"> 			</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/remeza.png" alt="Remeza" title="Открыть продукцию Remeza"> 				</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/rossvik.png" alt="Rossvik" title="Открыть продукцию Rossvik"> 			</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/sivik.png" alt="Sivik" title="Открыть продукцию Sivik"> 					</a></li>
+            <li><a href ="#"> <img height="60px" width="155px" src="images/Footer/trommelderg.png" alt="Trommelderg" title="Открыть продукцию Trommelderg"> </a></li>
+        </ul>
+    </div> <!-- body_2 _END -->
+<!-- BODY -->
+
+
+
+
+<!-- FOOTER -->
+<div class="footer">
+<!-- оранжевый сплиттер -->
+    <div class="BottomMenu_1">
+        <!-- Orange splitter -->
+    </div>
+
+<!-- Голубое меню с общей информацией -->
+	<div class="BottomMenu_2"> <!-- общие настройки -->
+   	    <div class="BM_2_block_1">
+            <p><a href="#"><strong> Новости </strong></a></p>
+            <p><a href="#"><strong> Задать вопрос </strong></a></p>
+        </div>
+
+         <div class="BM_2_block_2">
+            <p><strong> Часы работы: Пн-Пт: с 09:00-18:00 </strong></p>
+
+            <div class="BM_2_block_2_text_2">
+			    <p><strong> Сб-Вс: с 09:00-17:00 </strong></p>
+            </div>
+         </div>
+    </div> <!-- BottomMenu_3 _END -->
+
+
+<!-- Самое нижняя горизонтальная менюшка - footer -->
+	<div id="BottomMenu_3">
+	    <div class="BottomMenu_3"> <!-- для отображения оранжевого фонового меню -->
+            <UL>
+                <div class = "BottomMenu_3_position"> <!-- будет приминимо только для списков -->
+                	<div class="BottomMenu_3_text_left">
+						<p><TT> © Интернет-магазин оборудования для автосервиса "Автомеханик", 2000 - 2016 </TT></p>
+                    </div>
+
+                    <div class="BottomMenu_3_text_right">
+	                    <p><TT> Powered by: <strong><a href="https://play.google.com/store/apps/developer?id=Elelion" TARGET = "_blank">
+                        	Elelion </a> </strong></TT></p>
+                    </div>
+                </div>
+            </UL>
+        </div>
+    </div> <!-- TopMenu_2 _END -->
+</div>
+<!-- FOOTER -->
+
+</BODY>
+</HTML>

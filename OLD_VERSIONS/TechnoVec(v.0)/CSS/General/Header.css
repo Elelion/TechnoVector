@@ -1,0 +1,616 @@
+.TopMenu_1
+{
+	/*border:1px solid #000;*/
+
+  height: 80px;
+  width: auto;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.Header_Logo img
+{
+  /*border:1px solid #000;*/
+
+  margin: 0 0 0 8%;	
+	width:412px;
+  height: 80px;
+	float:left;
+}
+
+.Header_Phone
+{
+	/*border:1px solid #000;*/
+
+  padding: 0 0 0 20%;
+	width:200px;
+  height: 80px;
+	float:left;
+  text-align: center;
+}
+
+.Header_Phone pre /*выравниваем текст*/
+{
+  margin: 20px 0 0 0;
+  font-size: 21px;
+  height: 2px;
+}
+
+.Header_Phone_comment
+{
+    /*border: 1px dashed #000;*/
+
+    margin: 15px 0 60px 0;    
+    width:200px;
+    height: 40px;
+    float: left;
+}
+
+.Header_Phone_comment pre /*выравниваем текст*/
+{
+  margin: 1px 0 0 0;
+  font-size: 14px;
+  height: 7px;
+}
+
+.Header_Recycle
+{
+	/*border:1px solid #000;*/
+	
+  width:80px;
+  height: 80px;
+	float:right;
+}
+
+.Header_Recycle img /*выравниваем картинку карзины*/
+{
+    padding: 15%;
+}
+
+
+/*........................*/
+
+
+.TopMenu_2
+{
+    /*border: 1px solid #000;*/
+    
+    height: 56px;
+    background:#346BA2; /*цвет видимого голубого меню*/
+    font-family: 'Capriola', sans-serif;
+    width: auto;
+}
+
+.Btn_1
+{
+  /*border: 1px dashed #000;*/
+
+  width: 112px;
+  height: 56px;
+  float:left;
+  margin: 0 0 0 8%;
+}
+
+.Btn_1 a /*Редактируем текст в нутри блока*/
+{
+	display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+	padding: 16px 25px 0; /*границы для блока*/
+	text-decoration: none; /* убираем подчеркивание */
+	font-size: 18px; /* размер текста */
+	color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;
+}
+
+.Btn_1:hover { background: #DC620D; transition: background 1s, color 2s; }
+
+.Btn_2, .Btn_3, .Btn_4, .Btn_5, .Btn_6 /*т.к. параметры далее для всех кнопок одинаковые, задаем их сразу*/
+{
+  /*border: 1px dashed #000;*/
+
+  width: 112px;
+  height: 57px;
+  float:left;
+}
+
+.Btn_2 a /*Редактируем текст в нутри блока*/
+{
+	display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+	padding: 16px 12px 0; /*границы для блока*/
+	text-decoration: none; /* убираем подчеркивание */
+	font-size: 18px; /* размер текста */
+	color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;
+}
+
+.Btn_2:hover { background: #DC620D; transition: background 1s, color 2s; }
+
+.Btn_3 a /*Редактируем текст в нутри блока*/
+{
+	display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+	padding: 16px 16px 0; /*границы для блока*/
+	text-decoration: none; /* убираем подчеркивание */
+	font-size: 18px; /* размер текста */
+	color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;
+}
+
+.Btn_3:hover { background: #DC620D; transition: background 1s, color 2s; }
+
+.Btn_4 a /*Редактируем текст в нутри блока*/
+{
+	display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+	padding: 16px 18px 0; /*границы для блока*/
+	text-decoration: none; /* убираем подчеркивание */
+	font-size: 18px; /* размер текста */
+	color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;
+}
+
+.Btn_4:hover { background: #DC620D; transition: background 1s, color 2s; }
+
+.Btn_5 a /*Редактируем текст в нутри блока*/
+{
+	display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+	padding: 16px 16px 0; /*границы для блока*/
+	text-decoration: none; /* убираем подчеркивание */
+	font-size: 18px; /* размер текста */
+	color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;
+}
+
+.Btn_5:hover { background: #DC620D; transition: background 1s, color 2s; }
+
+.Btn_6 a /*Редактируем текст в нутри блока*/
+{
+	display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+	padding: 16px 28px 0; /*границы для блока*/
+	text-decoration: none; /* убираем подчеркивание */
+	font-size: 18px; /* размер текста */
+	color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;
+}
+
+.Btn_6:hover { background: #DC620D; transition: background 1s, color 2s; }
+
+
+/*..................*/
+
+
+/*появляющейся меню при прокрутке*/
+.TopMenu_2_hidden /*оранжевая полоска за основным меню*/
+{
+	margin: -13px 0 0 0;	/*Фоновое меню*/
+  zoom: 1;
+	height: 63px; /*63*/
+	background: #346BA2; /*#DC620D; /*цвет фонового оранжевого меню */
+	border-radius: 4px;
+	width: auto;
+}
+
+.fixed
+{
+    position:fixed; /*задаем фиксированную позицию для меню относительно прокрутки */
+    top:-5px; left:0; /*отступ для всплывающего меню */
+    width:100%;
+    height: 53px;/*размер синей появл.менюхи - 170 при сжатии окна*/
+    padding:4px 0; /*прозрачные поля от меню*/
+
+	/* задаем тень */
+    -moz-box-shadow: 5px 5px 20px #333;
+    -webkit-box-shadow: 5px 5px 20px #333;
+	box-shadow: 5px 5px 20px #333;
+
+    transition: background 1s, color 2s;
+   	background: #346BA2; /*цвет фонового оранжевого меню */
+}
+
+.default /*шырина появляющегося меню */
+{
+	width:auto;
+}
+
+.transbg /*задаем прозрачность появляющегося меню */
+{
+	background-color: rgba(60, 130, 190, 0.95)!important;
+/* 60, 130, 190 - RGB светло голубой || 220, 98. 13*/
+}
+
+
+/*........................................................................................НАЧАЛО Оформляем поле для поиска */
+.Find
+{
+    /*border: 1px dashed #000;*/
+    float: right;
+    margin: 0 40px 0 0;
+    width: 330px;
+    height: 56px;
+
+}
+
+    .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+
+    .cf:after{
+      clear:both;
+    }
+
+    .cf{
+      zoom:1;
+    }
+
+.form-wrapper /*прозрачный блок*/
+{
+	width: 300px;
+	padding: 15px 15px 15px 15px;
+	background: #444; /*цвет блока*/
+	background: rgba(0,0,0,.2); /*прозрачность*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+	box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+
+.form-wrapper input  /*поле ввода Edit*/
+{
+	width: 208px;
+    height: 16px;
+    padding: 6px 5px;
+    float: left;
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.form-wrapper input:focus  /*Поле ввода Edit, событие при клике*/
+{
+	outline: 0;
+    background: #fff;
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+    .form-wrapper input::-webkit-input-placeholder {
+       color: #999;
+       font-weight: normal;
+       font-style: italic;
+    }
+
+    .form-wrapper input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    .form-wrapper input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+.form-wrapper button /*Кнопка ИСКАТЬ*/
+{
+	overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    margin: 0 2px 0 0px;
+    padding: 0;
+    cursor: pointer;
+    height: 28.4px;
+    width: 80px;
+    font: bold 15px/20px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff; /* цвет текста в нутри кнопки*/
+    text-transform: uppercase;
+    background: #1484CE; /*Цвет кнопки*/
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+.form-wrapper button:hover /*При наведении мышки на кнопку поиска */
+{
+        background: #DC620D;
+}
+
+    .form-wrapper button:active,
+    .form-wrapper button:focus{
+/*        background: #c42f2f;    */
+    }
+
+.form-wrapper button:before  /*Треугольник перед кнопкой ПОИСК*/
+{
+	content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #1484CE transparent;
+    top: 6px;
+    left: -6px;
+}
+
+.form-wrapper button:hover:before /*Треугольник перед кнопкой ПОИСК при наведении мышкой*/
+{
+	border-right-color: #DC620D;
+}
+
+/*    .form-wrapper button:focus:before{
+        border-right-color: #c42f2f;
+    }    */
+
+/*    .form-wrapper button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }*/
+/*........................................................................................КОНЕЦ Оформляем поле для поиска */
+
+
+/*..................*/
+
+
+.TopMenu_3 /*оранжевый сплиттер*/
+{
+    /*border: 1px solid #000;*/
+
+    height: 4px;
+    width: auto;
+    font-size: 14px;
+    border-radius: 0px;
+    background: #DC620D; /*цвет фонового оранжевого меню */
+}
+
+
+
+
+/*....МАСШТАБИРОВАНИЕ...................................................................*/
+@media screen and (max-width: 1286px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .TopMenu_1 {  }
+    .Header_Logo img { margin: 0 0 0 2%; width:412px%; }                              /*масштабируем логотип*/
+    .Header_Phone { width:190px;         height: 80px; margin: 0 0 0 2%; }        /*масштабируем телефон */
+    .Header_Phone_comment { width:190px; height: 30px; margin: 25px 0 0 -1px; }   /*Масштабируем текст под телефоном*/
+    .Header_Recycle { width:80px;         height: 80px; margin: 0 2.7% 0 0; }      /*Масштабируем карзину*/
+
+
+  /*TopMenu_2*/
+    .TopMenu_2 { height: 56; }
+    .Btn_1 { width: 11%; margin: 0 auto 0 2%; } /*1 кнопка*/
+    .Btn_2 { width: 12%; margin: auto; }        /*2 кнопка*/
+    .Btn_3 { width: 11%; margin: auto; }        /*3 кнопка*/
+    .Btn_4 { width: 11%; margin: auto; }        /*4 кнопка*/
+    .Btn_5 { width: 11%; margin: auto; }        /*5 кнопка*/
+    .Btn_6 { width: 11%; margin: auto; }        /*6 кнопка*/
+    .Find { margin: 0 2.7% 0 0; width: 26%; }   /*Блок "Поиск"*/
+    .form-wrapper { width: 95%; } /*прозрачный блок*/
+    .form-wrapper input { width: 68.8%; } /*Edit*/
+}
+
+@media screen and (max-width: 1215px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+
+  /*TopMenu_2*/
+    .Find { margin: 0 2.7% 0 0; width: 26%; }   /*Блок "Поиск"*/
+    .form-wrapper { width: 95%; } /*прозрачный блок*/
+    .form-wrapper input { width: 66.2%; } /*Edit*/
+}
+
+@media screen and (max-width: 1120px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .Header_Phone { padding: 0 0 0 5%; }
+
+  /*TopMenu_2*/
+    .Find { margin: 0 2.7% 0 0; width: 26%; }   /*Блок "Поиск"*/
+    .form-wrapper { width: 95%; } /*прозрачный блок*/
+    .form-wrapper input { width: 62.8%; } /*Edit*/
+}
+
+@media screen and (max-width: 1028px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+
+  /*TopMenu_2*/
+    .Find { margin: 0 2.7% 0 0; width: 26%; }   /*Блок "Поиск"*/
+    .form-wrapper { width: 95%; } /*прозрачный блок*/
+    .form-wrapper input { width: 60.4%; } /*Edit*/
+
+  .header { width: 99.6%; }
+
+}
+
+@media screen and (max-width: 968px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .Header_Phone { padding: 0 0 0 0; }
+
+  /*TopMenu_2*/
+    .TopMenu_2 { height: 120px; }
+    .Btn_1 { width: 15.6%; margin: 0 auto 0 2%; text-align: center;} /*1 кнопка*/
+    .Btn_2 { width: 15.6%; margin: auto; }        /*2 кнопка*/
+    .Btn_3 { width: 15.7%; margin: auto; }        /*3 кнопка*/
+    .Btn_4 { width: 15.7%; margin: auto; }        /*4 кнопка*/
+    .Btn_5 { width: 15.7%; margin: auto; }        /*5 кнопка*/
+    .Btn_6 { width: 15.7%; margin: auto; }        /*6 кнопка*/
+    .Find { margin: 0 2.7% 0 0%; width: 95%; }    /*Блок "Поиск"*/
+    .form-wrapper { width: 96.1%; } /*прозрачный блок*/
+    .form-wrapper input { width: 86.7%; } /*Edit*/
+
+/*Header _END*/
+}
+
+@media screen and (max-width: 780px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .TopMenu_1 { height: 139px; }
+    .Header_Logo img { margin: 0 0 0 2%; width:412px%; }                              /*масштабируем логотип*/
+    .Header_Phone { width:190px;         height: 55px; margin: 82px 0 0 -40%; }   /*масштабируем телефон */
+    .Header_Phone pre { height: 10px; margin: 1%; }
+    .Header_Phone_comment { width:190px; height: 30px; margin: 10px 0 0 -1px; }   /*Масштабируем текст под телефоном*/
+    .Header_Phone_comment pre { height:20px; margin: 1%;}
+    .Header_Recycle { width:80px;         height: 80px; margin: 0 25% 0 0; }     /*Масштабируем карзину*/
+
+
+  /*TopMenu_2*/
+    .Btn_1 { width: 15.0%; }        /*1 кнопка*/
+    .Btn_2 { width: 16.2%; }        /*2 кнопка*/
+    .Btn_3 { width: 15.7%; }        /*3 кнопка*/
+    .Btn_4 { width: 15.7%; }        /*4 кнопка*/
+    .Btn_5 { width: 15.7%; }        /*5 кнопка*/
+    .Btn_6 { width: 15.7%; }        /*6 кнопка*/
+
+    .form-wrapper { width: 95.7%; } /*прозрачный блок*/
+    .form-wrapper input { width: 84.5%; } /*Edit*/
+
+@media screen and (max-width: 708px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .Header_Recycle { width:80px;         height: 80px; margin: 0 15% 0 0; }     /*Масштабируем карзину*/
+
+
+  /*TopMenu_2*/
+    .TopMenu_2 { height: 180px; }
+    .Btn_1 { width: 31.4%; margin: 0 auto 0 2%; } /*1 кнопка*/
+    .Btn_2 { width: 31.3%; margin: auto; }        /*2 кнопка*/
+    .Btn_3 { width: 31.3%; margin: auto; }        /*3 кнопка*/
+    .Btn_4 { width: 31.3%; margin: 0 auto 0 2%; } /*4 кнопка*/
+    .Btn_5 { width: 31.3%; margin: auto; }        /*5 кнопка*/
+    .Btn_6 { width: 31.4%; margin: auto; }        /*6 кнопка*/
+    .Find { margin: 0 3.1% 0 0; width: 94.5%; } /*Блок "Поиск"*/
+    .form-wrapper { width: 95.1%; } /*прозрачный блок*/
+    .form-wrapper input { width: 82.4%; } /*Edit*/
+
+  /*Появляющееся верхнее меню*/
+    .fixed { height: 112px; }
+/*Header _END*/
+}
+
+@media screen and (max-width: 618px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .Header_Recycle { width:80px;         height: 80px; margin: 0 5% 0 0; }     /*Масштабируем карзину*/
+
+
+  /*TopMenu_2*/
+    .form-wrapper { width: 94.6%; } /*прозрачный блок*/
+    .form-wrapper input { width: 81.2%; } /*Edit*/
+
+/*Header _END*/
+}
+
+@media screen and (max-width: 570px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .Header_Recycle { width:80px;         height: 80px; margin: 0 2% 0 0; }     /*Масштабируем карзину*/
+
+
+  /*TopMenu_2*/
+    .form-wrapper { width: 94.2%; } /*прозрачный блок*/
+    .form-wrapper input { width: 80.4%; } /*Edit*/
+
+/*Header _END*/
+}
+
+@media screen and (max-width: 548px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .TopMenu_1 { height: 139px; }
+    .Header_Logo img { margin: 0 0 0 2%; width:95%; }                             /*масштабируем логотип*/
+    .Header_Phone { width:190px;         height: 55px; margin: 0 0 0 2%; }        /*масштабируем телефон */
+    .Header_Phone pre { height: 10px; margin: 1%; }
+    .Header_Phone_comment { width:190px; height: 25px; margin: 10px 0 0 -1px; }   /*Масштабируем текст под телефоном*/
+    .Header_Phone_comment pre { height:20px; margin: 1%;}
+    .Header_Recycle { width:27%;         height: 55px; margin: 0 2.2% 0 0; }      /*Масштабируем карзину*/
+    .Header_Recycle img { width:55px;         height: 55px; margin: -16% -2.7% 0 0; }
+
+
+  /*TopMenu_2*/
+    .TopMenu_2 { height: 180px; }
+    .Btn_1 { width: 31.4%; margin: 0 auto 0 2%; } /*1 кнопка*/
+    .Btn_2 { width: 31.3%; margin: auto; }        /*2 кнопка*/
+    .Btn_3 { width: 31.3%; margin: auto; }        /*3 кнопка*/
+    .Btn_4 { width: 31.3%; margin: 0 auto 0 2%; } /*4 кнопка*/
+    .Btn_5 { width: 31.3%; margin: auto; }        /*5 кнопка*/
+    .Btn_6 { width: 31.4%; margin: auto; }        /*6 кнопка*/
+    .Find { margin: 0 3.1% 0 0; width: 94.5%; } /*Блок "Поиск"*/
+    .form-wrapper { width: 93.7%; } /*прозрачный блок*/
+    .form-wrapper input { width: 74.2%; } /*Edit*/
+
+  .header { width: 99.6%; }
+
+/*Header _END*/
+}
+
+@media screen and (max-width: 430px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .TopMenu_1 { height: 139px; }
+    .Header_Logo img { margin: 0 0 0 2%; width:95%; }                                 /*масштабируем логотип*/
+    .Header_Phone { width:190px;         height: 55px; margin: 0 0 0 2%; }        /*масштабируем телефон */
+    .Header_Phone_comment { width:190px; height: 25px; margin: 10px 0 0 -1px; }   /*Масштабируем текст под телефоном*/
+    .Header_Recycle { width:27%;         height: 55px; margin: 0 2.2% 0 0; }      /*Масштабируем карзину*/
+
+
+  /*TopMenu_2*/
+    .TopMenu_2 { height: 240px; }
+    .Btn_1 { width: 47.2%; margin: 0 auto 0 2%; } /*1 кнопка*/
+    .Btn_2 { width: 47.2%; margin: auto; }        /*2 кнопка*/
+    .Btn_3 { width: 47.2%; margin: 0 auto 0 2%; } /*3 кнопка*/
+    .Btn_4 { width: 47.2%; margin: auto; }        /*4 кнопка*/
+    .Btn_5 { width: 47.2%; margin: 0 auto 0 2%; } /*5 кнопка*/
+    .Btn_6 { width: 47.2%; margin: auto; }        /*6 кнопка*/
+    .Find { margin: 0 2% 0 0; width: 95%; } /*Блок "поиск"*/
+    .form-wrapper { width: 92.3%; } /*прозрачный блок*/
+    .form-wrapper input { width: 72.2%; } /*Edit*/
+
+  /*Появляющееся верхнее меню*/
+    .fixed { height: 170px; }
+/*Header _END*/
+}
+
+@media screen and (max-width: 400px)
+{
+/*Header _BEGIN*/
+  /*TopMenu_1*/
+    .TopMenu_1 { height: 139px; }
+    .Header_Logo img { margin: 4% 0 0 2%; width:95%; }                            /*масштабируем логотип*/
+    .Header_Phone { width:190px;         height: 42px; margin: 0 0 0 2%; }        /*масштабируем телефон */
+    .Header_Phone pre { height: 10px; margin: 1%; }
+    .Header_Phone_comment { width:190px; height: 20px; margin: 10px 0 0 -1px; }   /*Масштабируем текст под телефоном*/
+    .Header_Phone_comment pre { height:20px; margin: 1%;}
+    .Header_Recycle { width:26.6%;         height: 42px; margin: 0 2.2% 0 0; }      /*Масштабируем карзину*/
+    .Header_Recycle img { margin: -24px 0 0 0; }
+
+  /*TopMenu_2*/
+    .Find { margin: 0 2% 0 0; width: 95%; } /*Блок "поиск"*/
+    .form-wrapper { width: 90%; } /*прозрачный блок*/
+    .form-wrapper input { width: 61.4%; } /*Edit*/
+
+/*Header _END*/
+}

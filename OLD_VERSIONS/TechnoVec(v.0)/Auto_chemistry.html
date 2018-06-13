@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD> 
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+        <TITLE> Автомеханник </TITLE>
+
+        <!-- Подключаем стили (*.CSS) -->
+        <link rel="stylesheet" href="CSS/General/Basic.css">
+        <link rel="stylesheet" href="CSS/General/Header.css">
+        <link rel="stylesheet" href="CSS/Auto_chemistry/Body.css">
+        <link rel="stylesheet" href="CSS/General/Footer.css">
+
+        <!-- Подключаем скрипты и дополнительные стили -->
+          <!-- для появляющегося меню WebComplex -->
+            <script SRC="JS/WebComplex(jquery.min).js"></script>
+
+        <!-- Подключаем дополнительные компоненты -->
+        <link rel = "shortcut icon" type = "image/x-icon" href = "images/Header/TitleTabx48px.png"> <!-- Подкл. иконку -->
+</HEAD>
+
+
+
+
+<BODY>
+
+<!-- HEADER -->
+	<div class="header">
+
+    <!-- TopMenu_1 _BEGIN -->
+	    <div class="TopMenu_1">
+	        <div class="Header_Logo">
+    	       	<a href ="#"> <img height="70px" width="412px" src="images/Header/Logo.png" alt="Логотип сайта" title="Логотип компании"> </a>
+            </div>
+
+            <div class="Header_Phone">
+                <pre>8 800 200 48 01</pre>
+
+              <div class="Header_Phone_comment">
+                   <pre>Звонок бесплатный</pre>
+              </div>
+            </div>
+
+            <div class="Header_Recycle">
+                <a href="#"> <img height="54px" width="54px" src="images/Header/Recycle.png" alt="Корзина" title="Моя корзина товаров"> </a>
+            </div>
+        </div>
+    <!-- TopMenu_1 _END -->
+
+<!-- +++ -->
+
+<!-- управление скрывающийся панелью ........................BEGIN -->
+	<script type="text/javascript">
+    $(document).ready(function()
+	{
+    	var $TopMenu_2_hidden = $("#TopMenu_2_hidden");
+
+        $(window).scroll(function()
+		{
+			if ( $(this).scrollTop() > 150 && $TopMenu_2_hidden.hasClass("default") ) /*>150 - если проскролил больше 200px, то... */
+			{
+            	$TopMenu_2_hidden.fadeOut(
+				'fast',function() /*отображаем меню*/
+				{
+                	$(this).removeClass("default")
+                    .addClass("fixed transbg")
+                    .fadeIn('fast');
+                });
+	        }
+			else
+				if($(this).scrollTop() <= 150 && $TopMenu_2_hidden.hasClass("fixed"))
+				{
+					$TopMenu_2_hidden.fadeOut(
+					'fast',function() /*скрываем меню*/
+					{
+						$(this).removeClass("fixed transbg")
+						.addClass("default")
+						.fadeIn('fast');
+					});
+				}
+			}
+		);//scroll
+
+        $TopMenu_2_hidden.hover
+		(
+        	function()
+			{
+            	if( $(this).hasClass('fixed') )
+				{
+                	$(this).removeClass('transbg');
+                }
+            },
+            function()
+			{
+            	if( $(this).hasClass('fixed') )
+				{
+                	$(this).addClass('transbg');
+                }
+            }
+		);//hover
+	});//jQuery
+	</script>
+<!-- управление скрывающийся панелью ........................END -->
+
+    <!-- TopMenu_2 _BEGIN -->
+        <div class="TopMenu_2">
+            <div id="TopMenu_2_hidden" class="default">
+
+                <div class="Btn_1">
+                    <a href="#"> Каталог </a>
+                </div>
+
+                <div class="Btn_2">
+                    <a href="#"> Как купить </a>
+                </div>
+
+                <div class="Btn_3">
+                    <a href="#"> Доставка </a>
+                </div>
+
+                <div class="Btn_4">
+                    <a href="#"> Гарантия</a>
+                </div>
+
+                <div class="Btn_5">
+                    <a href="Contacts.html"> Контакты </a>
+                </div>
+
+                <div class="Btn_6">
+                    <a href="#"> О нас </a>
+                </div>
+
+                <div class="Find">
+                    <!-- Поле поиска .... BEGIN -->
+                    <div class = "position_Find">
+                        <form class="form-wrapper cf">
+                            <input type="text" placeholder="Поиск товара..." required>
+                            <button type="submit">Искать</button>
+                        </form>
+                    </div>
+                    <!-- Поле поиска .... END -->
+                </div>
+            </div>
+        </div>
+    <!-- TopMenu_2 _END -->
+
+<!-- +++ -->
+
+    <!-- TopMenu_3 _BEGIN -->
+        <div class="TopMenu_3">
+            <!-- Orange splitter -->
+        </div>
+    <!-- TopMenu_2 _END -->
+
+<!-- HEADER -->
+</div>
+
+
+
+
+<!-- BODY -->
+<div class = "clear"></div> <!-- Начинаем блоки с новой "строки" -->
+
+<div class="body_1">
+
+    <p>Автохимия</p>
+
+    <div class="Block"> <!-- 1st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Chemicals for touch-free washing.png" alt = "Автохимия для бесконтактной мойки">
+                <p> Автохимия для бесконтактной мойки </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 2st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Breathalysers for gantry car washes.png" alt = "Автохимия для портальных моек">
+                <p> Автохимия для портальных моек </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 3st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Car shampoos for manual cleaning.png" alt = "Автошампуни для ручной мойки">
+                <p> Автошампуни для ручной мойки </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 4st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Car fresheners.png" alt = "Ароматизаторы автомобильные">
+                <p> Ароматизаторы автомобильные </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 5st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Nanoprotect.png" alt = "Нанопротэк">
+                <p> Нанопротэк </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 6st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Cleaners.png" alt = "Очистители">
+                <p> Очистители </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 7st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Wipes.png" alt = "Полироли, воски и нанопродукция">
+                <p> Полироли, воски и нанопродукция </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Block"> <!-- 8st block -->
+        <div class="Block_design">
+            <a href = "#">
+                <img width ="160" height ="160" SRC ="images/Body/Auto_chemistry/Polishes waxes and nanoproducts.png" alt = "Протирочные материалы">
+                <p> Протирочные материалы </p>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class = "clear"></div> <!-- Начинаем блоки с новой "строки" -->
+<div class="separator"></div> <!-- задает просто отступ что бы блоки не шли слитно -->
+<!-- BODY -->
+
+
+
+
+<!-- FOOTER -->
+<div class="footer">
+<!-- оранжевый сплиттер -->
+    <div class="BottomMenu_1">
+        <!-- Orange splitter -->
+    </div>
+
+<!-- Голубое меню с общей информацией -->
+	<div class="BottomMenu_2"> <!-- общие настройки -->
+   	    <div class="BM_2_block_1">
+            <p><a href="#"><strong> Новости </strong></a></p>
+            <p><a href="#"><strong> Задать вопрос </strong></a></p>
+        </div>
+
+         <div class="BM_2_block_2">
+            <p><strong> Часы работы: Пн-Пт: с 09:00-18:00 </strong></p>
+
+            <div class="BM_2_block_2_text_2">
+			    <p><strong> Сб-Вс: с 09:00-17:00 </strong></p>
+            </div>
+         </div>
+    </div> <!-- BottomMenu_3 _END -->
+
+
+<!-- Самое нижняя горизонтальная менюшка - footer -->
+	<div id="BottomMenu_3">
+	    <div class="BottomMenu_3"> <!-- для отображения оранжевого фонового меню -->
+            <UL>
+                <div class = "BottomMenu_3_position"> <!-- будет приминимо только для списков -->
+                	<div class="BottomMenu_3_text_left">
+						<p><TT> © Интернет-магазин оборудования для автосервиса "Автомеханик", 2000 - 2016 </TT></p>
+                    </div>
+
+                    <div class="BottomMenu_3_text_right">
+	                    <p><TT> Powered by: <strong><a href="https://play.google.com/store/apps/developer?id=Elelion" TARGET = "_blank">
+                        	Elelion </a> </strong></TT></p>
+                    </div>
+                </div>
+            </UL>
+        </div>
+    </div> <!-- TopMenu_2 _END -->
+</div>
+<!-- FOOTER -->
+
+</BODY>
+</HTML>

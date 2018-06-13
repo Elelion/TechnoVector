@@ -1,0 +1,267 @@
+.body_1 /*левый блок*/
+{
+	border: 1px solid #000;
+    margin: 0 1% 0 1%;
+	padding: 40px 0 0 0; /*т.е. высота 40px*/
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+
+.title_1{ font-size: 32px; color:#53555A; padding: 20px 0 20px 20px; }
+
+.body_2 /*правый блок*/
+{
+	border: 1px solid #000;
+    margin: 0 0 0 0px;
+	padding: 40px 0 0 10px; /*т.е. высота 40px*/
+    width: 76%;
+    height: 1000px;
+    float: left;
+}
+
+/* ------------- */
+
+.body_2_1
+{
+    border: 1px dotted #000;
+    height: 50px;
+    width: auto;
+    margin: -35px 2% 0 1%;
+}
+
+/* ------------- */
+
+.body_2_2
+{
+    border: 1px dotted #ccc;
+    height: 30px;
+    width: 170px; /*30+30+30+30+50*/
+    margin: 30px auto 10px auto;
+    border-radius:3px;
+}
+
+.body_2_2_block_1, .body_2_2_block_2, .body_2_2_block_3, .body_2_2_block_4
+{
+    border-right: 1px solid #ccc;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.body_2_2_block_5
+{
+    height: 30px;
+    width: 50px;
+    float: right;
+}
+
+.body_2_2_block_1 a, .body_2_2_block_2 a, .body_2_2_block_3 a, .body_2_2_block_4 a, .body_2_2_block_4 a, .body_2_2_block_5 a /*убираем оформление для ссылок "а"*/
+{
+	text-decoration:none;
+    	display: block;
+}
+
+.body_2_2_block_1 p, .body_2_2_block_2 p, .body_2_2_block_3 p, .body_2_2_block_4 p, .body_2_2_block_4 p /*выравниваем текст в блоках*/
+{
+    margin: 4px 0 0 10px; text-align: left; color: #039BE5; display: block; width: 30px;
+}
+
+.body_2_2_block_5 p /*выравниваем текст отдельно т.к. блок длиннее остальных*/
+{
+    margin: -26px 0 0 14px; text-align: left; color: #039BE5; display: block; width: 50px;
+}
+
+/* ------------- */
+
+
+.Block /*Задаем ширину и вырвнивание блока*/
+{
+    width: 225px;  /*210*/
+    float: left;
+}
+
+.Block_design /*оформляем блок*/
+{
+    border:2px solid #fff; /*3989E4*/
+    border-radius:3px;
+    margin: 10px 10px 10px 10px;
+    height: 395px; /*высота блока*/
+}
+
+.Block_design img /*параметры картинки в блоке*/
+{
+    padding: 10%;
+}
+
+.Block_design a /*убираем подчеркивание текста в блоке*/
+{
+	text-decoration:none;
+}
+
+/*задаем оформление текста для блока*/
+.Block_design p
+{
+	font-size:14px;         /*размер шрифта*/
+	text-align:center;      /*выравнивание*/
+	font-weight:normal;     /*Толщина шрифта*/
+	margin:-8px 0 0 0;      /*отступы блока*/
+	padding:1px 5% 20px 5%; /*внутренние отступы*/
+	color:#01617d;          /*цвет текста*/
+	line-height:15px;       /*межстрочный интервал*/
+}
+
+.status
+{
+    color: #DC620D; /*оранжевый цвет*/
+    padding: 0 0 0 30%;
+    font-size: 18px;
+}
+
+.price
+{
+    padding: 14px 0 0 33%;
+    font-size: 20px;
+    font-weight: 600; /*задаем жирность текста*/
+    color:#000;
+}
+
+.Block_design:hover /*событие возникающее при наведении мышкой на любой блок*/
+{
+	border:2px solid #3989E4; /*Синий цвет*/
+  border-radius:3px;
+}
+
+
+/* ------------- */
+
+.sBlock_1 /*блок содержаций -, кол-во, + */
+{
+	border: 1px solid #039BE5; /*Светло-голубой цвет*/
+	height: 40px;
+	width: 87px; /* 38 + 24 + 24 = 38 + 48 = 86 + 1px for border's = 88 */
+	margin: 25px 0 0 20px;
+}
+
+
+
+
+.sBlockDown
+{
+	border-right: 1px solid: #039BE5; /*Светло-голубой цвет*/
+	width: 24px;
+	height: 40px;
+	float: left;	
+	margin: 0px 0 0 0;		
+}
+
+.sBlockDown input[type=Button]
+{
+	text-align: center;
+	width: 24px;
+	height: 40px;
+	text-align: center;	
+	cursor: pointer;
+	color: #fff;				 /*цвет текста в нутри кнопки*/
+	background: #039BE5; /*Светло-голубой цвет*/
+	/*border-radius: 0 3px 3px 0;*/
+	border-style: none none none none; 					/*Убираем рамки у кнопки*/
+  border-color: transparent #039BE5 transparent;	/*Убираем рамки у кнопки*/
+}
+
+.sBlockDown input[type=Button]:hover { background: #DC620D; transition: background 0.6s, color 0.6s; width: 25px; }
+.sBlockDown input[type=Button]:active { color: #000; background: #fff; transition: background 0.2s, color 0.2s; }
+
+
+
+
+.sBlockVolume /* для самого блока */
+{
+	width: 38px;
+	height: 40px;
+	float: left;		
+}
+
+.sBlockVolume input[type=text] /*для Edit'a в блоке */
+{
+	height:38px; 
+	width: 36px; 
+	border: 1px solid #039BE5; /*Светло-голубой цвет*/
+	margin: -1px 0 0 -1px;
+	text-align: center;
+}
+
+
+
+
+.sBlockUp
+{
+	border-left: 1px solid #039BE5; /*Светло-голубой цвет*/
+	height: 40px;
+	width: 24px;
+	float: left;	
+	margin: 0px 0 0 0;
+}
+
+.sBlockUp input[type=Button]
+{
+	text-align: center;
+	width: 25px;
+	height: 40px;
+	text-align: center;	
+	cursor: pointer;
+	color: #fff;				 /*цвет текста в нутри кнопки*/
+	background: #039BE5; /*Светло-голубой цвет*/
+	/*border-radius: 0 3px 3px 0;*/
+	border-style: none none none none; 						/*Убираем рамки у кнопки*/
+  border-color: transparent #039BE5 transparent;	/*Убираем рамки у кнопки*/
+}
+
+.sBlockUp input[type=Button]:hover { background: #DC620D; transition: background 0.6s, color 0.6s; width: 24px; }
+.sBlockUp input[type=Button]:active { color: #000; background: #fff; transition: background 0.2s, color 0.2s; }
+
+
+
+
+.sBlock_2 /*Блок с корзиной*/
+{
+	border: 1px solid #039BE5; /*Светло-голубой цвет*/
+	height: 40px;
+	width: 50px;
+	border-radius: 4px;
+	margin: -42px 0 0 130px;
+}
+
+.sBlock_2 img
+{
+	margin: -2px 0 0 2px; /*выравниваем картинку*/
+}
+
+.sBlock_2 a /*Редактируем текст в нутри блока*/
+{
+	display: block; 				/* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */  	
+	text-decoration: none; 	/* убираем подчеркивание */
+	height: 40px; 					/*область события*/
+	width: 50px;
+}
+
+.sBlock_2:hover { background-image: url(images/Header/Recycle_3.png); background: #DC620D; transition: background 1s, color 1s; }
+
+.test input[type=image]
+{
+	border: 1px solid #039BE5; /*Светло-голубой цвет*/
+	height: 40px;
+	width: 50px;
+	border-radius: 4px;	
+	margin: 1%;
+/*	img height="32px" width="32px" src="images/Header/Recycle_2.png"
+}
+.test input[type=image]:hover { background: #DC620D; transition: background 1s, color 1s;}
+.test input[type=image]:active { background-image: url(images/Header/Recycle_3.png); transition: background 0.2s, color 0.2s;}
+
+/* ------------- */
+
+.splitter
+{
+    margin: 10px 0 40px 0;
+}

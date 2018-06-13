@@ -1,0 +1,72 @@
+.body_1 /*для отсупа, т.е. для границ*/
+{
+/*	border: 1px solid #000; */
+
+    margin: 8px 0 0 0;
+	padding: 0px 10% 0 10%; /*т.е. высота 40px*/
+    width: auto;
+
+}
+
+.body_1 p
+{
+    font-size: 32px;
+    color:#53555A;
+    margin: 40px 0 20px 0;
+}
+
+
+/* ------------- */
+
+
+.Block /*Задаем ширину и вырвнивание блока*/
+{
+    width: 225px;  /*210*/
+    float: left;
+}
+
+.Block_design /*оформляем блок*/
+{
+	border:1px solid #ccc;
+    border-radius:3px;
+	margin: 10px 10px 10px 10px;
+	height: 245px; /*высота блока*/
+}
+
+.Block_design img /*параметры картинки в блоке*/
+{
+    padding: 10%;
+}
+
+.Block_design a /*убираем подчеркивание текста в блоке*/
+{
+	text-decoration:none;
+}
+
+/*задаем оформление текста для блока*/
+.Block_design p
+{
+	font-size:18px;         /*размер шрифта*/
+	text-align:center;      /*выравнивание*/
+	font-weight:normal;     /*Толщина шрифта*/
+	margin:-8px 0 0 0;      /*отступы блока*/
+	padding:1px 0 20px 0;   /*внутренние отступы*/
+	color:#01617d;          /*цвет текста*/
+	line-height:15px;       /*межстрочный интервал*/
+}
+
+.Block_design:hover /*событие возникающее при наведении мышкой на любой блок*/
+{
+/*	background:#e0eff4; */
+	box-shadow:1px 1px 5px #777; /*тень*/
+	border:1px solid #bfd5dd;    /*рамка выделения*/
+}
+
+
+/* ------------- */
+
+
+.separator
+{
+    margin: 0 0 50px 0;
+}

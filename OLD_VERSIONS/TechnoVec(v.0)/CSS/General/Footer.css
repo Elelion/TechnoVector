@@ -1,0 +1,161 @@
+.footer
+{
+  height: 120px;
+  width: auto;
+
+  padding: 0; /*убираем внутренние отступы*/
+  margin: 0 0 0 0;    /*убираем внешние отступы*/  
+
+  /*border: 1px solid #000;*/
+}
+
+
+/* ------------- */
+
+
+.BottomMenu_1 /*оранжевый сплиттер*/
+{
+/*    border: 1px solid #000;*/
+    height: 4px;    
+    width: auto;
+    background: #DC620D; /*цвет фонового оранжевого меню */    
+}
+
+
+/* ------------- */
+
+
+.BottomMenu_2 /*фоновое оранжевое меню*/
+{
+	background: #346BA2;
+  height: 90px;	/*62*/
+  width: auto;
+
+   /* border: 3px dotted #CC0000;*/   
+}
+
+.BM_2_block_1
+{
+	float: left;
+	margin: -3px 0px 0px 4%;
+	overflow:hidden;
+
+    /*border: 1px solid #000;*/
+}
+
+.BM_2_block_2
+{
+	float:right;
+	margin:-3px 0 0 0;
+	padding: 0 4% 0 8%;
+	overflow:hidden;
+	color:#B6B6B6;
+
+    /*border: 1px solid #000;*/
+}
+
+.BM_2_block_2_text_2 /*отступ для текста */
+{
+	padding: 0px 0 0px 118px;
+}
+
+.BM_2_block_3
+{
+    /* ... */
+}
+
+.BottomMenu_2 a
+{
+  	text-decoration: none; /* убираем подчеркивание */
+  	font-size: 18px; /* размер текста */
+  	color: #FFF;	/* цвет меню */
+}
+
+.BottomMenu_2 a:hover /* hover - событие происходящее при наведении мышки на элемент */
+{
+	color: #DC620D;
+	transition: background 1s, color 0.7s;
+}
+
+
+/* ------------- */
+
+
+.BottomMenu_3
+{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+	font-size: 12px; /* размер текста */
+	color: #FFF;	/* цвет меню */
+
+	box-shadow: 0 0 5px #ccc;
+	background:#383C47;
+  height: 44px;
+
+    /*border: 3px solid #CC0000;*/
+}
+
+.BottomMenu_3_position /*центруем текст */
+{
+	margin: -12px 0 0 -20px;
+}
+
+.BottomMenu_3_text_left
+{
+	float: left;
+
+    /*border: 3px dotted #CC0000;*/
+}
+
+.BottomMenu_3_text_right
+{
+	padding: 0 20px 0 0;
+	float:right;
+	overflow: hidden; /*скрываем*/
+
+    /*border: 3px dotted #CC0000;*/
+}
+
+.BottomMenu_3_text_right a
+{
+	color:#0080C0;
+	text-decoration: none; /* убираем подчеркивание */
+	overflow: hidden; /*скрываем*/
+}
+
+.BottomMenu_3_text_right a:hover /* hover - событие происходящее при наведении мышки на элемент */
+{
+	color: #DC620D;
+	transition: background 1s, color 0.7s;
+}
+
+
+
+
+/*....МАСШТАБИРОВАНИЕ...................................................................*/
+@media screen and (max-width: 725px)
+{
+    .BottomMenu_3 { height: 94px; }
+}
+
+@media screen and (max-width: 566px)
+{
+    .BottomMenu_3 { height: 110px; }
+}
+
+@media screen and (max-width: 476px)
+{
+    .BottomMenu_2 { height: 180px; }
+    .BM_2_block_2  { float: left; }
+
+    .BottomMenu_3 { margin: 0px 0 0 0; }
+    .BottomMenu_3_text_right { float: left; }
+}
+
+@media screen and (max-width: 380px)
+{
+    .BM_2_block_2 { font-size: 12px; }
+    .BM_2_block_2_text_2 { font-size: 12px; }
+    .BottomMenu_3_text_left { font-size: 10px; }
+
+}

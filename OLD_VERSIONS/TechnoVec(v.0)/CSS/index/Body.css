@@ -1,0 +1,97 @@
+.body_1 /*для отсупа, т.е. для границ*/
+{
+	/*border: 1px solid #000;*/
+    margin: 8px 0 0 0;
+	padding: 40px 10% 0 10%; /*т.е. высота 40px*/
+    width: auto;
+}
+
+.Block /*Задаем ширину и вырвнивание блока*/
+{
+    width: 225px;  /*210*/
+    float: left;
+}
+
+.Block_design /*оформляем блок*/
+{
+	border:1px solid #ccc;
+    border-radius:3px;
+	margin: 10px 10px 10px 10px;
+	height: 245px; /*высота блока*/
+}
+
+.Block_design img /*параметры картинки в блоке*/
+{
+    padding: 10%;
+}
+
+.Block_design a /*убираем подчеркивание текста в блоке*/
+{
+	text-decoration:none;
+}
+
+/*задаем оформление текста для блока*/
+.Block_design p
+{
+	font-size:18px;         /*размер шрифта*/
+	text-align:center;      /*выравнивание*/
+	font-weight:normal;     /*Толщина шрифта*/
+	margin:-8px 0 0 0;      /*отступы блока*/
+	padding:1px 0 20px 0;   /*внутренние отступы*/
+	color:#01617d;          /*цвет текста*/
+	line-height:15px;       /*межстрочный интервал*/
+}
+
+.Block_design:hover /*событие возникающее при наведении мышкой на любой блок*/
+{
+/*	background:#e0eff4; */
+	box-shadow:1px 1px 5px #777; /*тень*/
+	border:1px solid #bfd5dd;    /*рамка выделения*/
+}
+
+.line /* создаем прерывистую линию */
+{
+	border:none;
+	border-bottom:1px dashed #ccc;
+	height:0;
+	margin: 40px 0 20px 0; /*отступы для линии*/
+}
+
+.partners_font /*Шрифт для текста - наши партнеры*/
+{
+	font-size:24px;
+	text-align:left;
+    text-align: center;
+	color:#01617d;
+	line-height:15px; /*межстрочный интервал*/
+
+    border: 1px solid #000;
+}
+
+
+/* ------------- */
+
+
+.body_2
+{
+/*выравниваем рекламный блок*/
+	padding:0px 0px 40px 0;
+	box-shadow: 0 0 5px #ccc;
+	width:100%;
+	height: 35px; /*высота полоски где крутяться логотипы*/
+
+    border: 1px solid #000;
+}
+
+.body_2 bxslider img
+{
+	margin: -10px 0 0 0;
+	padding: -10px 0 0 0;
+}
+
+.body_2 bxslider ul li a
+{
+	padding: -10px 0 0px 0;
+	margin:-10px 0px 0 0;
+  	text-decoration: none; /* убираем подчеркивание */
+}

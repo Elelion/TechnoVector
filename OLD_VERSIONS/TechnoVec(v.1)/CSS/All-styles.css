@@ -1,0 +1,5008 @@
+﻿body
+{
+  padding: 0; /*Убираем отступы*/
+  margin: 0; /*убираем отступы*/
+  width: 99.9%; /*что бы убрать горизонтальный бегунок передвижения формы*/  
+}
+
+html 
+{ 
+  overflow-x: hidden; /*Скрываем горизонтальные линии прокрутки на ВСЕМ сайте*/
+}
+
+#header
+{
+    /* border:1px solid black; */
+
+    width: 100%;
+    height: 140px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#TopMenu_1
+{
+    /* border:1px solid #000; */
+
+    height: 85px;
+    width: 896px;
+    padding: 0 0 0 0;
+    margin: 0 auto 0 auto;
+}
+
+.Vertical_splitter_1, .Vertical_splitter_2, .Vertical_splitter_3 /*повторяется в Header'e как визуальный разделитель блоков*/
+{
+    border-right: 1px solid gray;
+    width: 1px;
+    height: 50px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+#Header_Logo_block /* . . . Общий блок*/
+{
+  /*border:1px solid #000; */
+  width: 218px;
+  height: 82px;
+  /*margin-left: 155px;*/
+  float: left; 
+}
+
+#Header_Logo_block img
+{  
+  padding-top: 8px;
+  padding-left: 10px;
+  float: left;    
+  position: absolute;
+}
+
+#Header_Logo_block_text
+{
+  padding-left: 64px;    
+}
+
+#Header_Logo_block a
+{
+  /*border: 1px dotted black;*/
+
+  margin-bottom: -46px;  
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: -2px 0px 0px 8px; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  height: 60px; /*область события*/
+  color: black;  
+}
+
+#Header_TimeWork_block /* . . . Общий блок*/
+{
+	/*border:1px solid #000;*/
+	width: 194px;
+	height: 80px;	
+	float: left;		
+}
+
+#Header_TimeWork_block img
+{
+	padding-top: 10px;
+	padding-left: 16px;
+	float: left;
+}
+
+#Header_TimeWork_block p
+{
+	margin-top: 14px;
+	padding-left: 54px;
+	margin-bottom: -14px;
+	float: center;	
+
+	font: Arial;
+}
+
+#Header_TimeWork_block section
+{
+  color: red;
+}
+
+#Header_Contact_block /* . . . Общий блок*/
+{
+	/*border:1px solid #000;*/
+
+	width:246px;
+	height: 80px;
+	float:left;
+	text-align: center;
+}
+
+#Header_Contact_block img
+{
+	padding-top: 10px;
+	padding-left: 16px;
+	float: left;
+}
+
+#Header_Contact_block p /*номер телефона*/
+{	
+	margin-top: 14px;
+	padding-left: 8px;
+	float: left;
+	margin-bottom: -14px;
+
+	font: Arial;
+}
+
+#Header_Contact_block a
+{
+  text-decoration: none;
+  color: #346BA2; 
+}
+
+#Header_Contact_email /*Блок с адресом электронной почты*/
+{
+	padding-left: 44px;
+}
+
+#Header_Dealer_block /* . . . Общий блок*/
+{
+	/*border:1px solid #000;*/
+	width: 230px;
+	height: 80px;
+	float: left;
+}
+
+#Header_Dealer_block img
+{
+  margin-top: 8px;
+  margin-left: 6px;
+  position: absolute;
+}
+
+#Header_Dealer_block_text
+{
+  /* border: 1px dotted red;*/
+  
+  padding-left: 6px;  
+  height: 40px;
+}
+
+#Header_Dealer_block p
+{ 
+	margin-top: 14px;
+	padding-left: 66px;
+	margin-bottom: -14px;	  
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+.TopMenu_2
+{
+    /*border: 1px solid #000;*/  
+
+	clear:both; /*начинаем с новой строки*/
+	height: 56px;
+	background:#346BA2; /*цвет видимого голубого меню*/
+	font-family: 'Capriola', sans-serif;
+	width: auto;    
+}
+
+#TopMenu_2_pos /*Для центровки кнопок меню*/
+{
+  /* border: 1px solid black; */
+
+  float: center;
+  width: 930px;
+  height: 56px;  
+  margin: 0 auto 0 auto;
+}
+
+.Btn_1, /*.Btn_2,*/ .Btn_3, .Btn_4, .Btn_5, .Btn_6 /*т.к. параметры далее для всех кнопок одинаковые, задаем их сразу*/
+{
+	/*border: 1px dashed #000;*/
+
+	width: 140px;
+	height: 57px;
+	float:left;	
+}
+
+.Btn_2
+{
+  /*border: 1px dashed #000;*/
+
+  width: 220px;
+  height: 57px;
+  float:left; 
+}
+
+.Btn_1 a /*Редактируем текст внутри блока*/
+{
+  display: block; /* указываем что все пространство пункта будет пространством для клика, т.е. как большая кнопка */
+  padding: 16px 25px 0; /*границы для блока*/
+  text-decoration: none; /* убираем подчеркивание */
+  font-size: 18px; /* размер текста */
+  color: #FFF;	/* цвет меню */
+  height: 42px; /*область события*/
+  text-align: center;
+}
+
+.Btn_1:hover { background: #F9BC01; transition: background 1s, color 2s; } /*DC620D*/
+.Btn_1:hover a {color: black; transition: background 1s, color 1s; }
+
+.Btn_2 a
+{
+  display: block; 
+  padding: 16px 12px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;
+}
+
+.Btn_2:hover { background: #F9BC01; transition: background 1s, color 2s; }
+.Btn_2:hover a {color: black; transition: background 1s, color 1s; }
+
+.Btn_3 a 
+{
+  display: block; 
+  padding: 16px 16px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;
+}
+
+.Btn_3:hover { background: #F9BC01; transition: background 1s, color 2s; }
+.Btn_3:hover a {color: black; transition: background 1s, color 1s; }
+
+.Btn_4 a 
+{
+  display: block; 
+  padding: 16px 18px 0 14px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;  
+}
+
+.Btn_4:hover { background: #F9BC01; transition: background 1s, color 2s; }
+.Btn_4:hover a {color: black; transition: background 1s, color 1s; }
+
+.Btn_5 a 
+{
+  display: block; 
+  padding: 16px 16px 0; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;
+}
+
+.Btn_5:hover { background: #F9BC01; transition: background 1s, color 2s; }
+.Btn_5:hover a {color: black; transition: background 1s, color 1s; }
+
+.Btn_6 a 
+{
+  display: block; 
+  padding: 16px 18px 0; 
+  text-decoration: none;
+  font-size: 18px; 
+  color: #FFF;	
+  height: 42px; 
+  text-align: center;
+}
+
+.Btn_6:hover { background: #F9BC01; transition: background 1s, color 2s; }
+.Btn_6:hover a {color: black; transition: background 1s, color 1s; }
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/*появляющейся меню при прокрутке*/
+.TopMenu_2_hidden /*оранжевая полоска за основным меню*/
+{
+  margin: -13px 0 0 0;	/*Фоновое меню*/
+  zoom: 1;
+  height: 63px; /*63*/
+  background: #346BA2; /*#DC620D; /*цвет фонового оранжевого меню */
+  border-radius: 4px;
+  width: auto;  
+}
+
+.fixed
+{
+  position:fixed; /*задаем фиксированную позицию для меню относительно прокрутки */
+  top:-5px; left:0; /*отступ для всплывающего меню*/
+  width:100%;
+  height: 53px;/*размер синей появл.менюхи - 170 при сжатии окна*/
+  padding:4px 20% 4px 20%; /*прозрачные поля от меню и центровка пунктов меню*/
+
+  /* задаем тень */
+  -moz-box-shadow: 5px 5px 10px #333;
+  -webkit-box-shadow: 5px 5px 10px #333;
+  box-shadow: 5px 5px 10px #333;
+
+  transition: background 1s, color 2s;
+  background: #346BA2; /*цвет фонового оранжевого меню */
+  z-index: 999; /*Для наложения всплывающего меню по верх всех элементов, с z-index*/
+}
+
+.default /*ширина появляющегося меню */
+{
+	width:auto;  
+}
+
+.transbg /*задаем прозрачность появляющегося меню */
+{
+	background-color: rgba(60, 130, 190, 0.95)!important;  
+/* 60, 130, 190 - RGB светло голубой || 220, 98. 13*/
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+.TopMenu_3 /*оранжевый сплиттер*/
+{
+    /*border: 1px solid #000;*/
+
+    height: 4px;
+    width: auto;
+    font-size: 14px;
+    border-radius: 0px;
+    background: #F9BC01; /*цвет фонового оранжевого меню */
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#Main
+{  
+  border-bottom: 2px solid black;
+
+  margin-top: 0px;
+  width: auto;
+  height: 920px; /*#Main_Fon_pic->Height = $Main->Height*/ 
+}
+
+#Bannder-1
+{
+  border: 3px solid red;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  position: absolute;
+
+  height: 60px;
+  width: 300px;
+
+  top: 415px;
+  left: 40px;
+
+  -moz-transform:rotate(-0deg); /* Для Firefox */
+  -ms-transform: rotate(-0deg); /* Для IE */
+  -webkit-transform: rotate(-0deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-0deg); /* Для Opera */
+   transform: rotate(-0deg);  
+
+   z-index: 998;
+}
+
+#Bannder-1 p
+{
+  font-size: 26px;
+  text-align: center;
+
+  margin-top: 14px;
+  font: Arial;
+}
+
+#Bannder-2
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  position: absolute;
+
+  height: 60px;
+  width: 300px;
+
+  top: 470px;
+  left: 60px;
+
+  -moz-transform:rotate(-8deg); /* Для Firefox */
+  -ms-transform: rotate(-8deg); /* Для IE */
+  -webkit-transform: rotate(-8deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-8deg); /* Для Opera */
+   transform: rotate(-8deg);  
+
+   z-index: 997;
+}
+
+#Bannder-2 p
+{
+  font-size: 26px;
+  text-align: center;
+
+  margin-top: 14px;
+  font: Arial;
+}
+
+#H-1
+{
+  /*border: 1px solid black; */
+
+  position: absolute;
+  left: 50%;
+  margin-left: -318px; /*650 / 2*/    
+  margin-top: 8px;  
+
+  height: 100px;
+  width: 980px;
+  z-index: 1; /*что бы не распологался по верх всплывающего меню*/
+
+  text-align: center;
+}
+
+#H-1 h1
+{
+  margin-top: 8px;
+  margin-left: -20px;
+  margin-right: -20px;
+
+  text-align: center;
+}
+
+#Main_Fon_pic
+{
+  /*border: 1px solid black;*/
+ 
+  background-image: url(../images/Main_fon_pic.png);
+  background-repeat: no-repeat;
+
+  margin: 4px auto 0 auto;  
+
+  width: 1423px;
+  height: 916px; /* = #Main->Width = #Main_Fon_pic->Height - 4px*/
+}
+
+#Main_slider_frame
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  /*background: #F1F1F1;*/
+
+  position: absolute;
+
+  margin-top: -779px;
+  left: 50%;
+  margin-left: 70px;  
+
+  width: 590px;
+  height: 348px;
+
+  z-index: 2;
+}
+
+#Main_slider
+{  
+  /*border: 1px solid black;*/
+  border-radius: 7px;
+  
+  position: absolute;
+  
+  height: 350px;
+  width: 602px;
+
+
+  top: 285px;
+  left: 50%;
+  margin-left: 67px;
+
+
+
+  z-index: 2; /*что бы распологался ЗА рамкой */  
+/*  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Main_slider ul
+{
+  /*border: 1px solid black;*/
+  /*width: 710px;*/  
+
+  list-style: none;
+}
+
+#Main_slider ul li
+{  
+  /*border: 1px solid black; */
+
+  list-style:none;   
+
+  margin-left: -30px;  
+  margin-top: -17px;
+
+  height: 360px; /*задаем высоту картинки слайдера*/             
+}
+
+#Main_slider ul li img
+{     
+  /*border: 1px solid black;*/
+  border-radius: 1px;      
+  height: 349px; /*задаем высоту картинки слайдера*/         
+/*  width: 550px; */
+}
+
+#Main_Request_form
+{
+  border: 3px solid #346BA2;
+  border-radius: 8px;
+  background: #F1F1F1;
+  
+  position: absolute;
+  
+  left: 50%;
+  margin-left:-146px; /*-403, 201, -100*/
+  top: 690px;
+  
+  height: 240px;
+  width: 806px;
+  
+  z-index: 0; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Main_Request_form p
+{
+  font-size: 24px;
+  text-align: center;
+}
+
+#Main_Edit1 /*Для позиционирования Edit'as*/
+{
+  padding-left: 30px;
+}
+
+/*
+#Main_Edit2
+{
+  padding-left: 268px;
+  float: left;
+  margin-top: -34px;
+}
+*/
+
+#Main_Edit3 /*Для позиционирования Edit'as*/
+{
+  padding-left: 520px;
+  float: left;
+  margin-top: -34px;
+}
+
+#Main_Edit4 /*Для позиционирования Edit'as*/
+{
+  padding-left: 268px;
+  float: left;
+  margin-top: -34px;
+}
+
+#M_Edit1
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 12px;  
+  margin-top: 2px;
+}
+
+
+#M_Edit2
+{
+  display: none;
+
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: -12px;
+  float: left;
+}
+
+
+#M_Edit3
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: -12px;
+  float: left;
+}
+
+#M_Edit4
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: -12px;
+  float: left;
+}
+
+#Main input[type="text"] /*внутренний отступ для вводимого текста, применим ко ВСЕМ Edit'ам в классе Main*/
+{
+  padding-left: 14px;
+}
+
+#M_Edit1:focus, #M_Edit2:focus, #M_Edit3:focus, #M_Edit4:focus
+{
+  /*background-color: lightblue;*/
+  border: 2px solid #F9BC01;    
+  transition: 0.5s;    
+}
+
+#Main_Button1
+{
+  margin-top: 30px;
+  margin-left: 184px;
+}
+
+#M_Button1
+{
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  user-select: none;  
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: .10em; /*позиционирование надписи вверх/низ*/
+  outline: none;
+  height: 45px;
+  width: 450px;
+  border: 1px solid rgb(250,172,17);
+  border-radius: 7px;
+  background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+}
+
+#M_Button1:hover
+{
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5); cursor: pointer;
+}
+
+#M_Button1:active
+{
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+
+#Main_Request_form_additional_text
+{
+  float: right;
+  padding: 0 306px 0 0;
+}
+
+#Main_Phone_form
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+  
+  position: absolute;
+  
+  left: 50%;
+  margin-left:-270px; /*-403, 201, -100*/
+  top: 990px;
+  
+  height: 80px;
+  width: 930px;
+  
+  z-index: 2;
+  opacity: 1; /* Значение прозрачности */
+}
+
+#Main_Phone_form p
+{
+  font-size: 32px;
+  text-align: center; 
+
+  font-family: arial;  
+
+  margin-top: 20px;
+
+/*
+  color: #F1F1F1;
+  text-shadow: 
+    -0   -1px 0   #000000,
+     0   -1px 0   #000000,
+    -0    1px 0   #000000,
+     0    1px 0   #000000,
+    -1px -0   0   #000000,
+     1px -0   0   #000000,
+    -1px  0   0   #000000,
+     1px  0   0   #000000,
+    -1px -1px 0   #000000,
+     1px -1px 0   #000000,
+    -1px  1px 0   #000000,
+     1px  1px 0   #000000,
+    -1px -1px 0   #000000,
+     1px -1px 0   #000000,
+    -1px  1px 0   #000000,
+     1px  1px 0   #000000;             
+*/    
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#SoftWare
+{  
+  /*border: 1px solid black;  */
+
+  background-image: url(../images/SoftWare_fon.png);
+  background-repeat: repeat;  
+  width: auto;
+  height: 720px; 
+}
+
+#Software_Title
+{
+  /* border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 70px;
+  left: 50%;
+  margin-left: -660px; /* 330 / 2 = 165*/
+
+	font-weight: 700;  
+
+  height: 70px; 
+  width: 700px;  
+}
+
+#Software_Title p
+{
+  font-size: 32px;
+  text-align: center; 
+
+  font-family: arial;  
+
+  margin-top: 20px;  
+}
+
+#Software_description_form
+{
+  /*border: 1px solid black;*/
+
+  position: absolute;
+  
+  height: 460px;
+  width: 800px;
+
+  margin-top: 182px;
+  left: 50%;
+  margin-left: -670px;
+
+  z-index: 4; 
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+div.Software_description_form_pic img /*CheckBox*/
+{
+  /*border: 1px solid black;*/
+
+  margin-top: -2px;
+  margin-left: 30px;
+  float: left; /*Тем самым задает новую строку картинка-текст с новой строки*/
+}
+
+div.Software_description_form_text
+{
+  /*border: 1px solid black;*/
+
+  font-size: 22px;
+  color: #3C5C97;
+  
+  margin-left: 55px; /*для сдвига самого блока*/
+  padding-left: 5px; /*для сдвига текста в блоке*/      
+  padding-bottom: 10px;
+}
+
+div.Software_description_form_additional_text
+{
+  /*border: 1px dotted black;*/
+
+  font-size: 18px;
+  
+  margin-top: -25px;
+  margin-left: 55px; /*для сдвига самого блока*/
+  padding-left: 5px; /*для сдвига текста в блоке*/
+  padding-bottom: 10px;
+}
+
+#Software_Monitor
+{
+  /*border: 1px solid black;  */
+
+  background-image: url(../images/Software_Monitor.png);
+  background-repeat: no-repeat;  
+  background-size: 100% 100%;
+
+  position: absolute;
+  margin-top: 188px;
+
+  width: 460px;
+  right: 50%;
+  margin-right: -700px;
+  height: 350px; 
+
+  z-index: 5;
+}
+
+#Software_Monitor_slider
+{
+  /*border: 1px solid red;*/
+
+  position: absolute;  
+
+  width: 424px;
+  height: 238px;  
+
+  margin-top: 206px;
+  right: 50%;  
+  margin-right: -687px;    
+
+  z-index: 6;
+}
+
+#Software_Monitor_slider ul li img
+{   
+  margin-top: -15px;     
+  height: 254px; /*задаем высоту картинки слайдера*/       
+}
+
+#Software_Button1
+{
+  position: absolute;
+  margin-top: 608px;
+  
+  right: 50%;
+  margin-right: -700px; 
+}
+
+/*.........ФОРМА ОБРАТНОЙ СВЯЗИ для SOFT-WARE.........*/
+#Software_call_form_fade /*"Тень" для всей формы позади обратной связи*/
+{
+  display: none;
+
+  background-color:rgba(0,0,0,.7); /*степень затемнения, чем больше цифра, тем темнее задний фон*/
+  height:100%;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+
+  overflow-y:hidden;
+
+  z-index:1000;
+}
+
+#Software_call_form /*Форма обратной связи*/
+{
+  border: 15px solid #3C5C97;  
+  background: #F1F1F1;
+
+  display: none;
+  
+  position: absolute;
+  width: 450px;
+  height: 420px;
+    
+  position: relative;
+
+  left: 50%;
+  top: 50%;
+  margin-left: -225px;
+  margin-top: -180px; 
+
+
+
+  z-index:1001;
+}
+
+.show-btn{ text-decoration: none; }
+
+#Software_call_form_close-btn /* кнопка закрытия */
+{
+  width: 31px;
+  height: 31px;
+
+  display: block;
+  cursor: pointer;/* для случая применения отличных от <a> тегов*/
+  background: url(../images/close.png);
+
+  margin-left: 10px;
+  margin-top: 10px;
+
+  text-indent: -4999px; 
+}
+
+#Software_call_form_close-btn:hover /* кнопка закрытия при наведении */
+{ 
+  background: url(../images/close-hover.png);
+}
+
+#Software_call_form_title 
+{
+  /*border: 1px solid black;*/
+
+  margin-top: -20px;
+  left: 50%;
+  margin-left: 70px;
+
+  height: 40px;
+  width: 300px; 
+
+  font-size:28px;
+  color: #F9BC01;
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-weight: normal;
+  font-weight: 700;
+  text-align:center;
+}
+
+#Software_call_form_description
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 5px;
+  left: 50%;
+  margin-left: 90px;
+
+  height: 50px;
+  width: 260px; 
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-size: 20px;
+    
+  text-align: center;
+  color: #53555A;  
+}
+
+#Software_call_form_Edit1 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#Sware_Edit1
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: -12px;
+  float: left;
+}
+
+#Software_call_form_Edit2 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#Sware_Edit2
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: 12px;
+  float: left;
+}
+
+#Software_call_form_Edit3 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#Sware_Edit3
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: 12px;
+  float: left;
+}
+
+#Software_call_form input[type="text"] /*внутренний отступ для вводимого текста, применим ко ВСЕМ Edit'ам в классе Main*/
+{
+  padding-left: 14px;
+}
+
+#Sware_Edit1:focus, #Sware_Edit2:focus, #Sware_Edit3:focus
+{
+  /*background-color: lightblue;*/
+  border: 2px solid #F9BC01;    
+  transition: 0.5s;    
+}
+
+#Software_Button2
+{  
+  margin-left: 100px; 
+}
+
+#Sware_Button2 /*ID кнопки во всем проекте*/
+{
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  user-select: none;  
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: .10em; /*позиционирование надписи вверх/низ*/
+  outline: none;
+  height: 45px;
+  width: 220px;
+
+  float: left;
+  margin-left: 8px;
+  margin-top: 12px;
+
+  border: 1px solid rgb(250,172,17);
+  border-radius: 7px;
+  background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+}
+
+#Sware_Button2:hover
+{
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5); cursor: pointer;
+}
+
+#Sware_Button2:active
+{
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+
+#Software_call_form_additional_text
+{
+  /*border: 1px solid black;*/
+
+  width: 218px;
+  height: 40px;
+
+  margin-top: 185px;
+  left: 50%;
+  margin-left: 110px;
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-size: 14px;
+    
+  text-align: center;
+  color: #53555A;  
+}
+/*.........ФОРМА ОБРАТНОЙ СВЯЗИ для SOFT-WARE.........*/
+
+#Sware_Button1 /*Общий номер кнопки во всем проекте*/
+{
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  user-select: none;  
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: .10em; /*позиционирование надписи вверх/низ*/
+  outline: none;
+  height: 45px;
+  width: 460px;
+  border: 1px solid rgb(250,172,17);
+  border-radius: 7px;
+  background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+}
+
+#Sware_Button1:hover
+{
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5); cursor: pointer;
+}
+
+#Sware_Button1:active
+{
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#Stock
+{
+  background-image: url(../images/Stock_fon.jpg);
+  background-repeat: repeat;
+  background-size: 100% 100%;  /*Задаем % для ширины, потом для высоты*/
+  width: auto;
+  height: 630px; 
+}
+
+#Stock_Title
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 80px;
+  width: 400px;
+
+  position: absolute;
+
+  margin-top: 60px;
+  left: 50%;
+  margin-left: -300px;
+
+  font-weight: 700;
+  width: 600px;  
+}
+
+#Stock_Title p
+{
+  font-size: 32px;
+  text-align: center; 
+
+  font-family: arial;  
+
+  margin-top: 20px;  
+}
+
+#Stock_Block_1
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 400px;
+
+  position: absolute;
+  margin-top: 195px;
+  left: 50%;
+  margin-left: -700px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */ 
+}
+
+#Stock_Block_1_text
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px;  
+
+  height: 100px;
+  width: auto;  
+}
+
+#Stock_Block_1_text p
+{
+  padding-top: 0px;
+
+  font-size: 20px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#Stock_Block_1_pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: -124px; /*подгоняем*/
+  margin-left: -2px;
+  height: 302px; /*300 - 100 - 4 (border) = 200*/
+  width: 402px;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Stock_Block_1_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Stock_Block_1_pic img
+{  	
+  margin-top: 155px;
+  padding-left: 32px;
+
+  width: 340px;
+  height: 65px;
+}
+
+#Stock_Block_1:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Stock_Block_2
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 400px;
+
+  position: absolute;
+  margin-top: 195px;
+  left: 50%;
+  margin-left: -200px; /*-50% width in px*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Stock_Block_2_text
+{
+  /*border: 1px solid black;*/
+
+  height: 100px;
+  width: auto;  
+}
+
+#Stock_Block_2_text p
+{
+  padding-top: 12px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Stock_Block_2_pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: -124px; /*подгоняем*/
+  margin-left: -2px;
+  height: 302px; /*300 - 100 - 4 (border) = 200*/
+  width: 402px;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+/*  
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+*/
+}
+
+/*
+#Stock_Block_2_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+/*
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}*/
+
+
+#Stock_Block_2_pic img
+{  
+  margin-top: 100px;
+  padding-left: 100px; 
+}
+
+/*
+#Stock_Block_2:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+/* } */
+
+#Stock_Block_3
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 400px;
+
+  position: absolute;
+  margin-top: 195px;
+  left: 50%;
+  margin-left: 300px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Stock_Block_3_text
+{
+  /*border: 1px solid black;*/
+
+  height: 100px;
+  width: auto;  
+}
+
+#Stock_Block_3_text p
+{
+  padding-top: 0px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Stock_Block_3_pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: -124px; /*подгоняем*/
+  margin-left: -2px;
+  height: 302px; /*300 - 100 - 4 (border) = 200*/
+  width: 402px;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Stock_Block_3_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+
+#Stock_Block_3_pic img
+{  
+  margin-top: 112px;
+  padding-left: 110px;
+}
+
+#Stock_Block_3:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+/*
+#Stock_Block_4
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 400px;
+
+  position: absolute;
+  margin-top: 500px; 
+  left: 50%;
+  margin-left: -700px;
+
+  z-index: 7;
+  opacity: 0.9;
+}
+
+#Stock_Block_5
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 400px;
+
+  position: absolute;
+  margin-top: 500px;
+  left: 50%;
+  margin-left: -200px;
+
+  z-index: 7;
+  opacity: 0.9;
+}
+
+#Stock_Block_6
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 400px;
+
+  position: absolute;
+  margin-top: 500px;
+  left: 50%;
+  margin-left: 300px;
+
+  z-index: 7;
+  opacity: 0.9;
+}
+*/
+
+#Stock_Button1
+{
+  position: absolute;
+  margin-top: 550px;
+  
+  right: 50%;
+  margin-right: -300px; 
+  z-index: 8;
+}
+
+#St_Button1
+{
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  user-select: none;  
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: .10em; /*позиционирование надписи вверх/низ*/
+  outline: none;
+  height: 45px;
+  width: 600px;
+  border: 1px solid rgb(250,172,17);
+  border-radius: 7px;
+  background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+}
+
+#St_Button1:hover
+{
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5); cursor: pointer;
+}
+
+#St_Button1:active
+{
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+
+/*.........ФОРМА ОБРАТНОЙ СВЯЗИ для SOFT-WARE.........*/
+#Stock_call_form_fade /*"Тень" для всей формы позади обратной связи*/
+{
+  display: none;
+
+  background-color:rgba(0,0,0,.7); /*степень затемнения, чем больше цифра, тем темнее задний фон*/
+  height:100%;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+
+  overflow-y:hidden;
+
+  z-index:1000;
+}
+
+#Stock_call_form /*Форма обратной связи*/
+{
+  border: 15px solid #3C5C97;  
+  background: #F1F1F1;
+
+  display: none;
+  
+  position: absolute;
+  width: 450px;
+  height: 420px;
+    
+  position: relative;
+
+  left: 50%;
+  top: 50%;
+  margin-left: -225px;
+  margin-top: -180px; 
+
+  z-index:1001;
+}
+
+.show-btn{ text-decoration: none; }
+
+#Stock_call_form_close-btn /* кнопка закрытия */
+{
+  width: 31px;
+  height: 31px;
+
+  display: block;
+  cursor: pointer;/* для случая применения отличных от <a> тегов*/
+  background: url(../images/close.png);
+
+  margin-left: 10px;
+  margin-top: 10px;
+
+  text-indent: -4999px; 
+}
+
+#Stock_call_form_close-btn:hover /* кнопка закрытия при наведении */
+{ 
+  background: url(../images/close-hover.png);
+}
+
+#Stock_call_form_title 
+{
+  /*border: 1px solid black;*/
+
+  margin-top: -20px;
+  left: 50%;
+  margin-left: 70px;
+
+  height: 40px;
+  width: 300px; 
+
+  font-size:28px;
+  color: #F9BC01;
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-weight: normal;
+  font-weight: 700;
+  text-align:center;
+}
+
+#Stock_call_form_description
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 5px;
+  left: 50%;
+  margin-left: 90px;
+
+  height: 50px;
+  width: 260px; 
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-size: 20px;
+    
+  text-align: center;
+  color: #53555A;  
+}
+
+#Stock_call_form_Edit1 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#St_Edit1
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: -12px;
+  float: left;
+}
+
+#Stock_call_form_Edit2 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#St_Edit2
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: 12px;
+  float: left;
+}
+
+#Stock_call_form_Edit3 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#St_Edit3
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: 10px;
+  float: left;
+}
+
+#Stock_call_form input[type="text"] /*внутренний отступ для вводимого текста, применим ко ВСЕМ Edit'ам в классе Main*/
+{
+  padding-left: 14px;
+}
+
+#St_Edit1:focus, #St_Edit2:focus, #St_Edit3:focus
+{
+  /*background-color: lightblue;*/
+  border: 2px solid #F9BC01;    
+  transition: 0.5s;    
+}
+
+#Stock_Button2
+{  
+  margin-left: 100px; 
+}
+
+#St_Button2 /*ID кнопки во всем проекте*/
+{
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  user-select: none;  
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: .10em; /*позиционирование надписи вверх/низ*/
+  outline: none;
+  height: 45px;
+  width: 220px;
+
+  float: left;
+  margin-left: 8px;
+  margin-top: 12px;
+
+  border: 1px solid rgb(250,172,17);
+  border-radius: 7px;
+  background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+}
+
+#St_Button2:hover
+{
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5); cursor: pointer;
+}
+
+#St_Button2:active
+{
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+
+#Stock_call_form_additional_text
+{
+  /*border: 1px solid black;*/
+
+  width: 218px;
+  height: 40px;
+
+  margin-top: 185px;
+  left: 50%;
+  margin-left: 110px;
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-size: 14px;
+    
+  text-align: center;
+  color: #53555A;  
+}
+/*.........ФОРМА ОБРАТНОЙ СВЯЗИ для SOFT-WARE.........*/
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#Superiority
+{
+  /*border: 1px solid black;  */
+
+  background-image: url(../images/Superiority_fon.png);
+  background-repeat: repeat; /*Убираем повторения*/  
+
+  width: auto;
+  height: 970px;
+}
+
+#Superiority_Title
+{
+  /* border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 42px;  
+  left: 50%;
+  margin-left: 135px; /* 550 / 2 = 275 / 2 = ~135*/
+  
+
+  height: 80px; 
+  width: 550px;  
+
+  font-weight: 700;
+  width: 600px;  
+}
+
+#Superiority_Title p
+{
+  font-size: 32px;
+  text-align: center; 
+
+  font-family: arial;  
+
+  margin-top: 20px;
+}
+
+#Superiority_block_1
+{
+  /*border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 40px;  
+  left: 50%;
+  margin-left: -200px;
+  
+
+  height: 350px; 
+  width: 270px;   
+}
+
+#Superiority_block_2
+{
+  border: 3px solid #F9BC01;
+  background: #F1F1F1;
+
+  position: absolute;
+  margin-top: 164px; 
+  left: 50%;
+
+  margin-left: 455px;
+
+  height: 200px;
+  width: 200px;
+
+  z-index: 9;
+}
+
+#Superiority_block_2_title
+{  
+  border: 3px solid #F9BC01;
+  background: #346BA2;
+
+  position: absolute;
+  margin-top: 338px;
+  left: 50%;
+  margin-left: 220px;
+
+  height: 45px;
+  width: 370px;
+
+  z-index: 10;
+}
+
+#Superiority_block_2_title p
+{
+  font-size: 22px;
+  color: white;
+
+  text-align: center;
+  
+  margin-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Superiority_block_2_description
+{
+  /*border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 167px;  
+  left: 50%;
+  margin-left: 220px;
+
+  height: 170px;
+  width: 230px;
+
+  z-index: 10;
+}
+
+#Superiority_block_2_description p
+{
+  margin-top: -6px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 5px;
+  text-align: right;
+}
+
+#Superiority_block_3
+{
+  border: 3px solid #F9BC01;
+  background: #F1F1F1;
+
+  position: absolute;  
+  margin-top: 422px;
+  left: 50%;
+
+  margin-left: 355px;
+
+  height: 200px;
+  width: 200px;
+
+  z-index: 9;
+}
+
+#Superiority_block_3_title
+{  
+  border: 3px solid #F9BC01;
+  background: #346BA2;
+
+  position: absolute;
+  
+  margin-top: 584px;
+  left: 50%;
+  margin-left: 120px;
+
+  height: 70px;
+  width: 420px;
+
+  z-index: 10;
+}
+
+#Superiority_block_3_title p
+{
+  font-size: 22px;
+  color: white;
+
+  text-align: center;
+  
+  margin-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;  
+}
+
+#Superiority_block_3_description
+{
+  /*border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 422px;
+  left: 50%;
+  margin-left: 122px;
+
+  height: 155px;
+  width: 228px;
+
+  z-index: 10;
+}
+
+#Superiority_block_3_description p
+{
+  margin-top: 0px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 5px;
+  text-align: right;
+}
+
+#Superiority_block_4
+{
+  border: 3px solid #F9BC01;
+  background: #F1F1F1;
+
+  position: absolute;
+  margin-top: 694px;
+  left: 50%;
+
+  margin-left: 255px;
+
+  height: 200px;
+  width: 200px;
+
+  z-index: 9;
+}
+
+#Superiority_block_4_title
+{  
+  border: 3px solid #F9BC01;
+  background: #346BA2;
+
+  position: absolute;
+  margin-top: 874px;  
+  left: 50%;
+  margin-left: 5px;
+
+  height: 45px;
+  width: 420px;
+
+  z-index: 10;
+}
+
+#Superiority_block_4_title p
+{
+  font-size: 22px;
+  color: white;
+
+  text-align: center;
+  
+  margin-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#Superiority_block_4_description
+{
+  /*border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 696px;
+  left: 50%;
+  margin-left: 6px;
+
+  height: 175px;
+  width: 245px;
+
+  z-index: 10;
+}
+
+#Superiority_block_4_description p
+{
+  margin-top: -4px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 5px;
+  text-align: right;
+}
+
+#Superiority_block_5
+{
+  border: 3px solid #F9BC01;
+  background: #F1F1F1;
+
+  position: absolute;
+  margin-top: 42px;
+  left: 50%;
+
+  margin-left: -680px;
+
+  height: 200px;
+  width: 200px;
+
+  z-index: 9;
+}
+
+#Superiority_block_5_title
+{  
+  border: 3px solid #F9BC01;
+  background: #346BA2;
+
+  position: absolute;
+  margin-top: 234px;
+  left: 50%;
+  margin-left: -610px;
+
+  height: 45px;
+  width: 330px;
+
+  z-index: 10;
+}
+
+#Superiority_block_5_title p
+{
+  font-size: 22px;
+  color: white;
+
+  text-align: center;
+  
+  margin-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#Superiority_block_5_description
+{
+  /*border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 40px;
+  left: 50%;
+  margin-left: -470px;
+
+  height: 185px;
+  width: 194px;
+
+  z-index: 10;
+}
+
+#Superiority_block_5_description p
+{
+  margin-top: 6px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#Superiority_block_6
+{
+  border: 3px solid #F9BC01;
+  background: #F1F1F1;
+
+  position: absolute;
+  margin-top: 364px;
+  left: 50%;
+
+  margin-left: -630px;
+
+  height: 200px;
+  width: 200px;
+
+  z-index: 9;
+}
+
+#Superiority_block_6_title
+{  
+  border: 3px solid #F9BC01;
+  background: #346BA2;
+
+  position: absolute;
+  margin-top: 532px;
+  left: 50%;
+  margin-left: -530px;
+
+  height: 70px;
+  width: 300px;
+
+  z-index: 10;
+}
+
+#Superiority_block_6_title p
+{
+  font-size: 22px;
+  color: white;
+
+  text-align: center;
+  
+  margin-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#Superiority_block_6_description
+{
+  /*border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 360px;
+  left: 50%;
+  margin-left: -420px;
+
+  height: 165px;
+  width: 194px;
+
+  z-index: 10;
+}
+
+#Superiority_block_6_description p
+{
+  margin-top: 8px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#Superiority_block_7
+{
+  border: 3px solid #F9BC01;
+  background: #F1F1F1;
+
+  position: absolute;
+  margin-top: 692px;
+  left: 50%;
+
+  margin-left: -575px;
+
+  height: 200px;
+  width: 200px;
+
+  z-index: 9;
+}
+
+#Superiority_block_7_title
+{  
+  border: 3px solid #F9BC01;
+  background: #346BA2;
+
+  position: absolute;
+  margin-top: 874px;
+  left: 50%;
+  margin-left: -460px;
+
+  height: 45px;
+  width: 300px;
+
+  z-index: 10;
+}
+
+#Superiority_block_7_title p
+{
+  font-size: 22px;
+  color: white;
+
+  text-align: center;
+  
+  margin-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#Superiority_block_7_description
+{
+  /*border: 1px solid black;  */
+
+  position: absolute;
+  margin-top: 694px;
+  left: 50%;
+  margin-left: -366px;
+
+  height: 175px;
+  width: 210px;
+
+  z-index: 10;
+}
+
+#Superiority_block_7_description p
+{
+  margin-top: -2px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#Superiority_block_line-1
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:190px;
+  left:50%;
+  margin-left: -340px;
+
+  width:200px;
+  height:0px;
+
+  -moz-transform:rotate(-55deg); /* Для Firefox */
+  -ms-transform: rotate(-55deg); /* Для IE */
+  -webkit-transform: rotate(-55deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-55deg); /* Для Opera */
+   transform: rotate(-55deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#Superiority_block_line-2
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:310px;
+  left:50%;
+  margin-left: 40px;
+
+  width:200px;
+  height:0px;
+
+  -moz-transform:rotate(30deg); /* Для Firefox */
+  -ms-transform: rotate(30deg); /* Для IE */
+  -webkit-transform: rotate(30deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(30deg); /* Для Opera */
+   transform: rotate(30deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#Superiority_block_line-3
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:380px;
+  left:50%;
+  margin-left: -330px;
+
+  width:410px;
+  height:0px;
+
+  -moz-transform:rotate(-60deg); /* Для Firefox */
+  -ms-transform: rotate(-60deg); /* Для IE */
+  -webkit-transform: rotate(-60deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-60deg); /* Для Opera */
+   transform: rotate(-60deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#Superiority_block_line-4
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:440px;
+  left:50%;
+  margin-left: -115px;
+
+  width:350px;
+  height:0px;
+
+  -moz-transform:rotate(70deg); /* Для Firefox */
+  -ms-transform: rotate(70deg); /* Для IE */
+  -webkit-transform: rotate(70deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(70deg); /* Для Opera */
+   transform: rotate(70deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#Superiority_block_line-5
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:565px;
+  left:50%;
+  margin-left: -415px;
+
+  width:650px;
+  height:0px;
+
+  -moz-transform:rotate(-79deg); /* Для Firefox */
+  -ms-transform: rotate(-79deg); /* Для IE */
+  -webkit-transform: rotate(-79deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-79deg); /* Для Opera */
+   transform: rotate(-79deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#Superiority_block_line-6
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:590px;
+  left:50%;
+  margin-left: -300px;
+
+  width:580px;
+  height:0px;
+
+  -moz-transform:rotate(87deg); /* Для Firefox */
+  -ms-transform: rotate(87deg); /* Для IE */
+  -webkit-transform: rotate(87deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(87deg); /* Для Opera */
+   transform: rotate(87deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#Catalog
+{
+  /* border: 1px solid black;   */
+
+  background-image: url(../images/Catalog_fon.jpg);
+  background-repeat: no-repeat; /*Убираем повторения*/
+  background-size: 100% 100%;  /*Задаем % для ширины, потом для высоты*/
+
+  width: auto;
+  height: 965px;
+}
+
+#Catalog_Title
+{
+  /*border: 1px solid black;*/
+
+  position: absolute;
+  margin-top: 38px;  
+  left: 50%;
+  margin-left: -550px; /*width / 2*/
+  
+
+  height: 80px; 
+  width: 1100px;    
+
+  font-weight: 700;
+}
+
+#Catalog_Title p
+{
+  font-size: 32px;
+  text-align: center; 
+
+  font-family: arial;  
+  color: white;
+
+  margin-top: 20px;
+}
+
+#Catalog_Block_1
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 150px;
+  left: 50%;
+  margin-left: -650px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_1_pic
+{
+  /*border: 1px solid red;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;
+}
+
+#Catalog_Block_1_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_1_pic img
+{  
+  /*border: 1px solid black;  */
+
+  padding-top: 7px;
+  padding-left: 40px;
+}
+
+#Catalog_Block_1_text
+{
+  /*border: 1px dotted black; */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto; 
+}
+
+#Catalog_Block_1_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_1:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Catalog_Block_2
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 150px;
+  left: 50%;
+  margin-left: -300px; /*-50% width in px*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_2_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;  
+}
+
+#Catalog_Block_2_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_2_pic img
+{  
+  padding-top: 10px;
+  padding-left: 45px;
+}
+
+#Catalog_Block_2_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 14px;
+  height: 36px;
+  width: auto;   
+}
+
+#Catalog_Block_2_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_2:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Catalog_Block_3
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 150px;
+  left: 50%;
+  margin-left: 40px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_3_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998;  
+}
+
+#Catalog_Block_3_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_3_pic img
+{  
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#Catalog_Block_3_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto;   
+}
+
+#Catalog_Block_3_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_3:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Catalog_Block_4
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 150px;
+  left: 50%;
+  margin-left: 390px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_4_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_4_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_4_pic img
+{  
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#Catalog_Block_4_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto; 
+}
+
+#Catalog_Block_4_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_4:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Catalog_Block_5
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 520px;
+  left: 50%;
+  margin-left: -650px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_5_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_5_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_5_pic img
+{  
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#Catalog_Block_5_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 42px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_5_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_5:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Catalog_Block_6
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 520px;
+  left: 50%;
+  margin-left: -300px; /*-50% width in px*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_6_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_6_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_6_pic img
+{  
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+#Catalog_Block_6_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 38px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_6_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_6:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Catalog_Block_7
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 520px;
+  left: 50%;
+  margin-left: 40px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_7_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_7_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_7_pic img
+{  
+  padding-top: 30px;
+  padding-left: 23px;
+}
+
+#Catalog_Block_7_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 34px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_7_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_7:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+#Catalog_Block_8
+{
+  border: 3px solid #346BA2;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  height: 300px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 520px;
+  left: 50%;
+  margin-left: 390px; /*позиционируем от центрального блока*/
+
+  z-index: 7; /*что бы распологался ЗА H1 но поверх рисунка Fon_pic*/  
+  opacity: 0.9; /* Значение прозрачности */
+}
+
+#Catalog_Block_8_pic
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 2px; /*подгоняем*/
+  height: 298px;
+  width: auto;
+
+  /*анимация при отведении мышкой, возвращаем блок в исходное состояние*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+  z-index: 998; 
+}
+
+#Catalog_Block_8_pic:hover /*анимация при наведении мышкой, увеличиваем блок*/
+{  
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);  
+}
+
+#Catalog_Block_8_pic img
+{  
+  padding-top: 27px;
+  padding-left: 25px;
+}
+
+#Catalog_Block_8_text
+{
+  /*border: 1px dotted black;  */
+
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 8px;
+  height: 36px;
+  width: auto;  
+}
+
+#Catalog_Block_8_text p
+{
+  margin-top: 4px;
+
+  font-size: 22px;
+  color: #3C5C97;
+  text-align: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Catalog_Block_8:hover
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  
+  transition: background 1s, color 2s;
+  box-shadow: 0 0 10px rgba(0,0,0,1); /*задаем тень с наружи блока*/
+}
+
+/*.........ФОРМА ОБРАТНОЙ СВЯЗИ для SOFT-WARE.........*/
+#Catalog_call_form_fade /*"Тень" для всей формы позади обратной связи*/
+{
+  display: none;
+
+  background-color:rgba(0,0,0,.7); /*степень затемнения, чем больше цифра, тем темнее задний фон*/
+  height:100%;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+
+  overflow-y:hidden;
+
+  z-index:1000;
+}
+
+#Catalog_call_form /*Форма обратной связи*/
+{
+  border: 15px solid #3C5C97;  
+  background: #F1F1F1;
+
+  display: none;
+  
+  position: absolute;
+  width: 450px;
+  height: 420px;
+    
+  position: relative;
+
+  left: 50%;
+  top: 50%;
+  margin-left: -225px;
+  margin-top: -180px; 
+
+  z-index:1001;
+}
+
+.show-btn{ text-decoration: none; }
+
+#Catalog_call_form_close-btn /* кнопка закрытия */
+{
+  width: 31px;
+  height: 31px;
+
+  display: block;
+  cursor: pointer;/* для случая применения отличных от <a> тегов*/
+  background: url(../images/close.png);
+
+  margin-left: 10px;
+  margin-top: 10px;
+
+  text-indent: -4999px; 
+}
+
+#Catalog_call_form_close-btn:hover /* кнопка закрытия при наведении */
+{ 
+  background: url(../images/close-hover.png);
+}
+
+#Catalog_call_form_title 
+{
+  /*border: 1px solid black;*/
+
+  margin-top: -20px;
+  left: 50%;
+  margin-left: 70px;
+
+  height: 40px;
+  width: 300px; 
+
+  font-size:28px;
+  color: #F9BC01;
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-weight: normal;
+  font-weight: 700;
+  text-align:center;
+}
+
+#Catalog_call_form_description
+{
+  /*border: 1px solid black;*/
+
+  margin-top: 5px;
+  left: 50%;
+  margin-left: 90px;
+
+  height: 50px;
+  width: 260px; 
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-size: 20px;
+    
+  text-align: center;
+  color: #53555A;  
+}
+
+#Catalog_call_form_Edit1 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#Cat_Edit1
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: -12px;
+  float: left;
+}
+
+#Catalog_call_form_Edit2 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#Cat_Edit2
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: 12px;
+  float: left;
+}
+
+#Catalog_call_form_Edit3 /*Для позиционирования Edit's*/
+{  
+  left: 50%;
+  margin-left: 80px;
+
+  margin-top: 30px;
+}
+
+#Cat_Edit3
+{
+  border: 2px solid #346BA2;
+  border-radius: 4px;
+  
+  height: 40px;
+  
+  margin-left: 27px;
+  margin-right: 25px;
+  margin-top: 12px;
+  float: left;
+}
+
+#Catalog_call_form input[type="text"] /*внутренний отступ для вводимого текста, применим ко ВСЕМ Edit'ам в классе Main*/
+{
+  padding-left: 14px;
+}
+
+#Cat_Edit1:focus, #Cat_Edit2:focus, #Cat_Edit3:focus
+{
+  /*background-color: lightblue;*/
+  border: 2px solid #F9BC01;    
+  transition: 0.5s;    
+}
+
+#Catalog_Button2
+{  
+  margin-left: 100px; 
+}
+
+#Cat_Button2 /*ID кнопки во всем проекте*/
+{
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  user-select: none;  
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: .10em; /*позиционирование надписи вверх/низ*/
+  outline: none;
+  height: 45px;
+  width: 220px;
+
+  float: left;
+  margin-left: 8px;
+  margin-top: 12px;
+
+  border: 1px solid rgb(250,172,17);
+  border-radius: 7px;
+  background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+}
+
+#Cat_Button2:hover
+{
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5); cursor: pointer;
+}
+
+#Cat_Button2:active
+{
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+
+#Catalog_call_form_additional_text
+{
+  /*border: 1px solid black;*/
+
+  width: 218px;
+  height: 40px;
+
+  margin-top: 185px;
+  left: 50%;
+  margin-left: 110px;
+
+  font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;  
+  font-size: 14px;
+    
+  text-align: center;
+  color: #53555A;  
+}
+/*.........ФОРМА ОБРАТНОЙ СВЯЗИ для SOFT-WARE.........*/
+
+#Catalog_Button1
+{
+  position: absolute;
+  margin-top: 882px;
+  
+  right: 50%;
+  margin-right: -248px; 
+  z-index: 8;
+}
+
+#Cat_Button1
+{
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  user-select: none;  
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: .10em; /*позиционирование надписи вверх/низ*/
+  outline: none;
+  height: 45px;
+  width: 500px;
+  border: 1px solid rgb(250,172,17);
+  border-radius: 7px;
+  background: rgb(255,212,3) linear-gradient(rgb(255,212,3), rgb(248,157,23));
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,0);
+  transition: box-shadow .2s, border-color .2s;
+}
+
+#Cat_Button1:hover
+{
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,0), inset 0 1px 2px rgba(0,0,0,0), inset 0 0 0 60px rgba(255,255,0,.5); cursor: pointer;
+}
+
+#Cat_Button1:active
+{
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+  border-color: rgba(177,159,0,1);
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px rgba(255,255,0,.45);
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#Payments
+{
+  background-image: url(../images/Payments_fon.png);
+  background-repeat: repeat;  
+  width: auto;
+  height: 920px; 
+}
+
+#Payment_Title
+{
+  /* border: 1px solid black; */
+
+  position: absolute;
+  margin-top: 52px; 
+  margin-left: 50px; /*width / 2*/
+  
+
+  height: 80px; 
+  width: 300px;    
+
+  font-weight: 700;
+}
+
+#Payment_Title p
+{
+  font-size: 32px;
+  text-align: center; 
+
+  font-family: arial;  
+  color: black;
+
+  margin-top: 20px;
+}
+
+#Payment_Description
+{
+  /* border: 1px solid black; */
+
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 82px;
+  
+  height: auto;
+  width: auto;  
+}
+
+#Payment_Description p
+{
+  font-size: 18px;
+}
+
+#Payment_Cash
+{
+  /* border: 1px solid black; */
+  width: 500px;
+  height: 170px;
+
+  position: absolute;
+  margin-top: 350px;
+  left: 50%;
+  margin-left: -650px;
+}
+
+#Payment_Cash_pic
+{
+  border: 2px solid #346BA2;    
+
+  height: 120px;
+  width: 120px;
+
+  float: left;
+}
+
+#Payment_Cash_pic img
+{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#Payment_Cash_title
+{
+  /* border: 1px solid black; */
+
+  height: 50px;
+  width: 350px;
+
+  margin-top: 0px;
+  margin-left: 10px; /*граници*/
+  margin-right: 10px; /*граници*/
+
+  float: left;
+}
+
+#Payment_Cash_title p
+{
+  font-size: 22px;
+  color: #3C5C97;
+
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#Payment_Cash_description
+{
+  /* border: 1px solid black; */
+
+  height: 105px;
+  width: 350px;
+
+  margin-top: 5px; /*граници*/
+  margin-left: 10px; /*граници*/
+
+  float: left;
+}
+
+#Payment_Cash_description p
+{
+  font-size: 18px;
+
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+#Payment_Bank-transfer
+{
+  /* border: 1px solid black; */
+  width: 700px;
+  height: 365px;
+
+  position: absolute;
+  margin-top: 350px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+#Payment_Bank-transfer_pic
+{
+  border: 2px solid #346BA2;    
+
+  height: 120px;
+  width: 120px;
+
+  float: left;
+}
+
+#Payment_Bank-transfer_pic img
+{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#Payment_Bank-transfer_title
+{
+  /* border: 1px solid black; */
+
+  height: 50px;
+  width: 550px;
+
+  margin-top: 0px;
+  margin-left: 10px; /*граници*/
+  margin-right: 10px; /*граници*/
+
+  float: left;
+}
+
+#Payment_Bank-transfer_title p
+{
+  font-size: 22px;
+  color: #3C5C97;
+
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#Payment_Bank-transfer_description
+{
+  /* border: 1px solid black; */
+
+  height: 300px;
+  width: 550px;
+
+  margin-top: 5px; /*граници*/
+  margin-left: 10px; /*граници*/
+
+  float: left;
+}
+
+#Payment_Bank-transfer_description p
+{
+  font-size: 18px;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+#Payment_Bank-loan
+{
+  /* border: 1px solid black; */
+  width: 500px;
+  height: 235px;
+
+  position: absolute;
+  margin-top: 630px;
+  left: 50%;
+  margin-left: -650px;
+}
+
+#Payment_Bank-loan_pic
+{
+  border: 2px solid #346BA2;    
+
+  height: 120px;
+  width: 120px;
+
+  float: left;
+}
+
+#Payment_Bank-loan_pic img
+{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#Payment_Bank-loan_title
+{
+  /* border: 1px solid black; */
+
+  height: 50px;
+  width: 350px;
+
+  margin-top: 0px;
+  margin-left: 10px; /*граници*/
+  margin-right: 10px; /*граници*/
+
+  float: left;
+}
+
+#Payment_Bank-loan_title p
+{
+  font-size: 22px;
+  color: #3C5C97;
+
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#Payment_Bank-loan_description
+{
+  /* border: 1px solid black; */
+
+  height: 170px;
+  width: 350px;
+
+  margin-top: 5px; /*граници*/
+  margin-left: 10px; /*граници*/
+
+  float: left;
+}
+
+#Payment_Bank-loan_description p
+{
+  font-size: 18px;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+#Payment_Bank-loan_description a
+{
+  text-decoration: none;
+  color: #3C5C97;
+}
+
+#Payment_Bank-loan_description a:hover
+{
+  text-decoration: underline;
+  color: #F9BC01;
+
+  transition: color 1s;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#About
+{
+  background-image: url(../images/About_fon.jpg);
+  background-repeat: repeat;
+  background-size: 100% 100%;  /*Задаем % для ширины, потом для высоты*/
+  width: auto;
+  height: 1150px; 
+}
+
+#About_Title
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  background: #F1F1F1;
+
+  position: absolute;
+  margin-top: 68px;
+  left: 50%;   
+  margin-left: -150px; /*width / 2*/
+  
+
+  height: 80px; 
+  width: 300px;    
+
+  font-weight: 700;
+  
+  opacity: 0.9; /* Значение прозрачности */
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/
+}
+
+#About_Title p
+{
+  font-size: 32px;
+  text-align: center; 
+
+  font-family: arial;  
+  color: black;
+
+  margin-top: 20px;
+}
+
+#About_description
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+
+  position: absolute;
+  margin-top:218px;
+  left: 50%;   
+  margin-left: 150px; /*width / 2*/
+  
+
+  height: 445px; 
+  width: 490px;      
+
+  background: #F1F1F1;
+  opacity: 0.9; /* Значение прозрачности */  
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/
+}
+
+#About_description_title
+{
+  /*border: 1px solid black;*/
+
+  height: 30px;
+  width: 90px;
+
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#About_description_title p
+{
+  margin-top: 1px;
+  padding-left: 10px;
+  color: #3C5C97;
+  font-size: 22px;
+}
+
+#About_description_text
+{
+  /*border: 1px solid black;  */
+  margin: 10px 10px 10px 10px;
+
+  width: 470px;
+  height: 390px;
+}
+
+#About_description_text p
+{
+  margin: 8px 10px 10px 10px;  
+}
+
+#About_Shop
+{
+  /*border: 1px solid white;*/
+  
+  height: 635px;
+  width: 550px;
+
+  position: absolute;
+  margin-top: 215px;
+  left: 50%;
+  margin-left: -700px;  
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/
+}
+
+#About_Shop_1
+{
+  border: 3px solid #3C5C97;
+  border-radius: 7px;
+  background: #F1F1F1;
+  
+  height: 195px;
+  width: auto;
+  
+  opacity: 0.9; /* Значение прозрачности */  
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/
+
+    /*Анимация когда убрал курсор от картинки*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+#About_Shop_1 a
+{  
+  text-decoration: none;
+  color: black;
+}
+
+#About_Shop_1:hover
+{
+  border: 3px solid #F9BC01;
+  
+  /*Анимация при наведении мышкой*/
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+
+  opacity: 1; /* Значение прозрачности */  
+}
+
+#About_Shop_1_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 50px;
+  width: auto;
+}
+
+#About_Shop_1_Title p
+{
+  margin-top: 1px;
+  
+  padding-top: 9px;
+  
+  color: #3C5C97;
+  font-size: 22px;
+  
+  text-align: center;
+}  
+
+#About_Shop_1_Address
+{
+  /*border: 1px solid black;*/
+
+  height: 38px;
+  width: auto; 
+}
+
+#About_Shop_1_Address p
+{
+  margin-top: 0px;	
+  text-align: center;
+}
+
+#About_Shop_1_Phones
+{
+  /*border: 1px solid black;*/
+
+  height: 99px;
+  width: 350px; 
+
+  float: left;
+}
+
+#About_Shop_1_Phones p
+{
+	margin-top: 4px;
+	margin-left: 8px;
+}
+
+#About_Shop_1_WorkTime
+{
+  /*border: 1px solid black;*/
+
+  height: 99px;
+  width: 170px; 
+
+  float: left;
+}
+
+#About_Shop_1_WorkTime p
+{
+	margin-top: 4px;
+	margin-left: 8px;
+}
+
+#About_Shop_1_WorkTime span
+{
+  color: #3C5C97;
+}
+
+#About_Shop_2
+{
+  border: 3px solid #3C5C97;
+  border-radius: 7px;
+  background: #F1F1F1;
+  
+  height: 170px;
+  width: auto;
+  
+  margin-top: 40px;
+  
+  opacity: 0.9; /* Значение прозрачности */
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/ 
+
+  /*Анимация когда убрал курсор от картинки*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+#About_Shop_2 a
+{  
+  text-decoration: none;
+  color: black;
+}
+
+#About_Shop_2:hover
+{
+  border: 3px solid #F9BC01;
+  
+  /*Анимация при наведении мышкой*/
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+
+  opacity: 1; /* Значение прозрачности */  
+}
+
+#About_Shop_2_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 50px;
+  width: auto;
+}
+
+#About_Shop_2_Title p
+{
+  margin-top: 1px;
+  
+  padding-top: 9px;
+  
+  color: #3C5C97;
+  font-size: 22px;
+  
+  text-align: center;
+}  
+
+#About_Shop_2_Address
+{
+  /*border: 1px solid black;*/
+
+  height: 38px;
+  width: auto; 
+}
+
+#About_Shop_2_Address p
+{
+  margin-top: 0px;  
+  text-align: center;
+}
+
+#About_Shop_2_Phones
+{
+  /* border: 1px solid black; */
+
+  height: 99px;
+  width: 350px; 
+
+  float: left;
+}
+
+#About_Shop_2_Phones p
+{
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+#About_Shop_2_WorkTime
+{
+  /*border: 1px solid black;*/
+
+  height: 99px;
+  width: 170px; 
+
+  float: left;
+}
+
+#About_Shop_2_WorkTime p
+{
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+#About_Shop_2_WorkTime span
+{
+  color: #3C5C97;
+}
+
+#About_Shop_3
+{
+  border: 3px solid #3C5C97;
+  border-radius: 7px;
+  background: #F1F1F1;
+  
+  height: 170px;
+  width: auto;
+  
+  margin-top: 40px;
+  
+  opacity: 0.9; /* Значение прозрачности */  
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/
+
+  /*Анимация когда убрал курсор от картинки*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;  
+}
+
+#About_Shop_3 a
+{  
+  text-decoration: none;
+  color: black;
+}
+
+#About_Shop_3:hover
+{
+  border: 3px solid #F9BC01;
+  
+  /*Анимация при наведении мышкой*/
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);  
+
+  opacity: 1; /* Значение прозрачности */    
+}
+
+#About_Shop_3_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 50px;
+  width: auto;
+}
+
+#About_Shop_3_Title p
+{
+  margin-top: 1px;
+  
+  padding-top: 9px;
+  
+  color: #3C5C97;
+  font-size: 22px;
+  
+  text-align: center;
+}  
+
+#About_Shop_3_Address
+{
+  /*border: 1px solid black;*/
+
+  height: 38px;
+  width: auto; 
+}
+
+#About_Shop_3_Address p
+{
+  margin-top: 0px;  
+  text-align: center;
+}
+
+#About_Shop_3_Phones
+{
+  /*border: 1px solid black;*/
+
+  height: 99px;
+  width: 350px; 
+
+  float: left;
+}
+
+#About_Shop_3_Phones p
+{
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+#About_Shop_3_WorkTime
+{
+  /*border: 1px solid black;*/
+
+  height: 99px;
+  width: 170px; 
+
+  float: left;
+}
+
+#About_Shop_3_WorkTime p
+{
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+#About_Shop_3_WorkTime span
+{
+  color: #3C5C97;
+}
+
+#About_Sert
+{
+  border: 3px solid #F9BC01;
+  border-radius: 7px;
+  background: #F1F1F1;
+  opacity: 0.9; /* Значение прозрачности */  
+
+  position: absolute;
+  margin-top: 725px;
+  left: 50%;
+  margin-left: 240px;
+
+  height: 290px;
+  width: 400px;
+
+  z-index: 10;
+}
+
+#About_Sert_Title
+{
+  /*border: 1px solid black;*/
+
+  height: 40px;
+  width: auto;
+}
+
+#About_Sert_Title p
+{
+  margin-top: 1px;
+  
+  padding-top: 4px;
+  
+  color: #3C5C97;
+  font-size: 22px;
+  
+  text-align: center;
+}
+
+#About_Sert_1
+{
+  border: 3px solid #3C5C97;
+  border-radius: 7px;  
+
+  height: 200px;
+  width: 150px;
+
+  margin-left: 30px;
+  margin-top: 15px;
+  float: left;
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/  
+  
+  /*Анимация когда убрал курсор от картинки*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+#About_Sert_1:hover
+{
+  border: 3px solid #F9BC01;
+  
+  /*Анимация при наведении мышкой*/
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#About_Sert_2
+{
+  border: 3px solid #3C5C97;
+  border-radius: 7px;  
+
+  height: 200px;
+  width: 150px;
+
+  margin-left: 30px;
+  margin-top: 15px;
+  float: left;
+
+  z-index: 10; /*Что бы линии были ЗА блоками*/
+  
+  /*Анимация когда убрал курсор от картинки*/
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;  
+}
+
+#About_Sert_2:hover
+{
+  border: 3px solid #F9BC01;
+  
+  /*Анимация при наведении мышкой*/
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);    
+}
+
+#About_block_line-1
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:480px;
+  left:50%;
+  margin-left: -330px;
+
+  width:650px;
+  height:0px;
+
+  -moz-transform:rotate(-90deg); /* Для Firefox */
+  -ms-transform: rotate(-90deg); /* Для IE */
+  -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-90deg); /* Для Opera */
+   transform: rotate(-90deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#About_block_line-2
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:310px;
+  left:50%;
+  margin-left: -150px;
+
+  width:140px;
+  height:0px;
+
+  -moz-transform:rotate(0deg); /* Для Firefox */
+  -ms-transform: rotate(0deg); /* Для IE */
+  -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(0deg); /* Для Opera */
+   transform: rotate(0deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#About_block_line-3
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:530px;
+  left:50%;
+  margin-left: -150px;
+
+  width:140px;
+  height:0px;
+
+  -moz-transform:rotate(0deg); /* Для Firefox */
+  -ms-transform: rotate(0deg); /* Для IE */
+  -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(0deg); /* Для Opera */
+   transform: rotate(0deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#About_block_line-4
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:740px;
+  left:50%;
+  margin-left: -150px;
+
+  width:140px;
+  height:0px;
+
+  -moz-transform:rotate(0deg); /* Для Firefox */
+  -ms-transform: rotate(0deg); /* Для IE */
+  -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(0deg); /* Для Opera */
+   transform: rotate(0deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#About_block_line-5
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:420px;
+  left:50%;
+  margin-left: 0px;
+
+  width:140px;
+  height:0px;
+
+  -moz-transform:rotate(0deg); /* Для Firefox */
+  -ms-transform: rotate(0deg); /* Для IE */
+  -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(0deg); /* Для Opera */
+   transform: rotate(0deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#About_block_line-6
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:784px;
+  left:50%;
+  margin-left: -4px;
+
+  width:240px;
+  height:0px;
+
+  -moz-transform:rotate(0deg); /* Для Firefox */
+  -ms-transform: rotate(0deg); /* Для IE */
+  -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(0deg); /* Для Opera */
+   transform: rotate(0deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+}
+
+#About_block_line-7
+{
+  border:2px dashed #F9BC01;
+
+  position:relative;
+  top:784px;
+  left:50%;
+  margin-left: -4px;
+
+  width:240px;
+  height:0px;
+
+  -moz-transform:rotate(0deg); /* Для Firefox */
+  -ms-transform: rotate(0deg); /* Для IE */
+  -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(0deg); /* Для Opera */
+   transform: rotate(0deg);
+
+   z-index: 1; /*Что бы линии были за блоками, т.е. как бы выходили из за блоков*/
+   visibility: hidden;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*
+#VideoBlogs
+{
+  background-image: url(../images/VideoBlogs_fon.png);
+  background-repeat: repeat;
+  
+  width: auto;
+  height: 895px; 
+}
+*/
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#footer
+{
+  /* border: 1px solid black; */
+}
+
+#Footer_Contacts_Text
+{
+  border: 4px solid #F9BC01;
+  background: #FFFFF7;  
+
+  position: absolute;
+  margin-top: -45px;
+  left: 50%;
+  margin-left: -350px;
+  z-index: 3;
+
+  height: 80px;
+  width: 700px;
+}
+
+#Footer_Contacts_Text p
+{
+  font-size: 64px; 
+  text-align: center;
+  color: #53555A;
+
+  margin-top: 2px;
+}
+
+#BottomMenu_1 /*оранжевый сплитер*/
+{
+    /*border: 1px solid #000;*/
+
+    height: 4px;
+    width: auto;
+    font-size: 14px;
+    border-radius: 0px;
+    background: #F9BC01; /*цвет фонового оранжевого меню */
+}
+
+#footer_maps
+{
+  /*position: absolute;*/
+  scrollwheel: false;
+}
+
+#Footer_HandPhone_img
+{
+  /* border: 1px solid black; */
+
+  position: absolute;
+  right: 0%; 
+  top: 6100px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#BottomMenu_3 /*оранжевый сплитер*/
+{
+    /*border: 1px solid #000;*/
+
+    height: 4px;
+    width: auto;
+    font-size: 14px;
+    border-radius: 0px;
+    background: #F9BC01; /*цвет фонового оранжевого меню */
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#BottomMenu_5 /* Оранжевый блок с дублирующийся информацией как и в Header'e */
+{
+  border: 4px solid #F9BC01;
+  background: white;
+
+  position: absolute; 
+
+  margin-top: -30px;
+  left: 50%; /*Начала блока будет начинаться строго от центра формы*/
+  margin-left: -225px; /*от центра формы мы смещаем блок в лево на 50% его ширины*/
+
+  height: 90px;
+  width: 450px; /*220 + 194*/
+}
+
+/*BottomMenu_5_TimeWork_block, img, p - должны дублировать верзние идиинтичные блоки*/
+#BottomMenu_5_TimeWork_block
+{
+  /*border:1px solid #000;*/
+
+  width: 194px;
+  height: 80px; 
+  float: left;  
+}
+
+#BottomMenu_5_TimeWork_block img
+{
+  padding-top: 10px;
+  padding-left: 16px;
+  float: left;
+}
+
+#BottomMenu_5_TimeWork_block p
+{
+  margin-top: 14px;
+  padding-left: 54px;
+  margin-bottom: -14px;
+  float: center;  
+}
+
+#BottomMenu_5_TimeWork_block section
+{
+  color: red;
+}
+
+/*BottomMenu_5_Contact_block, img, p, a, Header_Contact_email - должны дублировать верзние идиинтичные блоки*/
+#BottomMenu_5_Contact_block
+{
+  /*border:1px solid #000;*/
+
+  width:240px;
+  height: 80px;
+  float:left;
+  text-align: center;
+}
+
+#BottomMenu_5_Contact_block img
+{
+  padding-top: 10px;
+  padding-left: 16px;
+  float: left;
+}
+
+#BottomMenu_5_Contact_block p /*номер телефона*/
+{ 
+  margin-top: 14px;
+  padding-left: 8px;
+  float: left;
+  margin-bottom: -14px;
+}
+
+#BottomMenu_5_Contact_block a
+{
+  text-decoration: none;
+  color: #346BA2; 
+}
+
+#BottomMenu_5_Contact_email /*Блок с адресом электронной почты*/
+{  
+  padding-left: 44px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+#BottomMenu_4 /* Голубое нижнее меню с общей информацией */
+{
+  /*border: 1px solid black;*/
+
+  background:#346BA2; /*цвет видимого голубого меню*/
+  font-family: 'Capriola', sans-serif;
+  
+  height: 95px;
+  width: auto;   
+}
+
+#BottomMenu_4_Logo_Block
+{
+  /*border: 1px solid black;*/
+
+  width: 300px;
+  height: 90px;
+
+  margin-left: 20px;
+  float: left;
+}
+
+#BottomMenu_4_Logo_Block img
+{
+  margin-top: 10px;
+  float: left;
+}
+
+#BottomMenu_4_Dealer_block_text
+{
+  float: left;
+  margin-top: -70px;
+  margin-left: 90px;
+}
+
+#BottomMenu4_Text_block
+{
+  /*border: 1px solid black;*/
+  
+  width: 300px;
+  height: 40px;
+ 
+  margin-right: 20px;
+  margin-top: 35px; /*Высота общего блока 90 / 2 = 45 - 40 (высота текущего блока) / 2 = 45 - 20 = 25, т.е. это вертикальный центр для текущего блока*/
+  float: right;
+}
+
+#BottomMenu4_Text_block a
+{
+  font: 26px tahoma;
+  color: #404040;
+  text-decoration: none;
+
+  margin-left: 16px;  
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/*....МАСШТАБИРОВАНИЕ.....*/
+
+@media screen and (max-width: 1470px)
+{  
+  #Main_Fon_pic { background-repeat: no-repeat; width: auto; }
+
+@media screen and (max-width: 1460px)
+{
+/*7ой блок*/
+  /*Блок с описанием, с права */
+    #About_description { margin-left: 30px; }
+
+  /*Блоки с магазинами, с лева */
+    #About_Shop { margin-left: -590px; }
+
+  /*Блоки с сертификатами*/
+    #About_Sert { margin-left: 30px; }
+
+  /*Линии*/
+    #About_block_line-2 { margin-left: -45px; width: 35px; }
+    #About_block_line-3 { margin-left: -45px; width: 35px; }
+    #About_block_line-4 { margin-left: -45px; width: 35px; }
+    #About_block_line-5 { margin-left: 0px; width: 35px; }
+    #About_block_line-6 { margin-left: 0px; width: 35px; }
+}
+
+@media screen and (max-width: 1420px)
+{
+/*1ый блок*/
+  /*Первый слайдер*/
+    #Main_slider_frame { left: 50%; margin-left: -50px; }
+    #Main_slider { left: 50%; margin-left: -53px; } 
+
+  /*доп, блоки ниже 1го слайдера*/
+    #Main_Request_form { left: 50%; margin-left: -266px; }
+    #Main_Phone_form { left: 50%; margin-left: -390px;}    
+  
+/*2ой блок*/
+  /*Второй слайдер*/
+    #Software_Monitor { left: 50%; margin-left: 176px; }
+    #Software_Monitor_slider { left: 50%; margin-left: 200px; }
+    #Software_Button1 { right: 50%; margin-right: -635px; }
+
+/*3ий блок*/    
+  #Stock { height: 1000px; }
+
+  /*Первый блок с акциями*/
+    #Stock_Block_1 { left: 50%; margin-left: -440px; }
+  /*Второй блок с акциями*/
+    #Stock_Block_2 { left: 50%; margin-left: 40px; }
+  /*Второй блок с акциями*/
+    #Stock_Block_3 { margin-top: 550px; left: 50%; margin-left: -200px; }
+  /*Кнопка*/
+    #Stock_Button1 { margin-top: 910px; }
+
+/*4ый блок*/    
+  #Superiority { height: 1050px; }
+
+  /*блок с заголовком*/
+    #Superiority_Title { margin-top: 42px; left: 50%; margin-left: -275px; }
+
+  /*Остальные блоки...*/
+    #Superiority_block_1 { margin-top: 340px; left: 50%; margin-left: -200px; }
+    
+    #Superiority_block_2 { margin-top: 160px; left: 50%; margin-left: 20px; }
+    #Superiority_block_2_title { margin-top: 340px; left: 50%; margin-left: 70px; }
+    #Superiority_block_2_description { margin-top: 165px; left: 50%; margin-left: 220px; }
+    #Superiority_block_2_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: left; }
+
+    #Superiority_block_5 { margin-top: 160px; left: 50%; margin-left: -370px; }
+    #Superiority_block_5_title { margin-top: 340px; left: 50%; margin-left: -550px; }
+    #Superiority_block_5_description { margin-top: 165px; left: 50%; margin-left: -570px; }
+    #Superiority_block_5_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: right; }
+
+    #Superiority_block_3 { margin-top: 440px; left: 50%; margin-left: 100px; }
+    #Superiority_block_3_title { margin-top: 605px; left: 50%; margin-left: 120px; }
+    #Superiority_block_3_description { margin-top: 445px; left: 50%; margin-left: 300px; width: 240px; }
+    #Superiority_block_3_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: left; }
+
+    #Superiority_block_6 { margin-top: 440px; left: 50%; margin-left: -430px; }
+    #Superiority_block_6_title { margin-top: 605px; left: 50%; margin-left: -620px; }
+    #Superiority_block_6_description { margin-top: 445px; left: 50%; margin-left: -630px; }
+    #Superiority_block_6_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: right; }   
+
+    #Superiority_block_4 { margin-top: 730px; left: 50%; margin-left: 100px; }
+    #Superiority_block_4_title { margin-top: 910px; left: 50%; margin-left: 120px; }
+    #Superiority_block_4_description { margin-top: 735px; left: 50%; margin-left: 300px; width: 240px; }
+    #Superiority_block_4_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: left; }
+
+    #Superiority_block_7 { margin-top: 730px; left: 50%; margin-left: -430px; }
+    #Superiority_block_7_title { margin-top: 910px; left: 50%; margin-left: -620px; }
+    #Superiority_block_7_description { margin-top: 735px; left: 50%; margin-left: -670px; width: 240px; }
+    #Superiority_block_7_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: right; }
+
+  /*Линии от центрального блока к остальным*/
+    /*от: Надежная балка из алюминия - центральная кратинка*/
+    #Superiority_block_line-1 
+    { 
+      top:385px; left:50%; margin-left: -230px; width:50px; height:0px; 
+      -moz-transform:rotate(-130deg); 
+      -ms-transform: rotate(-130deg); 
+      -webkit-transform: rotate(-130deg);
+      -o-transform: rotate(-130deg); 
+      transform: rotate(-130deg); 
+    }
+
+    /*от: Удобные держатели для мишеней - центральная кратинка*/
+    #Superiority_block_line-2
+    { 
+      top:460px; left:50%; margin-left: -30px; width:200px; height:0px; 
+      -moz-transform:rotate(-80deg); 
+      -ms-transform: rotate(-80deg); 
+      -webkit-transform: rotate(-80deg);
+      -o-transform: rotate(-80deg); 
+      transform: rotate(-80deg); 
+    }
+
+    /*от: Программное обеспечение «Техно Вектор» - центральная кратинка*/
+    #Superiority_block_line-3
+    { 
+      top:510px; left:50%; margin-left: -240px; width:200px; height:0px; 
+      -moz-transform:rotate(-10deg); 
+      -ms-transform: rotate(-10deg); 
+      -webkit-transform: rotate(-10deg);
+      -o-transform: rotate(-10deg); 
+      transform: rotate(-10deg); 
+    }
+
+    /*от: Мобильная тумба с цветным принтером и удобная панель управления - центральная кратинка*/
+    #Superiority_block_line-4
+    { 
+      top:590px; left:50%; margin-left: -10px; width:150px; height:0px; 
+      -moz-transform:rotate(-150deg); 
+      -ms-transform: rotate(-150deg); 
+      -webkit-transform: rotate(-150deg);
+      -o-transform: rotate(-150deg); 
+      transform: rotate(-150deg); 
+    }
+
+    /*от: Дистанционное управление - центральная кратинка*/
+    #Superiority_block_line-5
+    { 
+      top:680px; left:50%; margin-left: -280px; width:300px; height:0px; 
+      -moz-transform:rotate(-50deg); 
+      -ms-transform: rotate(-50deg); 
+      -webkit-transform: rotate(-50deg);
+      -o-transform: rotate(-50deg); 
+      transform: rotate(-50deg); 
+    }
+
+    /*от: Мощный компьютер с комплектующим - центральная кратинка*/
+    #Superiority_block_line-6
+    { 
+      top:720px; left:50%; margin-left: -70px; width:300px; height:0px; 
+      -moz-transform:rotate(50deg); 
+      -ms-transform: rotate(50deg); 
+      -webkit-transform: rotate(50deg);
+      -o-transform: rotate(50deg); 
+      transform: rotate(50deg); 
+    }
+}
+
+@media screen and (max-width: 1350px)
+{
+/*1ый блок*/  
+  /*H1 , заголовок*/  
+    #H-1 {margin-left: 50%; left: -490px;} 
+
+/*2ой блок*/    
+  #SoftWare { height: 1200px; }
+
+  /*Заголовок*/
+    #Software_Title { left: 50%; margin-left: -330px; }
+
+  /*Блок с преимуществами ПО (с галочками)*/
+    #Software_description_form { left: 50%; margin-left: -400px; }
+
+  /*Второй слайдер*/
+    #Software_Monitor { margin-top: 690px; left: 50%; margin-left: -230px; }
+    #Software_Monitor_slider { margin-top: 708px; left: 50%; margin-left: -206px; }
+    #Software_Button1 { margin-top: 1108px; right: 50%; margin-right: -230px; }  
+}
+
+@media screen and (max-width: 1330px)
+{
+/*5ый блок*/
+  #Catalog { height: 1370px; }
+
+  /*Заголовок*/
+    #Catalog_Title p { font-size: 26px; }
+
+  /*Блоки*/
+    #Catalog_Block_1 { margin-top: 150px; left: 50%; margin-left: -480px; }
+    #Catalog_Block_2 { margin-top: 150px; left: 50%; margin-left: -120px; }
+    #Catalog_Block_3 { margin-top: 150px; left: 50%; margin-left: 240px; }
+    #Catalog_Block_4 { margin-top: 520px; left: 50%; margin-left: -480px; }
+    #Catalog_Block_5 { margin-top: 520px; left: 50%; margin-left: -120px; }
+    #Catalog_Block_6 { margin-top: 520px; left: 50%; margin-left: 240px; }
+    #Catalog_Block_7 { margin-top: 890px; left: 50%; margin-left: -300px; }
+    #Catalog_Block_8 { margin-top: 890px; left: 50%; margin-left: 40px; }
+  
+  /*Кнопка*/
+    #Catalog_Button1 { margin-top: 1270px; }
+
+/*6ой блок*/    
+  #Payments { height: 1400px; }
+
+  /*Описание*/
+    #Payment_Description { margin-top: 150px; left: 50%; margin-left: -480px; width: 1000px; }
+
+  /*Блоки*/
+    #Payment_Cash { margin-top: 400px; left: 50%; margin-left: -300px; }
+    #Payment_Bank-transfer { margin-top: 650px; left: 50%; margin-left: -300px; }
+    #Payment_Bank-loan { margin-top: 1080px; left: 50%; margin-left: -300px; }
+}
+
+@media screen and (max-width: 1280px)
+{
+  /*4ый блок*/    
+  #Superiority { height: 1900px; }
+
+  /*блок с заголовком*/
+    #Superiority_Title { margin-top: 42px; left: 50%; margin-left: -275px; }
+
+  /*Остальные блоки...*/
+    #Superiority_block_1 { visibility: hidden; }
+    
+    #Superiority_block_2 { margin-top: 160px; left: 50%; margin-left: -200px; }
+    #Superiority_block_2_title { margin-top: 340px; left: 50%; margin-left: -120px; }
+    #Superiority_block_2_description { margin-top: 165px; left: 50%; margin-left: 5px; }
+    #Superiority_block_2_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: left; }
+
+    #Superiority_block_3 { margin-top: 440px; left: 50%; margin-left: 70px; }
+    #Superiority_block_3_title { margin-top: 605px; left: 50%; margin-left: -190px; }
+    #Superiority_block_3_description { margin-top: 445px; left: 50%; margin-left: -180px; width: 240px; }
+    #Superiority_block_3_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: right; }
+
+    #Superiority_block_4 { margin-top: 730px; left: 50%; margin-left: -240px; }
+    #Superiority_block_4_title { margin-top: 910px; left: 50%; margin-left: -200px; }
+    #Superiority_block_4_description { margin-top: 735px; left: 50%; margin-left: -40px; width: 240px; }
+    #Superiority_block_4_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: left; }
+
+    #Superiority_block_5 { margin-top: 1020px; left: 50%; margin-left: 40px; }
+    #Superiority_block_5_title { margin-top: 1200px; left: 50%; margin-left: -150px; }
+    #Superiority_block_5_description { margin-top: 1025px; left: 50%; margin-left: -160px; }
+    #Superiority_block_5_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: right; }
+
+    #Superiority_block_6 { margin-top: 1310px; left: 50%; margin-left: -230px; }
+    #Superiority_block_6_title { margin-top: 1475px; left: 50%; margin-left: -140px; }
+    #Superiority_block_6_description { margin-top: 1315px; left: 50%; margin-left: -30px; }
+    #Superiority_block_6_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: left; }   
+
+    #Superiority_block_7 { margin-top: 1610px; left: 50%; margin-left: 30px; }
+    #Superiority_block_7_title { margin-top: 1790px; left: 50%; margin-left: -180px; }
+    #Superiority_block_7_description { margin-top: 1615px; left: 50%; margin-left: -220px; width: 240px; }
+    #Superiority_block_7_description p { margin-top: -6px; padding-bottom: 15px; padding-right: 10px; padding-left: 20px; text-align: right; }
+
+  /*Линии от центрального блока к остальным*/
+    #Superiority_block_line-1 { visibility: hidden; } /*от: Надежная балка из алюминия - центральная кратинка*/
+    #Superiority_block_line-2 { visibility: hidden; } /*от: Удобные держатели для мишеней - центральная кратинка*/    
+    #Superiority_block_line-3 { visibility: hidden; } /*от: Программное обеспечение «Техно Вектор» - центральная кратинка*/
+    #Superiority_block_line-4 { visibility: hidden; } /*от: Мобильная тумба с цветным принтером и удобная панель управления - центральная кратинка*/
+    #Superiority_block_line-5 { visibility: hidden; } /*от: Дистанционное управление - центральная кратинка*/    
+    #Superiority_block_line-6 { visibility: hidden; } /*от: Мощный компьютер с комплектующим - центральная кратинка*/
+}
+
+@media screen and (max-width: 1240px)
+{
+/*7ой блок*/
+  #About { height: 1900px; }
+
+  /*Блок с описанием, с права */
+    #About_description { margin-left: -245px; }
+
+  /*Блоки с магазинами, с лева */
+    #About_Shop { margin-top: 740px; margin-left: -275px; }
+
+  /*Блоки с сертификатами*/
+    #About_Sert { margin-top: 1450px; margin-left: -200px; }
+
+  /*Линии*/
+    #About_block_line-1 { top:805px; margin-left: -1010px; width:1400px; }
+    #About_block_line-2 { top: 425px; margin-left: -310px; width: 60px; }
+    #About_block_line-3 { top: 830px; margin-left: -310px; width: 40px; }
+    #About_block_line-4 { top: 1050px; margin-left: -310px; width: 40px; }
+    #About_block_line-5 { top: 1270px; margin-left: -310px; width: 40px; }
+    #About_block_line-6 { top: 1485px; margin-left: -310px; width: 110px; }
+    #About_block_line-7 { visibility: visible; top:82px; margin-left: -310px; width: 155px; }
+}
+
+@media screen and (max-width: 1210px)
+{
+/*Заглавное меню*/
+  .fixed { padding:4px 20% 4px 10%; }
+
+/*1ый блок*/
+  /*Первый слайдер*/
+    #Main_slider_frame { left: 50%; margin-left: -120px; }
+    #Main_slider { left: 50%; margin-left: -123px; }   
+  
+  /*доп, блоки ниже 1го слайдера*/
+    #Main_Request_form { left: 50%; margin-left: -336px; }
+    #Main_Phone_form { left: 50%; margin-left: -460px;}      
+}
+
+@media screen and (max-width: 1120px)
+{
+/*Footer*/
+  #BottomMenu_4 { height: 200px; }
+
+  /*Блоки*/
+    #BottomMenu_4_Logo_Block { margin-left: -150px; left: 50%; margin-top: 70px; position: absolute; }
+    #BottomMenu4_Text_block { margin-left: -150px; margin-top: 160px; float: left; left: 50%; position: absolute; }  
+}
+
+@media screen and (max-width: 1060px)
+{
+/*Заглавное меню*/
+  .fixed { padding:4px 20% 4px 5%; }
+
+/*1ый блок*/
+  /*Первый слайдер*/
+    #Main_slider_frame { left: 50%; margin-left: -180px; }
+    #Main_slider { left: 50%; margin-left: -183px; } 
+
+  /*доп, блоки ниже 1го слайдера*/
+    #Main_Request_form { left: 50%; margin-left: -396px; }
+    #Main_Phone_form { left: 50%; margin-left: -430px; width: 840px; }  
+
+/*3ий блок*/    
+  #Stock { height: 1380px; }
+
+  /*Первый блок с акциями*/
+    #Stock_Block_1 { left: 50%; margin-left: -200px; }
+  /*Второй блок с акциями*/
+    #Stock_Block_2 { left: 50%; margin-left: -200px; margin-top: 550px; }
+  /*Второй блок с акциями*/
+    #Stock_Block_3 { margin-top: 910px; left: 50%; margin-left: -200px; }
+  /*Кнопка*/
+    #Stock_Button1 { margin-top: 1280px; }    
+}
+
+@media screen and (max-width: 1030px)
+{
+/*5ый блок*/
+  #Catalog { height: 1730px; }
+
+  /*Заголовок*/
+    #Catalog_Title { margin-top: 20px; margin-left: -300px; height: 80px; width: 600px; }
+
+  /*Блоки*/
+    #Catalog_Block_1 { margin-top: 150px; left: 50%; margin-left: -300px; }
+    #Catalog_Block_2 { margin-top: 150px; left: 50%; margin-left: 40px; }
+    #Catalog_Block_3 { margin-top: 520px; left: 50%; margin-left: -300px; }
+    #Catalog_Block_4 { margin-top: 520px; left: 50%; margin-left: 40px; }
+    #Catalog_Block_5 { margin-top: 890px; left: 50%; margin-left: -300px; }
+    #Catalog_Block_6 { margin-top: 890px; left: 50%; margin-left: 40px; }
+    #Catalog_Block_7 { margin-top: 1260px; left: 50%; margin-left: -300px; }
+    #Catalog_Block_8 { margin-top: 1260px; left: 50%; margin-left: 40px; }
+  
+  /*Кнопка*/
+    #Catalog_Button1 { margin-top: 1630px; }
+
+/*6ой блок*/    
+  #Payments { height: 1400px; }
+
+  /*Описание*/
+    #Payment_Description { margin-top: 150px; left: 50%; margin-left: -290px; width: 600px; }    
+
+  /*Блоки*/
+    #Payment_Cash { margin-top: 430px; left: 50%; margin-left: -300px; }
+    #Payment_Bank-transfer { margin-top: 680px; left: 50%; margin-left: -300px; }
+    #Payment_Bank-loan { margin-top: 1110px; left: 50%; margin-left: -300px; }
+}
+
+@media screen and (max-width: 1000px)
+{
+/*Заглавное меню*/
+  .fixed { padding:4px 20% 4px 1%; }
+
+/*1ый блок*/
+  /*H1 , заголовок*/  
+    #H-1 {width: 98%; margin-left: 500px; height: 70px; }
+    #H-1 h1 {font-size: 22px; margin-left: 2px; margin-right: 2px; } 
+}
+
+@media screen and (max-width: 920px)
+{
+/*Заглавное меню*/
+  .fixed { height: 110px; }
+
+/*0ой блок*/
+  /*TopMenu_2, главное меню*/  
+    .TopMenu_2 { height: 120px; }
+    .Btn_1 { width: 31.4%; margin: auto; text-align: center;} /*1 кнопка*/
+    .Btn_2 { width: 31.3%; margin: auto; }        /*2 кнопка*/
+    .Btn_3 { width: 31.3%; margin: auto; }        /*3 кнопка*/
+    .Btn_4 { width: 31.3%; margin: auto; }        /*4 кнопка*/
+    .Btn_5 { width: 31.3%; margin: auto; }        /*5 кнопка*/
+    .Btn_6 { width: 31.4%; margin: auto; }        /*6 кнопка*/
+
+/*1ый блок*/
+  #Main { margin-top: 68px; }
+
+  /*Первый слайдер*/
+    #Main_slider_frame { margin-top: -779px; left: 50%; margin-left: -295px; }
+    #Main_slider { left: 50%; margin-left: -298px;  margin-top: 64px; } 
+
+  /*доп, блоки ниже 1го слайдера*/
+    #Main_Request_form { margin-top: 60px; left: 50%; margin-left: -403px; }
+    #Main_Phone_form { margin-top: 60px; left: 50%; margin-left: -410px; width: 820px; }
+    #Main_Phone_form p { font-size: 26px; padding-top: 4px; }
+}
+
+@media screen and (max-width: 865px)
+{
+/*0ой блок*/
+  /*Верхние 4е блока - увеличиваем высоту главного блока где мелкие, и позиционируем мелкие*/
+    #TopMenu_1 { height: 170px; }
+    #Header_Logo_block { position: absolute; left: 50%; margin-left: -218px; }
+    #Header_TimeWork_block { position: absolute; left: 50%; }
+    .Vertical_splitter_2 { border-right: 0px solid white; width: 1px; height: 50px; margin-top: 15px; position: absolute; } /*скрываем сплиттер*/
+
+    #Header_Contact_block { position: absolute; margin-top: 85px; left: 50%; margin-left: -246px; }
+    #Header_Dealer_block { position: absolute; margin-top: 85px; left: 50%; }
+
+/*1ый блок*/
+  #Main { margin-top: 153px; }
+
+  /*H1 , заголовок*/ 
+    #H-1 {width: 98%; margin-left: 500px; height: 70px; }
+  
+  /*Первый слайдер*/
+    #Main_slider { margin-top: 149px; } 
+  
+  /*доп, блоки ниже 1го слайдера*/
+    #Main_Request_form { margin-top: 140px; left: 50%; margin-left: -403px; }
+    #Main_Phone_form { margin-top: 146px; left: 50%; margin-left: -398px; width: 800px; }
+    #Main_Phone_form p { font-size: 26px; padding-top: 4px; }    
+}
+
+@media screen and (max-width: 820px)
+{
+/*Заглавное меню*/  
+  .fixed { padding:4px 20% 4px 10%; }
+
+/*0ой блок*/
+  /*TopMenu_2*/
+    .Btn_1 { width: 24.4%; margin: 0 auto 0 2%; } 
+    .Btn_2 { width: 24.3%; margin: auto; }        
+    .Btn_3 { width: 24.3%; margin: auto; }        
+    .Btn_4 { width: 24.3%; margin: 0 auto 0 2%; } 
+    .Btn_5 { width: 24.3%; margin: auto; }        
+    .Btn_6 { width: 24.4%; margin: auto; }        
+
+/*1ый блок*/
+  #Main { height: 1040px; }
+  #Main_Fon_pic { height: 1040px; }
+
+/*Первый слайдер*/
+    #Main_slider_frame { margin-top: -903px; left: 50%; margin-left: -295px; }    
+
+  /*доп, блоки ниже 1го слайдера*/
+    #Main_Request_form { margin-top: 140px; left: 50%; margin-left: -200px; width: 400px; height: 380px; }    
+    #Main_Request_form p { font-size: 20px; }
+    #Main_Edit1 { left: 50%; margin-left: 55px; } /*подгоняем*/
+    #Main_Edit2 { left: 50%; margin-left: -198px; margin-top: 30px; } /*подгоняем*/
+    #Main_Edit3 { left: 50%; margin-left: -450px; margin-top: 30px; } /*подгоняем*/
+    #Main_Button1 { left: 50%; margin-left: 105px; }
+    #M_Button1 { width: 220px; margin-top: 20px;}
+    #Main_Request_form_additional_text {   float: center; padding: 0 23% 0 0; }
+
+    #Main_Phone_form { margin-top: 280px; left: 50%; margin-left: -300px; width: 600px; }
+    #Main_Phone_form p { font-size: 22px; padding-top: 6px; }    
+
+/*2ой блок*/    
+  #SoftWare { height: 1270px; }
+
+  /*Заголовок*/
+    #Software_Title { margin-top: 100px; }    
+
+  /*Блок с преимуществами ПО (с галочками)*/
+    #Software_description_form { margin-top: 220px; width: 600px; margin-left: -300px; }
+
+  /*Второй слайдер*/
+    #Software_Monitor { margin-top: 740px; }
+    #Software_Monitor_slider { margin-top: 758px; }
+    #Software_Button1 { margin-top: 1158px; }  
+
+/*Футер*/
+  #Footer_Contacts_Text
+  {
+    left: 50%;
+    margin-left: -250px;
+    z-index: 3;
+    
+    height: 80px;
+    width: 500px;
+  }
+
+  #Footer_Contacts_Text p
+  {
+    font-size: 34px;     
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 740px)
+{
+  #Software_Title { width: 500px; margin-left: -250px; margin-top: 60px; }
+}
